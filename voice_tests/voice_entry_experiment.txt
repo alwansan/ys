@@ -1,0 +1,60 @@
+YS FELGHANA VOICE ENTRY EXPERIMENT
+====================================================================================================
+
+SOURCE
+----------------------------------------------------------------------------------------------------
+File: ys_romfs/data/scn/s_0160.bin
+SHA256: 536a9819c8e3a685784b4f5c6d48bfbe7c7d019b21fdd86c735e9c50c16e2c55
+File size: 11932
+
+SELECTED VOICE
+----------------------------------------------------------------------------------------------------
+Voice ID: 25001
+Entry start: 0x1A68
+Entry end: 0x1AA6
+Entry size: 62
+
+TEXT
+----------------------------------------------------------------------------------------------------
+Text start: 0x1A75
+Text end: 0x1AA4
+Original text byte length: 47
+
+Shutting down the quarry is completely\nabsurd!
+
+TEST A - SAME SIZE
+----------------------------------------------------------------------------------------------------
+Replacement: TEST ARABIC ENGINEERING
+Original bytes: 47
+Replacement bytes before padding: 23
+Replacement bytes after padding: 47
+Original file size: 11932
+Modified file size: 11932
+File sizes identical: True
+Output: ys_experiment/voice_tests/s_0160_TEST_SAME_SIZE.bin
+
+TEST B - ARABIC UTF-8
+----------------------------------------------------------------------------------------------------
+Arabic: اختبار عربي
+UTF-8 bytes: 21
+Original text space: 47
+Fits: True
+Output: ys_experiment/voice_tests/s_0160_TEST_ARABIC_SAME_SIZE.bin
+
+ALL VOICE ENTRIES
+----------------------------------------------------------------------------------------------------
+#000 voice=25001 start=0x1A68 end=0x1AA6 entry_size=62 text_size=47
+#001 voice=25002 start=0x1AA6 end=0x1B26 entry_size=128 text_size=113
+#002 voice=25003 start=0x1B26 end=0x1B83 entry_size=93 text_size=78
+#003 voice=25004 start=0x1B83 end=0x1BD4 entry_size=81 text_size=66
+#004 voice=25005 start=0x1BD4 end=0x1C1B entry_size=71 text_size=56
+#005 voice=65535 start=0x1C1B end=0x1C2D entry_size=18 text_size=3
+#006 voice=25006 start=0x1C2D end=0x1CB5 entry_size=136 text_size=121
+#007 voice=25007 start=0x1CB5 end=0x1D3C entry_size=135 text_size=120
+#008 voice=25008 start=0x1D3C end=0x1DB0 entry_size=116 text_size=101
+#009 voice=25009 start=0x1DB0 end=0x1E38 entry_size=136 text_size=121
+#010 voice=25010 start=0x1E38 end=0x1F7C entry_size=324 text_size=105
+#011 voice=25011 start=0x1F7C end=0x2E9C entry_size=3872 text_size=58
+
+====================================================================================================
+END
