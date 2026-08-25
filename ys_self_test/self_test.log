@@ -1,0 +1,55 @@
+YS FELGHANA LOCALIZER REGRESSION TEST
+====================================================================================================
+Python: /data/data/com.termux/files/usr/bin/python3
+RomFS: /mnt/sdcard/Download/Games/nsp/ys_romfs
+
+[PASS] SCN directory exists
+       ys_romfs/data/scn
+[PASS] SCN file count
+       found=219 expected_reference=219
+[PASS] build_index.py exits 0
+       /mnt/sdcard/Download/Games/nsp/ys_felghana_localizer/build_index.py:5: SyntaxWarning: "\p" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\p"? A raw string is also an option.
+  - Translation entries must be real \p-terminated dialogue records.
+/mnt/sdcard/Download/Games/nsp/ys_felghana_localizer/build_index.py:289: SyntaxWarning: "\p" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\p"? A raw string is also an option.
+  "Important: only \p-terminated records with a known dialogue/control context",
+DONE
+SCN files: 219
+Dialogue entries: 678
+Candidates excluded: 26533
+Index: /mnt/sdcard/Download/Games/nsp/ys_self_test/index/scn_dialogue_index.json
+[PASS] index JSON exists
+[FAIL] strict dialogue count is plausible
+       found=678 historical_reference=1899 (reference only, not hardcoded)
+[PASS] strict parser no generic printable strings in entries
+[FAIL] known dialogue: Well, Adol, here we are.
+       matches=0
+[FAIL] known dialogue: This is Felghana.
+       matches=0
+[FAIL] known dialogue: I was hoping we'd get here a little
+       matches=0
+[PASS] known dialogue: Do you know the name Adol Christin?
+       matches=1
+[FAIL] known dialogue: Ah, Adol Christin...
+       matches=0
+[FAIL] s_1113 voice entry count
+       found=6 expected=17
+[FAIL] extract_dialogue.py exits 0
+       Traceback (most recent call last):
+  File "/mnt/sdcard/Download/Games/nsp/ys_felghana_localizer/extract_dialogue.py", line 34, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/mnt/sdcard/Download/Games/nsp/ys_felghana_localizer/extract_dialogue.py", line 17, in main
+    if not e["is_dialogue"] and not args.include_nondialogue:
+           ~^^^^^^^^^^^^^^^
+KeyError: 'is_dialogue'
+[PASS] source RomFS unchanged
+       changed_files=[]
+
+SUMMARY
+----------------------------------------------------------------------------------------------------
+FAILURES: 7
+STRICT_DIALOGUE_ENTRIES: 678
+SCN_FILES: 219
+REFERENCE_DIALOGUE_COUNT: 1899
+
+OVERALL: FAIL

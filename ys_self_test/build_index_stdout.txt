@@ -1,0 +1,9 @@
+/mnt/sdcard/Download/Games/nsp/ys_felghana_localizer/build_index.py:5: SyntaxWarning: "\p" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\p"? A raw string is also an option.
+  - Translation entries must be real \p-terminated dialogue records.
+/mnt/sdcard/Download/Games/nsp/ys_felghana_localizer/build_index.py:289: SyntaxWarning: "\p" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\p"? A raw string is also an option.
+  "Important: only \p-terminated records with a known dialogue/control context",
+DONE
+SCN files: 219
+Dialogue entries: 678
+Candidates excluded: 26533
+Index: /mnt/sdcard/Download/Games/nsp/ys_self_test/index/scn_dialogue_index.json

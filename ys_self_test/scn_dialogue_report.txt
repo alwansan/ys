@@ -1,0 +1,8 @@
+YS FELGHANA STRICT DIALOGUE INDEX
+====================================================================================================
+SCN files: 219
+Dialogue entries: 678
+Generic printable candidates (NOT translated): 26533
+
+Important: only \p-terminated records with a known dialogue/control context
+are included in the translator TXT. Generic printable strings are diagnostics only.

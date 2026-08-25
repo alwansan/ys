@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/sdcard/Download/Games/nsp/ys_felghana_localizer/extract_dialogue.py", line 34, in <module>
+    if __name__ == "__main__": main()
+                               ~~~~^^
+  File "/mnt/sdcard/Download/Games/nsp/ys_felghana_localizer/extract_dialogue.py", line 17, in main
+    if not e["is_dialogue"] and not args.include_nondialogue:
+           ~^^^^^^^^^^^^^^^
+KeyError: 'is_dialogue'
