@@ -1,0 +1,5 @@
+SCN files: 219
+Canonical voice entries: 1876
+Nonvoice candidates: 386
+Index: ys_self_test_v3/generated_index/scn_dialogue_index.json
+

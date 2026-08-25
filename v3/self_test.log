@@ -1,0 +1,35 @@
+[PASS] SCN file count :: found=219 expected=219
+[PASS] build_index exits 0 :: SCN files: 219
+Canonical voice entries: 1876
+Nonvoice candidates: 386
+Index: ys_self_test_v3/generated_index/scn_dialogue_index.json
+[FAIL] canonical voice count :: found=1876 expected=1899
+[PASS] no generic candidates exported
+[PASS] s_1113 voice count :: found=17
+[FAIL] canonical anchor Well, Adol, here we are.
+[PASS] canonical anchor This is Felghana.
+[PASS] canonical anchor I was hoping we'd get here a lit
+[PASS] canonical anchor Do you know the name Adol Christ :: nonvoice candidate-only
+[PASS] canonical anchor Ah, Adol Christin... :: nonvoice candidate-only
+[PASS] extract exits 0 :: Wrote ys_self_test_v3/translation.txt
+Manifest ys_self_test_v3/translation_manifest.json
+Blocks 1876
+[PASS] TXT block count :: 1876 vs 1876
+[PASS] TXT is translator-clean
+[PASS] exact-length self injection :: {
+  "status": "SUCCESS",
+  "changed_entries": 1876,
+  "variable_length": false,
+  "note": "Exact-byte-length diagnostic mode only."
+}
+[PASS] variable-length guard refuses unsafe injection
+[PASS] source RomFS unchanged :: []
+
+SUMMARY
+====================================================================================================
+FAILURES: 2
+SCN_FILES: 219
+CANONICAL_VOICE_ENTRIES: 1876
+HISTORICAL_REFERENCE: 1899
+NONVOICE_CANDIDATES: 386
+OVERALL: FAIL

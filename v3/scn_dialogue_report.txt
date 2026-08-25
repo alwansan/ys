@@ -1,0 +1,11 @@
+YS FELGHANA DIALOGUE INDEX V3
+====================================================================================================
+SCN files: 219
+Canonical voice dialogue entries: 1876
+Historical reference: 1899
+Non-voice candidates (not exported): 386
+Reference SCN file count: 219
+
+Canonical rule: <voice:#####> ... \p
+Non-voice candidates remain separate until their record grammar is validated.
+WARNING: historical reference is 1899, current parser found 1876

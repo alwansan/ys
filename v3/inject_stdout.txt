@@ -1,0 +1,7 @@
+{
+  "status": "SUCCESS",
+  "changed_entries": 1876,
+  "variable_length": false,
+  "note": "Exact-byte-length diagnostic mode only."
+}
+

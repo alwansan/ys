@@ -1,0 +1,4 @@
+Wrote ys_self_test_v3/translation.txt
+Manifest ys_self_test_v3/translation_manifest.json
+Blocks 1876
+
