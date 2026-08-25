@@ -1,0 +1,181 @@
+{
+  "candidate": {
+    "file": "ys_romfs/data/scn/s_0160.bin",
+    "relative_file": "data/scn/s_0160.bin",
+    "offset": 6760,
+    "length": 1096,
+    "encoding_guess": "cp932",
+    "text": "<voice:25001>Shutting down the quarry is completely\\nabsurd!\\p<voice:25002>That quarry is the lifeblood of this\\ntown. Our work there has been a source\\nof pride for generations of miners!\\p<voice:25003>Why the hell is Dewey allowing this to\\ngo through? Why isn't he fighting it?!\\p<voice:25004>...Hmm? I just realized I've been\\nranting to a complete stranger!\\p<voice:25005>...Wait、 aren't you the swordsman that\\nrescued my son?\\p<voice:65535>...\\p<voice:25006>Sorry. I've just been thinking about the\\nsituation in the quarry a lot lately.\\nAnd every time、 it makes my blood boil!\\p<voice:25007>Ever since they closed it、 the count's\\nmen have been seen going in and out like\\nthey own the place. It's aggravating!\\p<voice:25008>That quarry is far too important to this\\ntown and everyone in it for us to just\\nlook the other way!\\p<voice:25009>...At any rate、 I hear you wiped out all\\nthe monsters down there-- even the big\\nones that nested in the deepest mines!\\p<voice:25010>Even if you're not from Redmont、 you're\\na true friend to this town. Here、 I've\\ngot something for you.\\p",
+    "controls": [
+      "<voice:25001>",
+      "\\n",
+      "\\p",
+      "<voice:25002>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25003>",
+      "\\n",
+      "\\p",
+      "<voice:25004>",
+      "\\n",
+      "\\p",
+      "<voice:25005>",
+      "\\n",
+      "\\p",
+      "<voice:65535>",
+      "\\p",
+      "<voice:25006>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25007>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25008>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25009>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25010>",
+      "\\n",
+      "\\n",
+      "\\p"
+    ],
+    "voice": true,
+    "narration": false,
+    "sha256": "536a9819c8e3a685784b4f5c6d48bfbe7c7d019b21fdd86c735e9c50c16e2c55"
+  },
+  "record_candidates": [
+    {
+      "size_offset": 6756,
+      "record_size": 48,
+      "record_end": 6804,
+      "text_offset": 6760,
+      "distance_text_from_size_field": 4
+    },
+    {
+      "size_offset": 6748,
+      "record_size": 106,
+      "record_end": 6854,
+      "text_offset": 6760,
+      "distance_text_from_size_field": 12
+    },
+    {
+      "size_offset": 6744,
+      "record_size": 1120,
+      "record_end": 7864,
+      "text_offset": 6760,
+      "distance_text_from_size_field": 16
+    },
+    {
+      "size_offset": 6736,
+      "record_size": 120,
+      "record_end": 6856,
+      "text_offset": 6760,
+      "distance_text_from_size_field": 24
+    },
+    {
+      "size_offset": 6720,
+      "record_size": 151,
+      "record_end": 6871,
+      "text_offset": 6760,
+      "distance_text_from_size_field": 40
+    }
+  ],
+  "replacement_results": {
+    "short": {
+      "encoding_used": "cp932",
+      "offset": 6760,
+      "old_length": 1096,
+      "new_length": 5,
+      "file_size_before": 11932,
+      "file_size_after": 10841,
+      "size_delta": -1091
+    },
+    "long": {
+      "encoding_used": "cp932",
+      "offset": 6760,
+      "old_length": 1096,
+      "new_length": 122,
+      "file_size_before": 11932,
+      "file_size_after": 10958,
+      "size_delta": -974
+    },
+    "control": {
+      "encoding_used": "cp932",
+      "offset": 6760,
+      "old_length": 1096,
+      "new_length": 46,
+      "file_size_before": 11932,
+      "file_size_after": 10882,
+      "size_delta": -1050
+    }
+  },
+  "arabic_result": {
+    "offset": 6760,
+    "old_encoding_detected": "cp932",
+    "old_length": 1096,
+    "new_encoding": "utf-8",
+    "new_length": 30,
+    "file_size_before": 11932,
+    "file_size_after": 10866,
+    "size_delta": -1066
+  },
+  "control_validation": {
+    "original": [
+      "<voice:25001>",
+      "\\n",
+      "\\p",
+      "<voice:25002>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25003>",
+      "\\n",
+      "\\p",
+      "<voice:25004>",
+      "\\n",
+      "\\p",
+      "<voice:25005>",
+      "\\n",
+      "\\p",
+      "<voice:65535>",
+      "\\p",
+      "<voice:25006>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25007>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25008>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25009>",
+      "\\n",
+      "\\n",
+      "\\p",
+      "<voice:25010>",
+      "\\n",
+      "\\n",
+      "\\p"
+    ],
+    "replacement": [
+      "<voice:25001>",
+      "\\n",
+      "\\p"
+    ],
+    "same_control_sequence": false
+  },
+  "duplicate_count": 140,
+  "scn_file_count": 219,
+  "text_candidate_count": 2363,
+  "dialogue_candidate_count": 865
+}

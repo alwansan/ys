@@ -1,0 +1,505 @@
+YS MEMOIRE - TRANSLATION ENGINEERING EXPERIMENTS
+====================================================================================================
+
+IMPORTANT
+- This script does NOT modify the original SCN file.
+- Modified experiments are stored in ys_experiment/test_files/
+
+1. GLOBAL SCAN
+----------------------------------------------------------------------------------------------------
+SCN files found: 219
+All text candidates: 2363
+Dialogue/narration candidates: 865
+Duplicate text groups: 140
+
+2. SELECTED TEST CANDIDATE
+----------------------------------------------------------------------------------------------------
+File: data/scn/s_0160.bin
+Offset: 0x1A68 (6760)
+Detected length: 1096
+Encoding guess: cp932
+SHA256: 536a9819c8e3a685784b4f5c6d48bfbe7c7d019b21fdd86c735e9c50c16e2c55
+Voice: True
+Narration: False
+Controls: ['<voice:25001>', '\\n', '\\p', '<voice:25002>', '\\n', '\\n', '\\p', '<voice:25003>', '\\n', '\\p', '<voice:25004>', '\\n', '\\p', '<voice:25005>', '\\n', '\\p', '<voice:65535>', '\\p', '<voice:25006>', '\\n', '\\n', '\\p', '<voice:25007>', '\\n', '\\n', '\\p', '<voice:25008>', '\\n', '\\n', '\\p', '<voice:25009>', '\\n', '\\n', '\\p', '<voice:25010>', '\\n', '\\n', '\\p']
+
+SOURCE TEXT:
+<voice:25001>Shutting down the quarry is completely\nabsurd!\p<voice:25002>That quarry is the lifeblood of this\ntown. Our work there has been a source\nof pride for generations of miners!\p<voice:25003>Why the hell is Dewey allowing this to\ngo through? Why isn't he fighting it?!\p<voice:25004>...Hmm? I just realized I've been\nranting to a complete stranger!\p<voice:25005>...Wait、 aren't you the swordsman that\nrescued my son?\p<voice:65535>...\p<voice:25006>Sorry. I've just been thinking about the\nsituation in the quarry a lot lately.\nAnd every time、 it makes my blood boil!\p<voice:25007>Ever since they closed it、 the count's\nmen have been seen going in and out like\nthey own the place. It's aggravating!\p<voice:25008>That quarry is far too important to this\ntown and everyone in it for us to just\nlook the other way!\p<voice:25009>...At any rate、 I hear you wiped out all\nthe monsters down there-- even the big\nones that nested in the deepest mines!\p<voice:25010>Even if you're not from Redmont、 you're\na true friend to this town. Here、 I've\ngot something for you.\p
+
+3. RECORD STRUCTURE CANDIDATES
+----------------------------------------------------------------------------------------------------
+{
+  "size_offset": 6756,
+  "record_size": 48,
+  "record_end": 6804,
+  "text_offset": 6760,
+  "distance_text_from_size_field": 4
+}
+{
+  "size_offset": 6748,
+  "record_size": 106,
+  "record_end": 6854,
+  "text_offset": 6760,
+  "distance_text_from_size_field": 12
+}
+{
+  "size_offset": 6744,
+  "record_size": 1120,
+  "record_end": 7864,
+  "text_offset": 6760,
+  "distance_text_from_size_field": 16
+}
+{
+  "size_offset": 6736,
+  "record_size": 120,
+  "record_end": 6856,
+  "text_offset": 6760,
+  "distance_text_from_size_field": 24
+}
+{
+  "size_offset": 6720,
+  "record_size": 151,
+  "record_end": 6871,
+  "text_offset": 6760,
+  "distance_text_from_size_field": 40
+}
+
+4. TEST REPLACEMENTS
+----------------------------------------------------------------------------------------------------
+[SHORT]
+{
+  "encoding_used": "cp932",
+  "offset": 6760,
+  "old_length": 1096,
+  "new_length": 5,
+  "file_size_before": 11932,
+  "file_size_after": 10841,
+  "size_delta": -1091
+}
+[LONG]
+{
+  "encoding_used": "cp932",
+  "offset": 6760,
+  "old_length": 1096,
+  "new_length": 122,
+  "file_size_before": 11932,
+  "file_size_after": 10958,
+  "size_delta": -974
+}
+[CONTROL]
+{
+  "encoding_used": "cp932",
+  "offset": 6760,
+  "old_length": 1096,
+  "new_length": 46,
+  "file_size_before": 11932,
+  "file_size_after": 10882,
+  "size_delta": -1050
+}
+
+5. ARABIC TEST
+----------------------------------------------------------------------------------------------------
+Arabic text: اختبار عربي للنص
+{
+  "offset": 6760,
+  "old_encoding_detected": "cp932",
+  "old_length": 1096,
+  "new_encoding": "utf-8",
+  "new_length": 30,
+  "file_size_before": 11932,
+  "file_size_after": 10866,
+  "size_delta": -1066
+}
+
+6. CONTROL CODE ANALYSIS
+----------------------------------------------------------------------------------------------------
+Original controls:
+["<voice:25001>", "\\n", "\\p", "<voice:25002>", "\\n", "\\n", "\\p", "<voice:25003>", "\\n", "\\p", "<voice:25004>", "\\n", "\\p", "<voice:25005>", "\\n", "\\p", "<voice:65535>", "\\p", "<voice:25006>", "\\n", "\\n", "\\p", "<voice:25007>", "\\n", "\\n", "\\p", "<voice:25008>", "\\n", "\\n", "\\p", "<voice:25009>", "\\n", "\\n", "\\p", "<voice:25010>", "\\n", "\\n", "\\p"]
+
+Replacement controls:
+["<voice:25001>", "\\n", "\\p"]
+
+Controls preserved: False
+
+CONTROL TEST TEXT:
+<voice:25001>TEST WITH CONTROLS\nSECOND LINE\p
+
+7. DUPLICATE TEXT SAMPLES
+----------------------------------------------------------------------------------------------------
+TEXT: '<nose><button:1><x:352><y:194>\\p'
+OCCURRENCES: 39
+  data/scn/s_0000.bin @ 0xD18
+  data/scn/s_0000.bin @ 0xD98
+  data/scn/s_1000.bin @ 0x1A08
+  data/scn/s_1000.bin @ 0x1A88
+  data/scn/s_1110.bin @ 0xC94
+  data/scn/s_1110.bin @ 0xD14
+  data/scn/s_1110.bin @ 0x1254
+  data/scn/s_1110.bin @ 0x12D4
+  data/scn/s_2004.bin @ 0x3D8
+  data/scn/s_2004.bin @ 0x458
+
+TEXT: "<color:0xffacffdf>You mustn't leave Elena behind!\\p"
+OCCURRENCES: 22
+  data/scn/s_0000.bin @ 0x520
+  data/scn/s_1000.bin @ 0x163C
+  data/scn/s_1000.bin @ 0x1878
+  data/scn/s_1001.bin @ 0xB94
+  data/scn/s_1002.bin @ 0xEF8
+  data/scn/s_1003.bin @ 0xB8C
+  data/scn/s_1004.bin @ 0xEFC
+  data/scn/s_1005.bin @ 0x376C
+  data/scn/s_1100.bin @ 0xB38
+  data/scn/s_1100.bin @ 0xF0C
+
+TEXT: "<color:0xffacffdf>You mustn't leave the boy behind!\\p"
+OCCURRENCES: 20
+  data/scn/s_0000.bin @ 0x590
+  data/scn/s_1000.bin @ 0x14B4
+  data/scn/s_1001.bin @ 0xA04
+  data/scn/s_1002.bin @ 0xD68
+  data/scn/s_1003.bin @ 0x9FC
+  data/scn/s_1005.bin @ 0x35DC
+  data/scn/s_1100.bin @ 0x9B0
+  data/scn/s_1100.bin @ 0xD84
+  data/scn/s_1100.bin @ 0x1160
+  data/scn/s_1101.bin @ 0x9CC
+
+TEXT: '<nose><button:1><x:362><y:194>\\p'
+OCCURRENCES: 13
+  data/scn/s_0001.bin @ 0xCEC
+  data/scn/s_0001.bin @ 0x1914
+  data/scn/s_0001.bin @ 0x1C50
+  data/scn/s_0001.bin @ 0x20F8
+  data/scn/s_0001.bin @ 0x2494
+  data/scn/s_0001.bin @ 0x29D8
+  data/scn/s_0001.bin @ 0x36F4
+  data/scn/s_0001.bin @ 0x40D8
+  data/scn/s_0001.bin @ 0x4698
+  data/scn/s_0001.bin @ 0x5010
+
+TEXT: "<voice:24020>Hmm... I don't think you have enough\\nhere、 though!\\p<voice:24021>I'm not sure how many we'll need to save\\nthem all...but it's more than this.\\p"
+OCCURRENCES: 12
+  data/scn/s_0150.bin @ 0xCB2C
+  data/scn/s_0150.bin @ 0xCC28
+  data/scn/s_0150.bin @ 0xCD24
+  data/scn/s_0150.bin @ 0xCE20
+  data/scn/s_0170.bin @ 0x3F14
+  data/scn/s_0170.bin @ 0x4010
+  data/scn/s_0170.bin @ 0x410C
+  data/scn/s_0170.bin @ 0x4208
+  data/scn/s_0200.bin @ 0x11944
+  data/scn/s_0200.bin @ 0x11A40
+
+TEXT: 'Accept this offer?\\p'
+OCCURRENCES: 9
+  data/scn/s_0150.bin @ 0xE090
+  data/scn/s_0150.bin @ 0xE324
+  data/scn/s_0150.bin @ 0xE598
+  data/scn/s_0200.bin @ 0x19844
+  data/scn/s_0200.bin @ 0x19AA0
+  data/scn/s_0200.bin @ 0x19D20
+  data/scn/s_0200.bin @ 0x1A0F8
+  data/scn/s_0200.bin @ 0x1A354
+  data/scn/s_0200.bin @ 0x1A5D4
+
+TEXT: '<color:0xffacffdf>Not enough points available.\\p'
+OCCURRENCES: 8
+  data/scn/s_1005.bin @ 0x2704
+  data/scn/s_1005.bin @ 0x283C
+  data/scn/s_1005.bin @ 0x2974
+  data/scn/s_1005.bin @ 0x2AAC
+  data/scn/s_1005.bin @ 0x2BE4
+  data/scn/s_1005.bin @ 0x2D1C
+  data/scn/s_1005.bin @ 0x2E54
+  data/scn/s_1005.bin @ 0x2F8C
+
+TEXT: "There's an herb、 called a berm leaf、\\nthat grows in the Elderm Mountains. It's\\nsupposed to be like、 a pikkard cure-all.\\pBut it's kinda rare and hard to find、\\nand I'm way too young and fragile to\\ns"
+OCCURRENCES: 7
+  data/scn/s_0150.bin @ 0xB984
+  data/scn/s_0150.bin @ 0xBD20
+  data/scn/s_0170.bin @ 0x2CC8
+  data/scn/s_0200.bin @ 0xEEB8
+  data/scn/s_0200.bin @ 0xF264
+  data/scn/s_0200.bin @ 0xFEAC
+  data/scn/s_0200.bin @ 0x1020C
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Katol Elixir］<color:> x 1.\\p'
+OCCURRENCES: 7
+  data/scn/s_0200.bin @ 0x11E9C
+  data/scn/s_2509.bin @ 0x504
+  data/scn/s_3109.bin @ 0x4FC
+  data/scn/s_3512.bin @ 0x54C
+  data/scn/s_3514.bin @ 0xCE4
+  data/scn/s_4009.bin @ 0x3E58
+  data/scn/s_4513.bin @ 0x7FC
+
+TEXT: 'Give Hugo the berm leaves?\\p'
+OCCURRENCES: 6
+  data/scn/s_0150.bin @ 0xC2CC
+  data/scn/s_0150.bin @ 0xC5B0
+  data/scn/s_0170.bin @ 0x36B4
+  data/scn/s_0170.bin @ 0x3998
+  data/scn/s_0200.bin @ 0x11124
+  data/scn/s_0200.bin @ 0x113DC
+
+TEXT: '* This is a bug. Please note \\nthe map and character name. \\nFlag: 8: Genos Island event start\\p'
+OCCURRENCES: 6
+  data/scn/s_0170.bin @ 0xB64
+  data/scn/s_0180.bin @ 0x187C
+  data/scn/s_0200.bin @ 0x9EC8
+  data/scn/s_0200.bin @ 0xE4F0
+  data/scn/s_0200.bin @ 0x18670
+  data/scn/s_1000.bin @ 0x39CC
+
+TEXT: "Damn it all... Where is it?! Can't\\nbelieve I lost it... I am such a dead\\nman!\\pSince I haven't been able to go out\\nlookin' for it、 y' think...maybe\\nsomebody else found it...?\\p"
+OCCURRENCES: 5
+  data/scn/s_0100.bin @ 0x4C08
+  data/scn/s_0100.bin @ 0x592C
+  data/scn/s_0100.bin @ 0x6414
+  data/scn/s_0100.bin @ 0x651C
+  data/scn/s_0100.bin @ 0x72E0
+
+TEXT: "There's an herb、 called a berm leaf、\\nthat grows in the Elderm Mountains. It's\\nsupposed to be like、 a pikkard cure-all.\\pBut it's kinda rare and hard to find、\\nand I'm way too young and fragile to\\ns"
+OCCURRENCES: 5
+  data/scn/s_0170.bin @ 0x2B18
+  data/scn/s_0170.bin @ 0x2EC4
+  data/scn/s_0170.bin @ 0x3074
+  data/scn/s_0200.bin @ 0xED08
+  data/scn/s_0200.bin @ 0xF0B4
+
+TEXT: "That ring was given to me by my wife、\\nbefore my first battle. An' she'll be\\nlookin' for it when I get home、 yessir!\\pPretty pathetic to be cryin' over it、\\nthough、 I know...\\pDammit、 how'd I manage "
+OCCURRENCES: 4
+  data/scn/s_0100.bin @ 0x475C
+  data/scn/s_0100.bin @ 0x4A00
+  data/scn/s_0100.bin @ 0x5328
+  data/scn/s_0100.bin @ 0x55F0
+
+TEXT: "We should pray that what happened to Bob\\ndoesn't ever happen again.\\p"
+OCCURRENCES: 4
+  data/scn/s_0130.bin @ 0x3D34
+  data/scn/s_0130.bin @ 0x3E34
+  data/scn/s_0130.bin @ 0x3F90
+  data/scn/s_0130.bin @ 0x408C
+
+TEXT: "I do believe you've saved my pikkards、\\nMister!\\pThanks so much、 from me AND them!\\p"
+OCCURRENCES: 4
+  data/scn/s_0150.bin @ 0xBE98
+  data/scn/s_0170.bin @ 0x3260
+  data/scn/s_0200.bin @ 0xF3DC
+  data/scn/s_0200.bin @ 0x10384
+
+TEXT: '* This is a bug. Please note \\nthe map and character name. \\nFlag: 9: Epilogue Event Start\\p'
+OCCURRENCES: 4
+  data/scn/s_0170.bin @ 0x1B84
+  data/scn/s_0200.bin @ 0x1CA3C
+  data/scn/s_0200.bin @ 0x1CE90
+  data/scn/s_1000.bin @ 0x3914
+
+TEXT: '<color:0xffacffdf>The boy must be escorted to the castle!\\p'
+OCCURRENCES: 4
+  data/scn/s_1000.bin @ 0x126C
+  data/scn/s_1001.bin @ 0xDB0
+  data/scn/s_1002.bin @ 0x978
+  data/scn/s_1003.bin @ 0x69C
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Berm Leaves］<color:>.\\p'
+OCCURRENCES: 4
+  data/scn/s_4001.bin @ 0x5A0
+  data/scn/s_4009.bin @ 0x83C
+  data/scn/s_4501.bin @ 0x684
+  data/scn/s_4503.bin @ 0x46C
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Raval Ore］<color:> x 12.\\p'
+OCCURRENCES: 3
+  data/scn/s_0100.bin @ 0x32C4
+  data/scn/s_3104.bin @ 0x348
+  data/scn/s_3305.bin @ 0x294
+
+TEXT: "C'mon、 just leave me alone... I'm in no\\nmood to talk to anyone right now!\\pDamn it all... Where is it?! Can't\\nbelieve I lost it... I am such a dead\\nman!\\pSince I haven't been able to go out\\nlookin"
+OCCURRENCES: 3
+  data/scn/s_0100.bin @ 0x5E38
+  data/scn/s_0100.bin @ 0x6038
+  data/scn/s_0100.bin @ 0x626C
+
+TEXT: "Without my ring...I'm...I'm nothing!\\pDamn it... Where'd it go? This is so...\\nso not good...\\p"
+OCCURRENCES: 3
+  data/scn/s_0100.bin @ 0x6180
+  data/scn/s_0100.bin @ 0x6C3C
+  data/scn/s_0100.bin @ 0x6E7C
+
+TEXT: '* This is a bug. Please note the map and\\ncharacter name. Flag: 9: Epilogue Event\\nStart\\p'
+OCCURRENCES: 3
+  data/scn/s_0100.bin @ 0xB910
+  data/scn/s_0100.bin @ 0xBC34
+  data/scn/s_0101.bin @ 0x5D0
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Raval Ore］<color:> x 10.\\p'
+OCCURRENCES: 3
+  data/scn/s_0100.bin @ 0xCA18
+  data/scn/s_0200.bin @ 0x20070
+  data/scn/s_0200.bin @ 0x201BC
+
+TEXT: '* This is a bug. Please note\\nthe map and character name.\\nFlag: 9: Epilogue Event Start\\p'
+OCCURRENCES: 3
+  data/scn/s_0101.bin @ 0xC20
+  data/scn/s_0101.bin @ 0xE84
+  data/scn/s_0130.bin @ 0x95C
+
+TEXT: '...No need to say anything.\\p'
+OCCURRENCES: 3
+  data/scn/s_0110.bin @ 0xD0C
+  data/scn/s_0110.bin @ 0xF48
+  data/scn/s_0110.bin @ 0x1180
+
+TEXT: '<color:0xffacffdf>Adonis held out his hand to Adol.\\p'
+OCCURRENCES: 3
+  data/scn/s_0110.bin @ 0xD54
+  data/scn/s_0110.bin @ 0xF90
+  data/scn/s_0110.bin @ 0x11C8
+
+TEXT: 'You take care of yourself...\\p'
+OCCURRENCES: 3
+  data/scn/s_0110.bin @ 0xDB4
+  data/scn/s_0110.bin @ 0xFF0
+  data/scn/s_0110.bin @ 0x1228
+
+TEXT: "<voice:20050>What do you want?\\p<voice:20051>I'm Adonis. I own this shop、 and if my\\nappearance hasn't given it away yet、 I'm\\nhappy to confirm that yes、 I'm a smithy.\\p<voice:20052>Hmph... From the l"
+OCCURRENCES: 3
+  data/scn/s_0110.bin @ 0x3984
+  data/scn/s_0110.bin @ 0x42CC
+  data/scn/s_0110.bin @ 0x471C
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Raval Ore］<color:> x 20.\\p'
+OCCURRENCES: 3
+  data/scn/s_0120.bin @ 0x9D68
+  data/scn/s_0150.bin @ 0x1648
+  data/scn/s_3102.bin @ 0x4C4
+
+TEXT: "I'll never forgive the count for locking\\nBob away like a criminal-- and leading\\nus to believe he was dead、 no less!\\p"
+OCCURRENCES: 3
+  data/scn/s_0150.bin @ 0x9FD8
+  data/scn/s_0150.bin @ 0xA294
+  data/scn/s_0150.bin @ 0xA3D8
+
+TEXT: "<voice:24015>Mister Adol、 are those really berm\\nleaves?!\\p<voice:24016>Can I have them? Pleeeeease?\\p<voice:24017>I can use 'em to save my pikkards!\\p"
+OCCURRENCES: 3
+  data/scn/s_0150.bin @ 0xC4B0
+  data/scn/s_0170.bin @ 0x3898
+  data/scn/s_0200.bin @ 0x112DC
+
+TEXT: "<voice:24026>Awww、 man、 you're a horrible、 horrible\\nperson!\\p<voice:24027>Well、 even in death、 they'll be super-\\nduper adorable、 and nothing you can do\\nwill ever change that. So there! NYEAH!\\p"
+OCCURRENCES: 3
+  data/scn/s_0150.bin @ 0xC6F8
+  data/scn/s_0170.bin @ 0x3AE0
+  data/scn/s_0200.bin @ 0x11518
+
+TEXT: '<voice:24018>...Really?\\p<voice:24019>Yaaaay! Thanks、 Mister Adol!\\p'
+OCCURRENCES: 3
+  data/scn/s_0150.bin @ 0xC8EC
+  data/scn/s_0170.bin @ 0x3CD4
+  data/scn/s_0200.bin @ 0x1170C
+
+TEXT: "<voice:24022>I think I have plenty now!\\p<voice:24024>Oh、 yeah...\\p<voice:24025>Around here、 when somebody helps you、\\nyou give them a thank-you gift. It's the\\nFelghana way! So here's my gift to you!"
+OCCURRENCES: 3
+  data/scn/s_0150.bin @ 0xCF98
+  data/scn/s_0170.bin @ 0x4380
+  data/scn/s_0200.bin @ 0x11DB0
+
+TEXT: "<voice:24023>You're awesome、 Mister Adol! Thanks to\\nyou、 they're all gonna get better!\\p"
+OCCURRENCES: 3
+  data/scn/s_0150.bin @ 0xD188
+  data/scn/s_0170.bin @ 0x4570
+  data/scn/s_0200.bin @ 0x11FA4
+
+TEXT: "Hmm... You don't seem to have enough.\\pI'm going to need 200 pieces of raval\\nore. Non-negotiable.\\pAny less、 and I'm afraid there's no\\ndeal.\\pCome back、 though、 if you do manage to\\ngather the full "
+OCCURRENCES: 3
+  data/scn/s_0150.bin @ 0xE108
+  data/scn/s_0200.bin @ 0x198BC
+  data/scn/s_0200.bin @ 0x1A170
+
+TEXT: "Hmm... You don't seem to have enough.\\pI need at least 10 hunks of raval ore.\\pAny less、 and I'm afraid there's no\\ndeal.\\pCome back、 though、 if you do manage to\\ngather the full amount.\\p"
+OCCURRENCES: 3
+  data/scn/s_0150.bin @ 0xE610
+  data/scn/s_0200.bin @ 0x19D98
+  data/scn/s_0200.bin @ 0x1A64C
+
+TEXT: '<color:0xffacffdf>Elena and Anya are in danger.\\nThey must be saved!\\p'
+OCCURRENCES: 3
+  data/scn/s_0200.bin @ 0x6DDC
+  data/scn/s_0200.bin @ 0x6EAC
+  data/scn/s_0200.bin @ 0x6F7C
+
+TEXT: '* This is a bug. Please note \\nthe map and character name. \\nFlag: 7: Meeting Elena in the dungeon\\p'
+OCCURRENCES: 3
+  data/scn/s_0200.bin @ 0xC414
+  data/scn/s_0200.bin @ 0xE59C
+  data/scn/s_0200.bin @ 0x140AC
+
+TEXT: '* This is a bug. Please note \\nthe map and character name. \\nFlag: 1: After Start Event\\p'
+OCCURRENCES: 3
+  data/scn/s_0200.bin @ 0x13654
+  data/scn/s_0200.bin @ 0x15398
+  data/scn/s_0200.bin @ 0x16758
+
+TEXT: '<color:0xffacffdf>Elena must be escorted back to Redmont!\\p'
+OCCURRENCES: 3
+  data/scn/s_1001.bin @ 0xFA4
+  data/scn/s_1002.bin @ 0xB08
+  data/scn/s_1003.bin @ 0x7D8
+
+TEXT: "<color:0xffacffdf>The door is locked up tight、 and solid\\nas a rock. You definitely won't be able\\nto get through without the proper key.\\p"
+OCCURRENCES: 3
+  data/scn/s_2003.bin @ 0x554
+  data/scn/s_2005.bin @ 0x65C
+  data/scn/s_5400.bin @ 0x670
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Ruby］<color:>.\\p'
+OCCURRENCES: 3
+  data/scn/s_2012.bin @ 0x4A8
+  data/scn/s_3303.bin @ 0x5F4
+  data/scn/s_5401.bin @ 0x135C
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Emerald］<color:>.\\p'
+OCCURRENCES: 3
+  data/scn/s_2507.bin @ 0x31C
+  data/scn/s_3505.bin @ 0xDFC
+  data/scn/s_6101.bin @ 0x65C
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Raval Ore］<color:> x 200.\\p'
+OCCURRENCES: 3
+  data/scn/s_2510.bin @ 0x58C
+  data/scn/s_3516.bin @ 0x700
+  data/scn/s_5003.bin @ 0x6B8
+
+TEXT: 'Acquired <color:0xfff2ea8c>［Topaz］<color:>.\\p'
+OCCURRENCES: 3
+  data/scn/s_4505.bin @ 0x230C
+  data/scn/s_5005.bin @ 0x2C4
+  data/scn/s_6105.bin @ 0x6B8
+
+TEXT: "Man、 I wish I had your skill!\\nInstead、 I just SUCK!\\pI lost my ring、 and to top it all off、 I\\ngot swarmed by monsters. To the left of\\nme、 to the right of me...everywhere!\\pHeh、 if it hadn't been th"
+OCCURRENCES: 2
+  data/scn/s_0100.bin @ 0x453C
+  data/scn/s_0100.bin @ 0x5108
+
+TEXT: "Margo's been telling me about the\\ngoings-on at Valestein Castle...and\\nman、 it's all so crazy!\\pDon't think I'd survive too long in\\nthere...\\pBut I do have to wonder how long I'll\\nsurvive even here"
+OCCURRENCES: 2
+  data/scn/s_0100.bin @ 0x4DDC
+  data/scn/s_0100.bin @ 0x5B0C
+
+TEXT: "All I want is to get back home to my\\nfamily...\\p（sigh） I need to accept the things I\\ncan't change. If I've gotta stay here\\nand fight、 then so be it.\\p"
+OCCURRENCES: 2
+  data/scn/s_0100.bin @ 0x4F2C
+  data/scn/s_0100.bin @ 0x5C5C
+
+8. TEST FILES
+----------------------------------------------------------------------------------------------------
+s_0160.bin 11932 bytes
+s_0160_TEST_ARABIC.bin 10866 bytes
+s_0160_TEST_CONTROL.bin 10882 bytes
+s_0160_TEST_LONG.bin 10958 bytes
+s_0160_TEST_SHORT.bin 10841 bytes
+
+====================================================================================================
+END OF REPORT
