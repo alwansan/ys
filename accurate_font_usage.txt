@@ -1,0 +1,1146 @@
+YS MEMOIRE ACCURATE FONT USAGE ANALYSIS
+==============================================================================================================
+
+This report counts characters ONLY from extracted text, never arbitrary binary bytes.
+
+ITF entries: 7680
+Dialogue entries scanned: 1899
+Non-voice inventory text entries scanned: 954
+Distinct ITF characters actually used: 82
+Unused valid ITF characters: 7598
+Unused CP932-compatible ITF characters: 7405
+Unused CJK characters: 6682
+Unused Halfwidth characters: 63
+
+USED BY CATEGORY
+--------------------------------------------------------------------------------------------------------------
+ASCII                          76
+FULLWIDTH_HALFWIDTH            4
+CJK_PUNCT                      2
+
+UNUSED BY CATEGORY
+--------------------------------------------------------------------------------------------------------------
+CJK                            6682
+OTHER                          540
+FULLWIDTH_HALFWIDTH            159
+KATAKANA                       90
+HIRAGANA                       87
+CJK_PUNCT                      21
+ASCII                          19
+
+FIRST 500 UNUSED CJK SLOTS
+--------------------------------------------------------------------------------------------------------------
+U+7246 牆 index=0 addr=0x8B4045 CP932=e0 ad
+U+5BB8 宸 index=1 addr=0x3F5BCC CP932=9b 82
+U+8B99 讙 index=2 addr=0xD71564 CP932=e6 aa
+U+5009 倉 index=3 addr=0x1A1F5D CP932=91 71
+U+6649 晉 index=4 addr=0x650C90 CP932=9d e7
+U+7E92 纒 index=5 addr=0xB116AE CP932=e3 95
+U+9A43 驃 index=6 addr=0xFCFD09 CP932=e9 7e
+U+54C2 哂 index=8 addr=0x2C9F25 CP932=9a 41
+U+60DE 惞 index=9 addr=0x520F3C CP932=ed a3
+U+6B9E 殞 index=10 addr=0x7856C7 CP932=9f 6d
+U+790E 礎 index=11 addr=0x9DF46C CP932=91 62
+U+8541 蕁 index=12 addr=0xC4041E CP932=e5 40
+U+9283 銃 index=13 addr=0xE9FE17 CP932=8f 65
+U+5274 剴 index=17 addr=0x2384D3 CP932=99 93
+U+587E 塾 index=18 addr=0x35E03D CP932=8f 6d
+U+5E84 庄 index=19 addr=0x489733 CP932=8f af
+U+6367 捧 index=20 addr=0x5B8F93 CP932=95 f9
+U+68B5 梵 index=21 addr=0x6E96F8 CP932=9e 90
+U+6E82 溂 index=22 addr=0x81BC64 CP932=9f e1
+U+7591 疑 index=23 addr=0x94A0C0 CP932=8b 5e
+U+7BF7 篷 index=24 addr=0xA774C2 CP932=e2 c9
+U+820A 舊 index=25 addr=0xBA8F05 CP932=e4 70
+U+88D5 裕 index=26 addr=0xCD848F CP932=97 54
+U+8FB1 辱 index=27 addr=0xE09CCD CP932=90 4a
+U+96C7 雇 index=28 addr=0xF35D7C CP932=8c d9
+U+9EBF 麿 index=29 addr=0x1068B65 CP932=96 9b
+U+4ECD 仍 index=34 addr=0x154B33 CP932=98 b9
+U+5169 兩 index=35 addr=0x1EF703 CP932=99 5f
+U+539A 厚 index=36 addr=0x2815E9 CP932=8c fa
+U+56C8 囈 index=37 addr=0x31401C CP932=9a 94
+U+59D0 姐 index=38 addr=0x3AA64A CP932=88 b7
+U+5CF6 島 index=39 addr=0x4401E3 CP932=93 87
+U+5F97 得 index=40 addr=0x4D48C6 CP932=93 be
+U+6213 戓 index=41 addr=0x56D23E CP932=ed ab
+U+6518 攘 index=42 addr=0x6063AF CP932=9d b5
+U+676F 杯 index=43 addr=0x69BDEC CP932=94 74
+U+6A05 樅 index=44 addr=0x737AB2 CP932=9e e0
+U+6D1F 洟 index=45 addr=0x7D027C CP932=9f a4
+U+701F 瀟 index=46 addr=0x8689ED CP932=e0 6e
+U+7426 琦 index=47 addr=0x9002EB CP932=ee 4b
+U+76FE 盾 index=48 addr=0x994482 CP932=8f 82
+U+7A9F 窟 index=49 addr=0xA2BCF0 CP932=8c 41
+U+7D50 結 index=50 addr=0xAC3E48 CP932=8c 8b
+U+8096 肖 index=51 addr=0xB5C79C CP932=8f d1
+U+838E 莎 index=52 addr=0xBF4C00 CP932=e4 b3
+U+8706 蜆 index=53 addr=0xC8BA60 CP932=e5 84
+U+8A63 詣 index=54 addr=0xD24CF3 CP932=8c 77
+U+8DE1 跡 index=55 addr=0xDBCFEA CP932=90 d5
+U+90E2 郢 index=56 addr=0xE54662 CP932=e7 b9
+U+9460 鑠 index=57 addr=0xEECEB7 CP932=e8 6a
+U+982D 頭 index=58 addr=0xF82436 CP932=93 aa
+U+9C21 鰡 index=59 addr=0x101C79D CP932=e9 dd
+U+4E3C 丼 index=69 addr=0x131B00 CP932=98 a5
+U+4F69 佩 index=70 addr=0x17B027 CP932=98 ce
+U+50C2 僂 index=71 addr=0x1C909B CP932=99 43
+U+51E7 凧 index=72 addr=0x213BDE CP932=91 fa
+U+5306 匆 index=73 addr=0x25DFFA CP932=99 b0
+U+541B 君 index=74 addr=0x2A5A2E CP932=8c 4e
+U+55A9 喩 index=75 addr=0x2EEAE5 CP932=9a 67
+U+57A3 垣 index=76 addr=0x337F33 CP932=8a 5f
+U+592A 太 index=77 addr=0x383ED8 CP932=91 be
+U+5B22 嬢 index=78 addr=0x3D0BBE CP932=8f ec
+U+5C38 尸 index=79 addr=0x41B7E8 CP932=9b 99
+U+5DE7 巧 index=80 addr=0x464F1B CP932=8d 49
+U+5F15 引 index=81 addr=0x4AF4EA CP932=88 f8
+U+604A 恊 index=82 addr=0x4FAD3A CP932=9c 90
+U+616B 慫 index=83 addr=0x547330 CP932=9c cf
+U+62B5 抵 index=84 addr=0x592EC9 CP932=92 ef
+U+6426 搦 index=85 addr=0x5DF827 CP932=9d 8e
+U+65B7 斷 index=86 addr=0x62CD19 CP932=9d d0
+U+66F5 曵 index=87 addr=0x675ED8 CP932=9e 49
+U+6802 栂 index=88 addr=0x6C29E2 CP932=92 cc
+U+695D 楝 index=89 addr=0x710799 CP932=9e c0
+U+6ADA 櫚 index=90 addr=0x75F13C CP932=9f 4c
+U+6C72 汲 index=91 addr=0x7AACE8 CP932=8b 82
+U+6DE8 淨 index=92 addr=0x7F5F6F CP932=9f c4
+U+6F5F 潟 index=93 addr=0x8422AF CP932=8a 83
+U+7164 煤 index=94 addr=0x88E51D CP932=94 81
+U+7324 猤 index=95 addr=0x8DA233 CP932=ee 41
+U+7513 甓 index=96 addr=0x925C18 CP932=e1 51
+U+7667 癧 index=97 addr=0x96FE27 CP932=e1 9c
+U+77F3 石 index=98 addr=0x9B901A CP932=90 ce
+U+79DF 租 index=99 addr=0xA0511B CP932=91 64
+U+7B39 笹 index=100 addr=0xA515CB CP932=8d f9
+U+7CBE 精 index=101 addr=0xA9D6BC CP932=90 b8
+U+7DEC 緬 index=102 addr=0xAEA59D CP932=96 c9
+U+7FD4 翔 index=103 addr=0xB368E9 CP932=e3 c4
+U+816B 腫 index=104 addr=0xB828C5 CP932=8e ee
+U+82D1 苑 index=105 addr=0xBCF617 CP932=89 91
+U+8466 葦 index=106 addr=0xC1A91B CP932=88 af
+U+8607 蘇 index=107 addr=0xC662D7 CP932=91 68
+U+880F 蠏 index=108 addr=0xCB1BF7 CP932=e5 b5
+U+8998 覘 index=109 addr=0xCFED4E CP932=e6 4c
+U+8AEE 諮 index=110 addr=0xD4AF25 CP932=8e 90
+U+8CCA 賊 index=111 addr=0xD97071 CP932=91 af
+U+8ECC 軌 index=112 addr=0xDE31C4 CP932=8b 4f
+U+9041 遁 index=113 addr=0xE2F04C CP932=93 d9
+U+91CF 量 index=114 addr=0xE7A302 CP932=97 ca
+U+9354 鍔 index=115 addr=0xEC64CC CP932=92 d5
+U+9644 附 index=116 addr=0xF10DF6 CP932=95 8d
+U+9760 靠 index=117 addr=0xF5BD3A CP932=e8 cf
+U+9927 餧 index=118 addr=0xFA9347 CP932=ee dc
+U+9B45 魅 index=119 addr=0xFF5D32 CP932=96 a3
+U+9D6C 鵬 index=120 addr=0x1042A82 CP932=96 51
+U+4E92 互 index=140 addr=0x142C06 CP932=8c dd
+U+4F10 伐 index=141 addr=0x167C37 CP932=94 b0
+U+4FBF 便 index=142 addr=0x18E74D CP932=95 d6
+U+5049 偉 index=143 addr=0x1B5899 CP932=88 cc
+U+511F 償 index=144 addr=0x1DCB8C CP932=8f 9e
+U+51A4 冤 index=145 addr=0x201108 CP932=99 6c
+U+522A 刪 index=146 addr=0x225A20 CP932=99 88
+U+52C3 勃 index=147 addr=0x24B20F CP932=96 75
+U+5349 卉 index=148 addr=0x26F632 CP932=99 c1
+U+53E3 口 index=149 addr=0x294317 CP932=8c fb
+U+5476 呶 index=150 addr=0x2B7C93 CP932=99 f1
+U+5540 啀 index=151 addr=0x2DC435 CP932=9a 50
+U+5636 嘶 index=152 addr=0x301635 CP932=9a 7c
+U+571F 土 index=153 addr=0x32560E CP932=93 79
+U+5815 堕 index=154 addr=0x34AF4E CP932=91 c2
+U+58E4 壤 index=155 addr=0x3713EB CP932=9a df
+U+5969 奩 index=156 addr=0x397522 CP932=9a fc
+U+5A46 婆 index=157 addr=0x3BD6C6 CP932=94 6b
+U+5B78 學 index=158 addr=0x3E37D2 CP932=9b 7b
+U+5BF0 寰 index=159 addr=0x408A32 CP932=9b 8e
+U+5C79 屹 index=160 addr=0x42D98C CP932=9b a6
+U+5D73 嵳 index=161 addr=0x452985 CP932=9b cb
+U+5E38 常 index=162 addr=0x476DE4 CP932=8f ed
+U+5EE0 廠 index=163 addr=0x49C881 CP932=8f b1
+U+5F5D 彝 index=164 addr=0x4C16F1 CP932=9c 52
+U+5FF1 忱 index=165 addr=0x4E7B1B CP932=9c 79
+U+608C 悌 index=166 addr=0x50DBB4 CP932=92 ee
+U+6121 愡 index=167 addr=0x534018 CP932=9c b9
+U+61C3 懃 index=168 addr=0x55A44C CP932=9c e7
+U+625E 扞 index=169 addr=0x57FE9E CP932=9d 49
+U+62F1 拱 index=170 addr=0x5A5E28 CP932=9d 69
+U+63AC 掬 index=171 addr=0x5CC409 CP932=8b 64
+U+64B0 撰 index=172 addr=0x5F2D61 CP932=90 ef
+U+6563 散 index=173 addr=0x619B66 CP932=8e 55
+U+6606 昆 index=174 addr=0x63F20A CP932=8d a9
+U+6697 暗 index=175 addr=0x663549 CP932=88 c3
+U+672D 札 index=176 addr=0x688BFB CP932=8e 44
+U+67B9 枹 index=177 addr=0x6AF269 CP932=9e 73
+U+6859 桙 index=178 addr=0x6D60D1 CP932=9e 82
+U+6905 椅 index=179 addr=0x6FCF30 CP932=88 d6
+U+69AE 榮 index=180 addr=0x72414C CP932=9e c4
+U+6A59 橙 index=181 addr=0x74B545 CP932=9e f2
+U+6B4E 歎 index=182 addr=0x772969 CP932=92 56
+U+6C08 氈 index=183 addr=0x79858B CP932=9f 81
+U+6CBF 沿 index=184 addr=0x7BD8A6 CP932=89 88
+U+6D87 涇 index=185 addr=0x7E31DD CP932=ed df
+U+6E25 渥 index=186 addr=0x808ED9 CP932=88 ad
+U+6EEF 滯 index=187 addr=0x82EEB4 CP932=9f fa
+U+6FC6 濆 index=188 addr=0x855615 CP932=e0 58
+U+70BA 為 index=189 addr=0x87B86E CP932=88 d7
+U+71E0 燠 index=190 addr=0x8A14ED CP932=e0 9a
+U+72B2 犲 index=191 addr=0x8C71C7 CP932=e0 ba
+U+73A9 玩 index=192 addr=0x8ED2BF CP932=8a df
+U+748B 璋 index=193 addr=0x912CA9 CP932=e0 f6
+U+7554 畔 index=194 addr=0x937874 CP932=94 c8
+U+75F0 痰 index=195 addr=0x95CF70 CP932=e1 82
+U+76AE 皮 index=196 addr=0x98202C CP932=94 e7
+U+777E 睾 index=197 addr=0x9A66DE CP932=e1 ce
+U+788E 碎 index=198 addr=0x9CBF13 CP932=e1 ea
+U+797A 祺 index=199 addr=0x9F23EE CP932=e2 51
+U+7A40 穀 index=200 addr=0xA18A32 CP932=8d 92
+U+7AE6 竦 index=201 addr=0xA3E88E CP932=e2 90
+U+7B97 算 index=202 addr=0xA6454F CP932=8e 5a
+U+7C65 籥 index=203 addr=0xA8A3F6 CP932=e2 de
+U+7D14 純 index=204 addr=0xAB0B42 CP932=8f 83
+U+7DAE 綮 index=205 addr=0xAD6F4A CP932=e3 5a
+U+7E46 繆 index=206 addr=0xAFDDCE CP932=e3 78
+U+7F79 罹 index=207 addr=0xB24067 CP932=9c eb
+U+803D 耽 index=208 addr=0xB49708 CP932=92 5e
+U+80F1 胱 index=209 addr=0xB6F2F9 CP932=e3 f7
+U+81BF 膿 index=210 addr=0xB9626E CP932=94 5e
+U+8264 艤 index=211 addr=0xBBCA43 CP932=e4 7e
+U+8318 茘 index=212 addr=0xBE2014 CP932=e4 ab
+U+83F4 菴 index=213 addr=0xC079F4 CP932=e4 bd
+U+84C9 蓉 index=214 addr=0xC2D51F CP932=97 75
+U+859C 薜 index=215 addr=0xC533D7 CP932=e5 4f
+U+86A4 蚤 index=216 addr=0xC78E1B CP932=94 61
+U+8776 蝶 index=217 addr=0xC9EA60 CP932=92 b1
+U+8875 衵 index=218 addr=0xCC4EB8 CP932=e5 d0
+U+8938 褸 index=219 addr=0xCEBBB3 CP932=e5 f8
+U+8A12 訒 index=220 addr=0xD1204A CP932=ee 87
+U+8AA7 誧 index=221 addr=0xD37D89 CP932=ee 8a
+U+8B41 譁 index=222 addr=0xD5E1BF CP932=e6 96
+U+8C9D 貝 index=223 addr=0xD83FEE CP932=8a 4c
+U+8D13 贓 index=224 addr=0xDAA485 CP932=e6 d9
+U+8E5F 蹟 index=225 addr=0xDD0084 CP932=90 d6
+U+8F33 輳 index=226 addr=0xDF65D1 CP932=e7 73
+U+9005 逅 index=227 addr=0xE1C556 CP932=e7 90
+U+9075 遵 index=228 addr=0xE41D2C CP932=8f 85
+U+9173 酳 index=229 addr=0xE672E9 CP932=e7 c8
+U+921E 鈞 index=230 addr=0xE8CEE6 CP932=e7 e0
+U+92FA 鋺 index=231 addr=0xEB3179 CP932=e7 fa
+U+93DD 鏝 index=232 addr=0xED9A16 CP932=e8 57
+U+95A7 閧 index=233 addr=0xEFF006 CP932=e8 82
+U+968D 隍 index=234 addr=0xF233CB CP932=e8 a4
+U+9711 霑 index=235 addr=0xF48F45 CP932=e8 bf
+U+97C3 韃 index=236 addr=0xF6F342 CP932=e8 e5
+U+98C3 飃 index=237 addr=0xF9583F CP932=e9 48
+U+99C6 駆 index=238 addr=0xFBCAAD CP932=8b ec
+U+9AE3 髣 index=239 addr=0xFE308C CP932=e9 97
+U+9BC6 鯆 index=240 addr=0x100914C CP932=e9 c2
+U+9D06 鴆 index=241 addr=0x102FC67 CP932=e9 ef
+U+9DFD 鷽 index=242 addr=0x1055CBF CP932=ea 5e
+U+9F20 鼠 index=243 addr=0x107B994 CP932=91 6c
+U+4E16 世 index=280 addr=0x12995D CP932=90 a2
+U+4E5F 也 index=281 addr=0x13A43C CP932=96 e7
+U+4EAB 享 index=282 addr=0x14B41B CP932=8b 9d
+U+4EED 仭 index=283 addr=0x15E11D CP932=98 bf
+U+4F47 佇 index=284 addr=0x171543 CP932=98 c8
+U+4F91 侑 index=285 addr=0x184B95 CP932=98 d0
+U+4FDF 俟 index=286 addr=0x198228 CP932=98 d6
+U+5025 倥 index=287 addr=0x1ABBEF CP932=98 e3
+U+5080 傀 index=288 addr=0x1BF3E5 CP932=98 f8
+U+50EE 僮 index=289 addr=0x1D2E90 CP932=99 49
+U+5148 先 index=290 addr=0x1E6205 CP932=90 e6
+U+5189 冉 index=291 addr=0x1F86E6 CP932=99 66
+U+51BD 冽 index=292 addr=0x20A36A CP932=99 77
+U+5204 刄 index=293 addr=0x21C7A5 CP932=99 83
+U+524D 前 index=294 addr=0x22EF17 CP932=91 4f
+U+52A3 劣 index=295 addr=0x241B87 CP932=97 f2
+U+52E3 勣 index=296 addr=0x254B2B CP932=99 a8
+U+532A 匪 index=297 addr=0x26683F CP932=94 d9
+U+536F 卯 index=298 addr=0x2781B7 CP932=89 4b
+U+53C8 又 index=299 addr=0x28ADCA CP932=96 94
+U+53F7 号 index=300 addr=0x29CCE2 CP932=8d 86
+U+543E 吾 index=301 addr=0x2AEBCC CP932=8c e1
+U+54A2 咢 index=302 addr=0x2C0DA7 CP932=99 f6
+U+54FD 哽 index=303 addr=0x2D3125 CP932=9a 4a
+U+5583 喃 index=304 addr=0x2E5740 CP932=9a 66
+U+55F7 嗷 index=305 addr=0x2F80AE CP932=9a 72
+U+5686 嚆 index=306 addr=0x30A985 CP932=9a 85
+U+56FA 固 index=307 addr=0x31C9F5 CP932=8c c5
+U+5751 坑 index=308 addr=0x32E96A CP932=8d 42
+U+57D6 埖 index=309 addr=0x3416E2 CP932=9a c0
+U+584B 塋 index=310 addr=0x354796 CP932=9a c8
+U+58BB 墻 index=311 addr=0x367A5C CP932=9a d4
+U+5909 変 index=312 addr=0x37A8BD CP932=95 cf
+U+5950 奐 index=313 addr=0x38D7CD CP932=9a f4
+U+5999 妙 index=314 addr=0x3A0DF2 CP932=96 ad
+U+5A03 娃 index=315 addr=0x3B3E88 CP932=88 a1
+U+5AC9 嫉 index=316 addr=0x3C7148 CP932=8e b9
+U+5B58 存 index=317 addr=0x3DA114 CP932=91 b6
+U+5B9A 定 index=318 addr=0x3EC659 CP932=92 e8
+U+5BD8 寘 index=319 addr=0x3FF43F CP932=ed 8d
+U+5C0A 尊 index=320 addr=0x412279 CP932=91 b8
+U+5C4E 屎 index=321 addr=0x424853 CP932=9b 9d
+U+5CBA 岺 index=322 addr=0x436C3E CP932=ed 91
+U+5D1F 崟 index=323 addr=0x4496DF CP932=9b be
+U+5DBC 嶼 index=324 addr=0x45BCDD CP932=9b d7
+U+5E0B 帋 index=325 addr=0x46D821 CP932=9b e1
+U+5E64 幤 index=326 addr=0x4803D1 CP932=9b f0
+U+5EB7 康 index=327 addr=0x492E3C CP932=8d 4e
+U+5EFC 廼 index=328 addr=0x4A617B CP932=94 55
+U+5F37 強 index=329 addr=0x4B8467 CP932=8b ad
+U+5F7F 彿 index=330 addr=0x4CAB71 CP932=9c 69
+U+5FBD 徽 index=331 addr=0x4DE679 CP932=8b 4a
+U+6020 怠 index=332 addr=0x4F14AD CP932=91 d3
+U+6069 恩 index=333 addr=0x504484 CP932=89 b6
+U+60B3 悳 index=334 addr=0x517574 CP932=9c 7b
+U+60FB 惻 index=335 addr=0x52A6B6 CP932=9c ba
+U+614B 態 index=336 addr=0x53D923 CP932=91 d4
+U+6191 憑 index=337 addr=0x550BE4 CP932=9c df
+U+61F8 懸 index=338 addr=0x563E7A CP932=8c 9c
+U+6234 戴 index=339 addr=0x576881 CP932=91 d5
+U+628A 把 index=340 addr=0x5895EB CP932=94 63
+U+62D1 拑 index=341 addr=0x59C65B CP932=9d 59
+U+6327 挧 index=342 addr=0x5AF75B CP932=9d 6a
+U+638F 掏 index=343 addr=0x5C2A7F CP932=9d 7a
+U+63DB 換 index=344 addr=0x5D5E08 CP932=8a b7
+U+6478 摸 index=345 addr=0x5E92FD CP932=96 cc
+U+64E1 擡 index=346 addr=0x5FC875 CP932=9d aa
+U+653E 放 index=347 addr=0x60FDDC CP932=95 fa
+U+6590 斐 index=348 addr=0x62365A CP932=94 e3
+U+65E0 无 index=349 addr=0x6367F9 CP932=9d d9
+U+6627 昧 index=350 addr=0x647CB9 CP932=96 86
+U+666E 普 index=351 addr=0x65A0FB CP932=95 81
+U+66C1 曁 index=352 addr=0x66CCA0 CP932=9d f8
+U+670E 朎 index=353 addr=0x67F222 CP932=ed c3
+U+6751 村 index=354 addr=0x6923CD CP932=91 ba
+U+6795 枕 index=355 addr=0x6A57CC CP932=96 8d
+U+67DE 柞 index=356 addr=0x6B8EF7 CP932=9e 6f
+U+683C 格 index=357 addr=0x6CC59C CP932=8a 69
+U+6893 梓 index=358 addr=0x6DFB9A CP932=88 b2
+U+68D7 棗 index=359 addr=0x6F3355 CP932=9e a5
+U+6926 椦 index=360 addr=0x706B74 CP932=9e 9b
+U+6979 楹 index=361 addr=0x71A367 CP932=9e b1
+U+69D3 槓 index=362 addr=0x72DDB6 CP932=9e c8
+U+6A2A 横 index=363 addr=0x74180F CP932=89 a1
+U+6A97 檗 index=364 addr=0x7552E2 CP932=9f 40
+U+6B1F 欟 index=365 addr=0x768EA0 CP932=9f 55
+U+6B74 歴 index=366 addr=0x77BFC3 CP932=97 f0
+U+6BC5 毅 index=367 addr=0x78F178 CP932=8b 42
+U+6C42 求 index=368 addr=0x7A1B31 CP932=8b 81
+U+6C99 沙 index=369 addr=0x7B43F7 CP932=8d b9
+U+6CE3 泣 index=370 addr=0x7C6DD8 CP932=8b 83
+U+6D59 浙 index=371 addr=0x7D9979 CP932=9f b4
+U+6DC0 淀 index=372 addr=0x7EC7CE CP932=97 84
+U+6E07 渇 index=373 addr=0x7FF6BE CP932=8a 89
+U+6E4D 湍 index=374 addr=0x812586 CP932=9f d8
+U+6EBA 溺 index=375 addr=0x8255CB CP932=93 4d
+U+6F20 漠 index=376 addr=0x8387C0 CP932=94 99
+U+6F88 澈 index=377 addr=0x84BC36 CP932=ed ec
+U+6FF6 濶 index=378 addr=0x85EF8C CP932=e8 89
+U+707C 灼 index=379 addr=0x87233F CP932=8e dc
+U+711A 焚 index=380 addr=0x884CD9 CP932=95 b0
+U+71A8 熨 index=381 addr=0x897B06 CP932=e0 91
+U+721B 爛 index=382 addr=0x8AAEC9 CP932=e0 a3
+U+7274 牴 index=383 addr=0x8BD8B3 CP932=e0 b0
+U+72E2 狢 index=384 addr=0x8D08C8 CP932=e0 c0
+U+7357 獗 index=385 addr=0x8E3C67 CP932=e0 d3
+U+73E3 珣 index=386 addr=0x8F6B04 CP932=ee 47
+U+745C 瑜 index=387 addr=0x90999F CP932=e0 ef
+U+74E9 瓩 index=388 addr=0x91C5B6 CP932=e1 43
+U+7532 甲 index=389 addr=0x92EA4F CP932=8d 62
+U+756F 畯 index=390 addr=0x940CFA CP932=ee 53
+U+75C2 痂 index=391 addr=0x9537C5 CP932=e1 6f
+U+7624 瘤 index=392 addr=0x96675D CP932=e1 8e
+U+7683 皃 index=393 addr=0x978CE4 CP932=e1 a4
+U+76D7 盗 index=394 addr=0x98B4C4 CP932=93 90
+U+7737 眷 index=395 addr=0x99D46D CP932=e1 c5
+U+77BD 瞽 index=396 addr=0x9AFA85 CP932=e1 da
+U+7845 硅 index=397 addr=0x9C2648 CP932=e1 e9
+U+78C5 磅 index=398 addr=0x9D5A1D CP932=e1 fa
+U+7949 祉 index=399 addr=0x9E8C54 CP932=8e 83
+U+79AE 禮 index=400 addr=0x9FBC52 CP932=e2 58
+U+7A17 稗 index=401 addr=0xA0EDBD CP932=95 42
+U+7A74 穴 index=402 addr=0xA2283A CP932=8c 8a
+U+7ACD 竍 index=403 addr=0xA353A1 CP932=e2 87
+U+7B0A 笊 index=404 addr=0xA47FCE CP932=e2 95
+U+7B67 筧 index=405 addr=0xA5AD8D CP932=e2 a8
+U+7BC4 範 index=406 addr=0xA6DC02 CP932=94 cd
+U+7C38 簸 index=407 addr=0xA80CF7 CP932=94 f4
+U+7C9B 粛 index=408 addr=0xA93DD2 CP932=8f 6c
+U+7CF2 糲 index=409 addr=0xAA732E CP932=e2 f8
+U+7D32 紲 index=410 addr=0xABA43C CP932=e3 47
+U+7D79 絹 index=411 addr=0xACD3E0 CP932=8c a6
+U+7DCB 緋 index=412 addr=0xAE0A56 CP932=94 ea
+U+7E22 縢 index=413 addr=0xAF4285 CP932=e3 77
+U+7E6D 繭 index=414 addr=0xB079C3 CP932=96 9a
+U+7F54 罔 index=415 addr=0xB1ADDF CP932=e3 a6
+U+7FA4 群 index=416 addr=0xB2D470 CP932=8c 51
+U+8005 者 index=417 addr=0xB3FF92 CP932=8e d2
+U+8073 聳 index=418 addr=0xB53020 CP932=e3 de
+U+80BA 肺 index=419 addr=0xB65D4C CP932=94 78
+U+812F 脯 index=420 addr=0xB78D38 CP932=e3 fb
+U+8195 膕 index=421 addr=0xB8C5A8 CP932=e4 51
+U+81E7 臧 index=422 addr=0xB9FCB3 CP932=e4 68
+U+822C 般 index=423 addr=0xBB2AD7 CP932=94 ca
+U+8299 芙 index=424 addr=0xBC62D0 CP932=95 87
+U+82F1 英 index=425 addr=0xBD8A8B CP932=89 70
+U+834A 荊 index=426 addr=0xBEB62A CP932=8c 74
+U+83C7 菇 index=427 addr=0xBFE391 CP932=ee 79
+U+842A 萪 index=428 addr=0xC110B0 CP932=e4 d2
+U+8494 蒔 index=429 addr=0xC23F1C CP932=8e aa
+U+8506 蔆 index=430 addr=0xC36D16 CP932=e4 cf
+U+856A 蕪 index=431 addr=0xC49C60 CP932=95 93
+U+85CF 藏 index=432 addr=0xC5CB10 CP932=e5 55
+U+8655 處 index=433 addr=0xC6F901 CP932=99 7c
+U+86DB 蛛 index=434 addr=0xC822FF CP932=e5 81
+U+8749 蝉 index=435 addr=0xC9522D CP932=90 e4
+U+87C7 蟇 index=436 addr=0xCA831E CP932=e5 af
+U+884C 行 index=437 addr=0xCBB42B CP932=8d 73
+U+88A4 袤 index=438 addr=0xCCE92B CP932=e5 db
+U+88FE 裾 index=439 addr=0xCE1FAE CP932=90 9e
+U+8972 襲 index=440 addr=0xCF56C5 CP932=8f 50
+U+89DA 觚 index=441 addr=0xD085E7 CP932=e6 57
+U+8A37 訷 index=442 addr=0xD1B67C CP932=ee 88
+U+8A87 誇 index=443 addr=0xD2E551 CP932=8c d6
+U+8ACF 諏 index=444 addr=0xD4157A CP932=90 7a
+U+8B14 謔 index=445 addr=0xD54757 CP932=e6 82
+U+8B70 議 index=446 addr=0xD67B11 CP932=8b 63
+U+8C6A 豪 index=447 addr=0xD7AB6C CP932=8d 8b
+U+8CB3 貳 index=448 addr=0xD8D6E9 CP932=e6 c6
+U+8CF0 賰 index=449 addr=0xDA0A98 CP932=ee 91
+U+8D8A 越 index=450 addr=0xDB3AB1 CP932=89 7a
+U+8E1E 踞 index=451 addr=0xDC6832 CP932=e6 f5
+U+8E93 躓 index=452 addr=0xDD988B CP932=e7 54
+U+8F09 載 index=453 addr=0xDECC30 CP932=8d da
+U+8F5F 轟 index=454 addr=0xE00192 CP932=8d 8c
+U+8FE6 迦 index=455 addr=0xE13095 CP932=89 de
+U+901E 逞 index=456 addr=0xE25A14 CP932=e7 97
+U+9056 遖 index=457 addr=0xE38664 CP932=e7 a6
+U+908F 邏 index=458 addr=0xE4B371 CP932=e7 b4
+U+914A 酊 index=459 addr=0xE5DB77 CP932=e7 c2
+U+91AB 醫 index=460 addr=0xE70C62 CP932=e7 ce
+U+91E6 釦 index=461 addr=0xE838E9 CP932=96 74
+U+9250 鉐 index=462 addr=0xE96629 CP932=e7 ef
+U+92D0 鋐 index=463 addr=0xEA97EE CP932=ee b6
+U+9323 錣 index=464 addr=0xEBCAFA CP932=e8 43
+U+939A 鎚 index=465 addr=0xED009A CP932=92 c8
+U+942B 鐫 index=466 addr=0xEE33DA CP932=e8 62
+U+9589 閉 index=467 addr=0xEF640D CP932=95 c2
+U+95D8 闘 index=468 addr=0xF07E92 CP932=93 ac
+U+966A 陪 index=469 addr=0xF1A066 CP932=94 86
+U+96AF 隯 index=470 addr=0xF2C731 CP932=ee d0
+U+96EB 雫 index=471 addr=0xF3F5DD CP932=8e b4
+U+973E 霾 index=472 addr=0xF52A32 CP932=e8 c8
+U+9785 鞅 index=473 addr=0xF657D6 CP932=e8 d7
+U+9803 頃 index=474 addr=0xF78A76 CP932=8d a0
+U+9858 願 index=475 addr=0xF8BF2A CP932=8a e8
+U+98FE 飾 index=476 addr=0xF9F3F3 CP932=8f fc
+U+9996 首 index=477 addr=0xFB31D1 CP932=8e f1
+U+99FB 駻 index=478 addr=0xFC620B CP932=e9 72
+U+9AAD 骭 index=479 addr=0xFD971E CP932=e9 8c
+U+9B23 鬣 index=480 addr=0xFECB59 CP932=e9 a5
+U+9B92 鮒 index=481 addr=0xFFF5FF CP932=95 a9
+U+9BF2 鯲 index=482 addr=0x1012BF1 CP932=e9 cc
+U+9C57 鱗 index=483 addr=0x10263E0 CP932=97 d8
+U+9D3E 鴾 index=484 addr=0x103923C CP932=e9 fa
+U+9DBA 鶺 index=485 addr=0x104C4A6 CP932=ea 54
+U+9E93 麓 index=486 addr=0x105F36B CP932=98 5b
+U+9EE0 黠 index=487 addr=0x1072188 CP932=ea 7b
+U+9F66 齦 index=488 addr=0x10853BD CP932=ea 95
+U+4E0A 上 index=561 addr=0x1252B9 CP932=8f e3
+U+4E2A 个 index=562 addr=0x12D98B CP932=98 a2
+U+4E4F 乏 index=563 addr=0x135E1D CP932=96 52
+U+4E86 了 index=564 addr=0x13E7FB CP932=97 b9
+U+4E9F 亟 index=565 addr=0x1471EC CP932=98 b2
+U+4EC0 什 index=566 addr=0x14FEAA CP932=8f 59
+U+4ED9 仙 index=567 addr=0x159714 CP932=90 e5
+U+4F00 伀 index=568 addr=0x162F4B CP932=ed 4f
+U+4F36 伶 index=569 addr=0x16C910 CP932=97 e0
+U+4F56 佖 index=570 addr=0x1762E8 CP932=ed 52
+U+4F7F 使 index=571 addr=0x17FE74 CP932=8e 67
+U+4FA0 侠 index=572 addr=0x189941 CP932=8b a0
+U+4FD0 俐 index=573 addr=0x1933D8 CP932=98 dc
+U+4FF5 俵 index=574 addr=0x19D07B CP932=95 55
+U+5019 候 index=575 addr=0x1A6D31 CP932=8c f3
+U+5036 倶 index=576 addr=0x1B0A67 CP932=8b e4
+U+506C 偬 index=577 addr=0x1BA61C CP932=98 f6
+U+50AC 催 index=578 addr=0x1C42A9 CP932=8d c3
+U+50D6 僖 index=579 addr=0x1CDFC7 CP932=99 44
+U+5104 億 index=580 addr=0x1D7BF9 CP932=89 ad
+U+513F 儿 index=581 addr=0x1E1A26 CP932=99 58
+U+5152 兒 index=582 addr=0x1EABD0 CP932=99 5a
+U+5176 其 index=583 addr=0x1F3FEA CP932=91 b4
+U+5193 冓 index=584 addr=0x1FCDE9 CP932=99 69
+U+51B0 冰 index=585 addr=0x2057B1 CP932=99 75
+U+51CD 凍 index=586 addr=0x20EFDE CP932=93 80
+U+51F6 凶 index=587 addr=0x2185DE CP932=8b a5
+U+5214 刔 index=588 addr=0x221033 CP932=99 85
+U+523A 刺 index=589 addr=0x22A49F CP932=8e 68
+U+5265 剥 index=590 addr=0x233929 CP932=94 8d
+U+528D 劍 index=591 addr=0x23D0A4 CP932=99 98
+U+52B1 励 index=592 addr=0x246664 CP932=97 e3
+U+52D8 勘 index=593 addr=0x24FE48 CP932=8a a8
+U+52F9 勹 index=594 addr=0x25975A CP932=99 af
+U+5317 北 index=595 addr=0x262252 CP932=96 6b
+U+533F 匿 index=596 addr=0x26AD72 CP932=93 bd
+U+5358 単 index=597 addr=0x274117 CP932=92 50
+U+5378 卸 index=598 addr=0x27CAF6 CP932=89 b5
+U+53AE 厮 index=599 addr=0x2862C5 CP932=99 cf
+U+53D6 取 index=600 addr=0x28F6E8 CP932=8e e6
+U+53ED 叭 index=601 addr=0x2985FD CP932=99 da
+U+540A 吊 index=602 addr=0x2A1543 CP932=92 dd
+U+542D 吭 index=603 addr=0x2AA485 CP932=99 e0
+U+5451 呑 index=604 addr=0x2B33D8 CP932=93 db
+U+548A 咊 index=605 addr=0x2BC4CB CP932=ed 75
+U+54B2 咲 index=606 addr=0x2C5747 CP932=8d e7
+U+54E5 哥 index=607 addr=0x2CE86E CP932=9a 46
+U+5516 唖 index=608 addr=0x2D7B56 CP932=88 a0
+U+5557 啗 index=609 addr=0x2E0DBA CP932=9a 57
+U+5599 喙 index=610 addr=0x2EA0A9 CP932=9a 5b
+U+55C5 嗅 index=611 addr=0x2F36F9 CP932=9a 6b
+U+5617 嘗 index=612 addr=0x2FCC40 CP932=8f a6
+U+5668 器 index=613 addr=0x305FBF CP932=8a ed
+U+56AE 嚮 index=614 addr=0x30F48D CP932=9a 8c
+U+56DE 回 index=615 addr=0x318607 CP932=89 f1
+U+570B 國 index=616 addr=0x320F8E CP932=9a a0
+U+573B 圻 index=617 addr=0x329E87 CP932=9a ab
+U+577F 坿 index=618 addr=0x333448 CP932=9a b2
+U+57C6 埆 index=619 addr=0x33CAFE CP932=9a bb
+U+57FA 基 index=620 addr=0x3463DD CP932=8a ee
+U+5831 報 index=621 addr=0x34FAC1 CP932=95 f1
+U+585E 塞 index=622 addr=0x359391 CP932=8d c7
+U+58A8 墨 index=623 addr=0x362CA9 CP932=96 6e
+U+58D3 壓 index=624 addr=0x36C70F CP932=9a d8
+U+58F2 売 index=625 addr=0x375D41 CP932=94 84
+U+5919 夙 index=626 addr=0x37F35D CP932=8f 67
+U+5938 夸 index=627 addr=0x388B20 CP932=9a f0
+U+595B 奛 index=628 addr=0x392631 CP932=ed 85
+U+5981 妁 index=629 addr=0x39C247 CP932=9b 41
+U+59B2 妲 index=630 addr=0x3A5A43 CP932=9b 46
+U+59E6 姦 index=631 addr=0x3AF1EE CP932=8a ad
+U+5A25 娥 index=632 addr=0x3B8A93 CP932=9b 4d
+U+5A92 媒 index=633 addr=0x3C23C7 CP932=94 7d
+U+5AE6 嫦 index=634 addr=0x3CBE70 CP932=9b 62
+U+5B43 孃 index=635 addr=0x3D57F6 CP932=9b 6f
+U+5B65 孥 index=636 addr=0x3DEB39 CP932=9b 76
+U+5B8B 宋 index=637 addr=0x3E7C8C CP932=91 76
+U+5BA5 宥 index=638 addr=0x3F1018 CP932=97 47
+U+5BC6 密 index=639 addr=0x3FA7E2 CP932=96 a7
+U+5BE5 寥 index=640 addr=0x404264 CP932=9b 8c
+U+5C01 封 index=641 addr=0x40D5A3 CP932=95 95
+U+5C1A 尚 index=642 addr=0x416CA2 CP932=8f ae
+U+5C40 局 index=643 addr=0x420026 CP932=8b c7
+
+UNUSED HALFWIDTH SLOTS
+--------------------------------------------------------------------------------------------------------------
+U+FF65 ･ index=122 addr=0x10B7982 CP932=a5
+U+FF85 ﾅ index=246 addr=0x10BD810 CP932=c5
+U+FF75 ｵ index=493 addr=0x10BA05C CP932=b5
+U+FF95 ﾕ index=494 addr=0x10C0A7B CP932=d5
+U+FF6D ｭ index=987 addr=0x10B8C57 CP932=ad
+U+FF7D ｽ index=988 addr=0x10BBD03 CP932=bd
+U+FF8D ﾍ index=989 addr=0x10BF17D CP932=cd
+U+FF9D ﾝ index=990 addr=0x10C21F6 CP932=dd
+U+FF61 ｡ index=1974 addr=0x10B71B3 CP932=a1
+U+FF69 ｩ index=1975 addr=0x10B8264 CP932=a9
+U+FF71 ｱ index=1976 addr=0x10B92DE CP932=b1
+U+FF79 ｹ index=1977 addr=0x10BAF2F CP932=b9
+U+FF81 ﾁ index=1978 addr=0x10BCA47 CP932=c1
+U+FF89 ﾉ index=1979 addr=0x10BE582 CP932=c9
+U+FF91 ﾑ index=1980 addr=0x10BFD1D CP932=d1
+U+FF99 ﾙ index=1981 addr=0x10C15C5 CP932=d9
+U+FF63 ｣ index=3950 addr=0x10B75CA CP932=a3
+U+FF67 ｧ index=3951 addr=0x10B7D59 CP932=a7
+U+FF6B ｫ index=3952 addr=0x10B870A CP932=ab
+U+FF6F ｯ index=3953 addr=0x10B8FCE CP932=af
+U+FF73 ｳ index=3954 addr=0x10B99CC CP932=b3
+U+FF77 ｷ index=3955 addr=0x10BA817 CP932=b7
+U+FF7B ｻ index=3956 addr=0x10BB542 CP932=bb
+U+FF7F ｿ index=3957 addr=0x10BC364 CP932=bf
+U+FF83 ﾃ index=3958 addr=0x10BD193 CP932=c3
+U+FF87 ﾇ index=3959 addr=0x10BDE21 CP932=c7
+U+FF8B ﾋ index=3960 addr=0x10BEB85 CP932=cb
+U+FF8F ﾏ index=3961 addr=0x10BF7D8 CP932=cf
+U+FF93 ﾓ index=3962 addr=0x10C037B CP932=d3
+U+FF97 ﾗ index=3963 addr=0x10C0F74 CP932=d7
+U+FF9B ﾛ index=3964 addr=0x10C1C32 CP932=db
+U+FF9F ﾟ index=3965 addr=0x10C2569 CP932=df
+U+FF62 ｢ index=7901 addr=0x10B72D2 CP932=a2
+U+FF64 ､ index=7902 addr=0x10B78C2 CP932=a4
+U+FF66 ｦ index=7903 addr=0x10B7A05 CP932=a6
+U+FF68 ｨ index=7904 addr=0x10B8000 CP932=a8
+U+FF6A ｪ index=7905 addr=0x10B851E CP932=aa
+U+FF6C ｬ index=7906 addr=0x10B89A8 CP932=ac
+U+FF6E ｮ index=7907 addr=0x10B8E15 CP932=ae
+U+FF70 ｰ index=7908 addr=0x10B9211 CP932=b0
+U+FF72 ｲ index=7909 addr=0x10B9686 CP932=b2
+U+FF74 ｴ index=7910 addr=0x10B9DB6 CP932=b4
+U+FF76 ｶ index=7911 addr=0x10BA431 CP932=b6
+U+FF78 ｸ index=7912 addr=0x10BABAF CP932=b8
+U+FF7A ｺ index=7913 addr=0x10BB2F8 CP932=ba
+U+FF7C ｼ index=7914 addr=0x10BB9AF CP932=bc
+U+FF7E ｾ index=7915 addr=0x10BC017 CP932=be
+U+FF80 ﾀ index=7916 addr=0x10BC68B CP932=c0
+U+FF82 ﾂ index=7917 addr=0x10BCE2D CP932=c2
+U+FF84 ﾄ index=7918 addr=0x10BD53B CP932=c4
+U+FF86 ﾆ index=7919 addr=0x10BDBE5 CP932=c6
+U+FF88 ﾈ index=7920 addr=0x10BE16D CP932=c8
+U+FF8A ﾊ index=7921 addr=0x10BE89A CP932=ca
+U+FF8C ﾌ index=7922 addr=0x10BEE6A CP932=cc
+U+FF8E ﾎ index=7923 addr=0x10BF436 CP932=ce
+U+FF90 ﾐ index=7924 addr=0x10BFAA0 CP932=d0
+U+FF92 ﾒ index=7925 addr=0x10C0039 CP932=d2
+U+FF94 ﾔ index=7926 addr=0x10C069B CP932=d4
+U+FF96 ﾖ index=7927 addr=0x10C0CEC CP932=d6
+U+FF98 ﾘ index=7928 addr=0x10C12D7 CP932=d8
+U+FF9A ﾚ index=7929 addr=0x10C1966 CP932=da
+U+FF9C ﾜ index=7930 addr=0x10C1EAA CP932=dc
+U+FF9E ﾞ index=7931 addr=0x10C24DD CP932=de
+
+FIRST 500 UNUSED CP932-COMPATIBLE SLOTS
+--------------------------------------------------------------------------------------------------------------
+U+7246 牆 index=0 addr=0x8B4045 CP932=e0 ad
+U+5BB8 宸 index=1 addr=0x3F5BCC CP932=9b 82
+U+8B99 讙 index=2 addr=0xD71564 CP932=e6 aa
+U+5009 倉 index=3 addr=0x1A1F5D CP932=91 71
+U+6649 晉 index=4 addr=0x650C90 CP932=9d e7
+U+7E92 纒 index=5 addr=0xB116AE CP932=e3 95
+U+9A43 驃 index=6 addr=0xFCFD09 CP932=e9 7e
+U+2473 ⑳ index=7 addr=0xB7648 CP932=87 53
+U+54C2 哂 index=8 addr=0x2C9F25 CP932=9a 41
+U+60DE 惞 index=9 addr=0x520F3C CP932=ed a3
+U+6B9E 殞 index=10 addr=0x7856C7 CP932=9f 6d
+U+790E 礎 index=11 addr=0x9DF46C CP932=91 62
+U+8541 蕁 index=12 addr=0xC4041E CP932=e5 40
+U+9283 銃 index=13 addr=0xE9FE17 CP932=8f 65
+U+FFE5 ￥ index=14 addr=0x10C32AD CP932=81 8f
+U+3239 ㈹ index=16 addr=0x11269B CP932=87 8c
+U+5274 剴 index=17 addr=0x2384D3 CP932=99 93
+U+587E 塾 index=18 addr=0x35E03D CP932=8f 6d
+U+5E84 庄 index=19 addr=0x489733 CP932=8f af
+U+6367 捧 index=20 addr=0x5B8F93 CP932=95 f9
+U+68B5 梵 index=21 addr=0x6E96F8 CP932=9e 90
+U+6E82 溂 index=22 addr=0x81BC64 CP932=9f e1
+U+7591 疑 index=23 addr=0x94A0C0 CP932=8b 5e
+U+7BF7 篷 index=24 addr=0xA774C2 CP932=e2 c9
+U+820A 舊 index=25 addr=0xBA8F05 CP932=e4 70
+U+88D5 裕 index=26 addr=0xCD848F CP932=97 54
+U+8FB1 辱 index=27 addr=0xE09CCD CP932=90 4a
+U+96C7 雇 index=28 addr=0xF35D7C CP932=8c d9
+U+9EBF 麿 index=29 addr=0x1068B65 CP932=96 9b
+U+044D э index=32 addr=0x8B430 CP932=84 8f
+U+3074 ぴ index=33 addr=0xE5E1A CP932=82 d2
+U+4ECD 仍 index=34 addr=0x154B33 CP932=98 b9
+U+5169 兩 index=35 addr=0x1EF703 CP932=99 5f
+U+539A 厚 index=36 addr=0x2815E9 CP932=8c fa
+U+56C8 囈 index=37 addr=0x31401C CP932=9a 94
+U+59D0 姐 index=38 addr=0x3AA64A CP932=88 b7
+U+5CF6 島 index=39 addr=0x4401E3 CP932=93 87
+U+5F97 得 index=40 addr=0x4D48C6 CP932=93 be
+U+6213 戓 index=41 addr=0x56D23E CP932=ed ab
+U+6518 攘 index=42 addr=0x6063AF CP932=9d b5
+U+676F 杯 index=43 addr=0x69BDEC CP932=94 74
+U+6A05 樅 index=44 addr=0x737AB2 CP932=9e e0
+U+6D1F 洟 index=45 addr=0x7D027C CP932=9f a4
+U+701F 瀟 index=46 addr=0x8689ED CP932=e0 6e
+U+7426 琦 index=47 addr=0x9002EB CP932=ee 4b
+U+76FE 盾 index=48 addr=0x994482 CP932=8f 82
+U+7A9F 窟 index=49 addr=0xA2BCF0 CP932=8c 41
+U+7D50 結 index=50 addr=0xAC3E48 CP932=8c 8b
+U+8096 肖 index=51 addr=0xB5C79C CP932=8f d1
+U+838E 莎 index=52 addr=0xBF4C00 CP932=e4 b3
+U+8706 蜆 index=53 addr=0xC8BA60 CP932=e5 84
+U+8A63 詣 index=54 addr=0xD24CF3 CP932=8c 77
+U+8DE1 跡 index=55 addr=0xDBCFEA CP932=90 d5
+U+90E2 郢 index=56 addr=0xE54662 CP932=e7 b9
+U+9460 鑠 index=57 addr=0xEECEB7 CP932=e8 6a
+U+982D 頭 index=58 addr=0xF82436 CP932=93 aa
+U+9C21 鰡 index=59 addr=0x101C79D CP932=e9 dd
+U+FF23 Ｃ index=60 addr=0x10A752D CP932=82 62
+U+005F _ index=63 addr=0x1C812 CP932=5f
+U+2178 ⅸ index=66 addr=0x9D97A CP932=ee f7
+U+300B 》 index=67 addr=0xCF119 CP932=81 74
+U+30BD ソ index=68 addr=0xFD89C CP932=83 5c
+U+4E3C 丼 index=69 addr=0x131B00 CP932=98 a5
+U+4F69 佩 index=70 addr=0x17B027 CP932=98 ce
+U+50C2 僂 index=71 addr=0x1C909B CP932=99 43
+U+51E7 凧 index=72 addr=0x213BDE CP932=91 fa
+U+5306 匆 index=73 addr=0x25DFFA CP932=99 b0
+U+541B 君 index=74 addr=0x2A5A2E CP932=8c 4e
+U+55A9 喩 index=75 addr=0x2EEAE5 CP932=9a 67
+U+57A3 垣 index=76 addr=0x337F33 CP932=8a 5f
+U+592A 太 index=77 addr=0x383ED8 CP932=91 be
+U+5B22 嬢 index=78 addr=0x3D0BBE CP932=8f ec
+U+5C38 尸 index=79 addr=0x41B7E8 CP932=9b 99
+U+5DE7 巧 index=80 addr=0x464F1B CP932=8d 49
+U+5F15 引 index=81 addr=0x4AF4EA CP932=88 f8
+U+604A 恊 index=82 addr=0x4FAD3A CP932=9c 90
+U+616B 慫 index=83 addr=0x547330 CP932=9c cf
+U+62B5 抵 index=84 addr=0x592EC9 CP932=92 ef
+U+6426 搦 index=85 addr=0x5DF827 CP932=9d 8e
+U+65B7 斷 index=86 addr=0x62CD19 CP932=9d d0
+U+66F5 曵 index=87 addr=0x675ED8 CP932=9e 49
+U+6802 栂 index=88 addr=0x6C29E2 CP932=92 cc
+U+695D 楝 index=89 addr=0x710799 CP932=9e c0
+U+6ADA 櫚 index=90 addr=0x75F13C CP932=9f 4c
+U+6C72 汲 index=91 addr=0x7AACE8 CP932=8b 82
+U+6DE8 淨 index=92 addr=0x7F5F6F CP932=9f c4
+U+6F5F 潟 index=93 addr=0x8422AF CP932=8a 83
+U+7164 煤 index=94 addr=0x88E51D CP932=94 81
+U+7324 猤 index=95 addr=0x8DA233 CP932=ee 41
+U+7513 甓 index=96 addr=0x925C18 CP932=e1 51
+U+7667 癧 index=97 addr=0x96FE27 CP932=e1 9c
+U+77F3 石 index=98 addr=0x9B901A CP932=90 ce
+U+79DF 租 index=99 addr=0xA0511B CP932=91 64
+U+7B39 笹 index=100 addr=0xA515CB CP932=8d f9
+U+7CBE 精 index=101 addr=0xA9D6BC CP932=90 b8
+U+7DEC 緬 index=102 addr=0xAEA59D CP932=96 c9
+U+7FD4 翔 index=103 addr=0xB368E9 CP932=e3 c4
+U+816B 腫 index=104 addr=0xB828C5 CP932=8e ee
+U+82D1 苑 index=105 addr=0xBCF617 CP932=89 91
+U+8466 葦 index=106 addr=0xC1A91B CP932=88 af
+U+8607 蘇 index=107 addr=0xC662D7 CP932=91 68
+U+880F 蠏 index=108 addr=0xCB1BF7 CP932=e5 b5
+U+8998 覘 index=109 addr=0xCFED4E CP932=e6 4c
+U+8AEE 諮 index=110 addr=0xD4AF25 CP932=8e 90
+U+8CCA 賊 index=111 addr=0xD97071 CP932=91 af
+U+8ECC 軌 index=112 addr=0xDE31C4 CP932=8b 4f
+U+9041 遁 index=113 addr=0xE2F04C CP932=93 d9
+U+91CF 量 index=114 addr=0xE7A302 CP932=97 ca
+U+9354 鍔 index=115 addr=0xEC64CC CP932=92 d5
+U+9644 附 index=116 addr=0xF10DF6 CP932=95 8d
+U+9760 靠 index=117 addr=0xF5BD3A CP932=e8 cf
+U+9927 餧 index=118 addr=0xFA9347 CP932=ee dc
+U+9B45 魅 index=119 addr=0xFF5D32 CP932=96 a3
+U+9D6C 鵬 index=120 addr=0x1042A82 CP932=96 51
+U+FA10 塚 index=121 addr=0x108E86C CP932=ed 80
+U+FF65 ･ index=122 addr=0x10B7982 CP932=a5
+U+03B4 δ index=131 addr=0x64839 CP932=83 c2
+U+042D Э index=132 addr=0x7F735 CP932=84 5e
+U+2025 ‥ index=133 addr=0x91E94 CP932=81 64
+U+2260 ≠ index=134 addr=0xA786C CP932=81 82
+U+254B ╋ index=135 addr=0xC1EF1 CP932=84 b4
+U+3054 ご index=136 addr=0xD8B6C CP932=82 b2
+U+309B ゛ index=137 addr=0xF2741 CP932=81 4a
+U+30DD ポ index=138 addr=0x10978E CP932=83 7c
+U+33C4 ㏄ index=139 addr=0x121AB1 CP932=87 74
+U+4E92 互 index=140 addr=0x142C06 CP932=8c dd
+U+4F10 伐 index=141 addr=0x167C37 CP932=94 b0
+U+4FBF 便 index=142 addr=0x18E74D CP932=95 d6
+U+5049 偉 index=143 addr=0x1B5899 CP932=88 cc
+U+511F 償 index=144 addr=0x1DCB8C CP932=8f 9e
+U+51A4 冤 index=145 addr=0x201108 CP932=99 6c
+U+522A 刪 index=146 addr=0x225A20 CP932=99 88
+U+52C3 勃 index=147 addr=0x24B20F CP932=96 75
+U+5349 卉 index=148 addr=0x26F632 CP932=99 c1
+U+53E3 口 index=149 addr=0x294317 CP932=8c fb
+U+5476 呶 index=150 addr=0x2B7C93 CP932=99 f1
+U+5540 啀 index=151 addr=0x2DC435 CP932=9a 50
+U+5636 嘶 index=152 addr=0x301635 CP932=9a 7c
+U+571F 土 index=153 addr=0x32560E CP932=93 79
+U+5815 堕 index=154 addr=0x34AF4E CP932=91 c2
+U+58E4 壤 index=155 addr=0x3713EB CP932=9a df
+U+5969 奩 index=156 addr=0x397522 CP932=9a fc
+U+5A46 婆 index=157 addr=0x3BD6C6 CP932=94 6b
+U+5B78 學 index=158 addr=0x3E37D2 CP932=9b 7b
+U+5BF0 寰 index=159 addr=0x408A32 CP932=9b 8e
+U+5C79 屹 index=160 addr=0x42D98C CP932=9b a6
+U+5D73 嵳 index=161 addr=0x452985 CP932=9b cb
+U+5E38 常 index=162 addr=0x476DE4 CP932=8f ed
+U+5EE0 廠 index=163 addr=0x49C881 CP932=8f b1
+U+5F5D 彝 index=164 addr=0x4C16F1 CP932=9c 52
+U+5FF1 忱 index=165 addr=0x4E7B1B CP932=9c 79
+U+608C 悌 index=166 addr=0x50DBB4 CP932=92 ee
+U+6121 愡 index=167 addr=0x534018 CP932=9c b9
+U+61C3 懃 index=168 addr=0x55A44C CP932=9c e7
+U+625E 扞 index=169 addr=0x57FE9E CP932=9d 49
+U+62F1 拱 index=170 addr=0x5A5E28 CP932=9d 69
+U+63AC 掬 index=171 addr=0x5CC409 CP932=8b 64
+U+64B0 撰 index=172 addr=0x5F2D61 CP932=90 ef
+U+6563 散 index=173 addr=0x619B66 CP932=8e 55
+U+6606 昆 index=174 addr=0x63F20A CP932=8d a9
+U+6697 暗 index=175 addr=0x663549 CP932=88 c3
+U+672D 札 index=176 addr=0x688BFB CP932=8e 44
+U+67B9 枹 index=177 addr=0x6AF269 CP932=9e 73
+U+6859 桙 index=178 addr=0x6D60D1 CP932=9e 82
+U+6905 椅 index=179 addr=0x6FCF30 CP932=88 d6
+U+69AE 榮 index=180 addr=0x72414C CP932=9e c4
+U+6A59 橙 index=181 addr=0x74B545 CP932=9e f2
+U+6B4E 歎 index=182 addr=0x772969 CP932=92 56
+U+6C08 氈 index=183 addr=0x79858B CP932=9f 81
+U+6CBF 沿 index=184 addr=0x7BD8A6 CP932=89 88
+U+6D87 涇 index=185 addr=0x7E31DD CP932=ed df
+U+6E25 渥 index=186 addr=0x808ED9 CP932=88 ad
+U+6EEF 滯 index=187 addr=0x82EEB4 CP932=9f fa
+U+6FC6 濆 index=188 addr=0x855615 CP932=e0 58
+U+70BA 為 index=189 addr=0x87B86E CP932=88 d7
+U+71E0 燠 index=190 addr=0x8A14ED CP932=e0 9a
+U+72B2 犲 index=191 addr=0x8C71C7 CP932=e0 ba
+U+73A9 玩 index=192 addr=0x8ED2BF CP932=8a df
+U+748B 璋 index=193 addr=0x912CA9 CP932=e0 f6
+U+7554 畔 index=194 addr=0x937874 CP932=94 c8
+U+75F0 痰 index=195 addr=0x95CF70 CP932=e1 82
+U+76AE 皮 index=196 addr=0x98202C CP932=94 e7
+U+777E 睾 index=197 addr=0x9A66DE CP932=e1 ce
+U+788E 碎 index=198 addr=0x9CBF13 CP932=e1 ea
+U+797A 祺 index=199 addr=0x9F23EE CP932=e2 51
+U+7A40 穀 index=200 addr=0xA18A32 CP932=8d 92
+U+7AE6 竦 index=201 addr=0xA3E88E CP932=e2 90
+U+7B97 算 index=202 addr=0xA6454F CP932=8e 5a
+U+7C65 籥 index=203 addr=0xA8A3F6 CP932=e2 de
+U+7D14 純 index=204 addr=0xAB0B42 CP932=8f 83
+U+7DAE 綮 index=205 addr=0xAD6F4A CP932=e3 5a
+U+7E46 繆 index=206 addr=0xAFDDCE CP932=e3 78
+U+7F79 罹 index=207 addr=0xB24067 CP932=9c eb
+U+803D 耽 index=208 addr=0xB49708 CP932=92 5e
+U+80F1 胱 index=209 addr=0xB6F2F9 CP932=e3 f7
+U+81BF 膿 index=210 addr=0xB9626E CP932=94 5e
+U+8264 艤 index=211 addr=0xBBCA43 CP932=e4 7e
+U+8318 茘 index=212 addr=0xBE2014 CP932=e4 ab
+U+83F4 菴 index=213 addr=0xC079F4 CP932=e4 bd
+U+84C9 蓉 index=214 addr=0xC2D51F CP932=97 75
+U+859C 薜 index=215 addr=0xC533D7 CP932=e5 4f
+U+86A4 蚤 index=216 addr=0xC78E1B CP932=94 61
+U+8776 蝶 index=217 addr=0xC9EA60 CP932=92 b1
+U+8875 衵 index=218 addr=0xCC4EB8 CP932=e5 d0
+U+8938 褸 index=219 addr=0xCEBBB3 CP932=e5 f8
+U+8A12 訒 index=220 addr=0xD1204A CP932=ee 87
+U+8AA7 誧 index=221 addr=0xD37D89 CP932=ee 8a
+U+8B41 譁 index=222 addr=0xD5E1BF CP932=e6 96
+U+8C9D 貝 index=223 addr=0xD83FEE CP932=8a 4c
+U+8D13 贓 index=224 addr=0xDAA485 CP932=e6 d9
+U+8E5F 蹟 index=225 addr=0xDD0084 CP932=90 d6
+U+8F33 輳 index=226 addr=0xDF65D1 CP932=e7 73
+U+9005 逅 index=227 addr=0xE1C556 CP932=e7 90
+U+9075 遵 index=228 addr=0xE41D2C CP932=8f 85
+U+9173 酳 index=229 addr=0xE672E9 CP932=e7 c8
+U+921E 鈞 index=230 addr=0xE8CEE6 CP932=e7 e0
+U+92FA 鋺 index=231 addr=0xEB3179 CP932=e7 fa
+U+93DD 鏝 index=232 addr=0xED9A16 CP932=e8 57
+U+95A7 閧 index=233 addr=0xEFF006 CP932=e8 82
+U+968D 隍 index=234 addr=0xF233CB CP932=e8 a4
+U+9711 霑 index=235 addr=0xF48F45 CP932=e8 bf
+U+97C3 韃 index=236 addr=0xF6F342 CP932=e8 e5
+U+98C3 飃 index=237 addr=0xF9583F CP932=e9 48
+U+99C6 駆 index=238 addr=0xFBCAAD CP932=8b ec
+U+9AE3 髣 index=239 addr=0xFE308C CP932=e9 97
+U+9BC6 鯆 index=240 addr=0x100914C CP932=e9 c2
+U+9D06 鴆 index=241 addr=0x102FC67 CP932=e9 ef
+U+9DFD 鷽 index=242 addr=0x1055CBF CP932=ea 5e
+U+9F20 鼠 index=243 addr=0x107B994 CP932=91 6c
+U+FF03 ＃ index=244 addr=0x109F959 CP932=81 94
+U+FF43 ｃ index=245 addr=0x10B1909 CP932=82 83
+U+FF85 ﾅ index=246 addr=0x10BD810 CP932=c5
+U+00B0 ° index=258 addr=0x25835 CP932=81 8b
+U+039C Μ index=263 addr=0x5EC6E CP932=83 aa
+U+03C5 υ index=264 addr=0x67E3A CP932=83 d2
+U+041D Н index=265 addr=0x76431 CP932=84 4e
+U+043D н index=266 addr=0x85707 CP932=84 7e
+U+2162 Ⅲ index=268 addr=0x97123 CP932=87 56
+U+221D ∝ index=269 addr=0xA2B37 CP932=81 e5
+U+2463 ④ index=270 addr=0xAD808 CP932=87 43
+U+2523 ┣ index=271 addr=0xBB0D7 CP932=84 b0
+U+2642 ♂ index=272 addr=0xCA85C CP932=81 89
+U+3044 い index=273 addr=0xD2FF7 CP932=82 a2
+U+3064 つ index=274 addr=0xDF5F9 CP932=82 c2
+U+3084 や index=275 addr=0xEC59B CP932=82 e2
+U+30AD キ index=276 addr=0xF6D93 CP932=83 4c
+U+30CD ネ index=277 addr=0x103987 CP932=83 6c
+U+30ED ロ index=278 addr=0x10E398 CP932=83 8d
+U+333B ㌻ index=279 addr=0x11AAC1 CP932=87 6e
+U+4E16 世 index=280 addr=0x12995D CP932=90 a2
+U+4E5F 也 index=281 addr=0x13A43C CP932=96 e7
+U+4EAB 享 index=282 addr=0x14B41B CP932=8b 9d
+U+4EED 仭 index=283 addr=0x15E11D CP932=98 bf
+U+4F47 佇 index=284 addr=0x171543 CP932=98 c8
+U+4F91 侑 index=285 addr=0x184B95 CP932=98 d0
+U+4FDF 俟 index=286 addr=0x198228 CP932=98 d6
+U+5025 倥 index=287 addr=0x1ABBEF CP932=98 e3
+U+5080 傀 index=288 addr=0x1BF3E5 CP932=98 f8
+U+50EE 僮 index=289 addr=0x1D2E90 CP932=99 49
+U+5148 先 index=290 addr=0x1E6205 CP932=90 e6
+U+5189 冉 index=291 addr=0x1F86E6 CP932=99 66
+U+51BD 冽 index=292 addr=0x20A36A CP932=99 77
+U+5204 刄 index=293 addr=0x21C7A5 CP932=99 83
+U+524D 前 index=294 addr=0x22EF17 CP932=91 4f
+U+52A3 劣 index=295 addr=0x241B87 CP932=97 f2
+U+52E3 勣 index=296 addr=0x254B2B CP932=99 a8
+U+532A 匪 index=297 addr=0x26683F CP932=94 d9
+U+536F 卯 index=298 addr=0x2781B7 CP932=89 4b
+U+53C8 又 index=299 addr=0x28ADCA CP932=96 94
+U+53F7 号 index=300 addr=0x29CCE2 CP932=8d 86
+U+543E 吾 index=301 addr=0x2AEBCC CP932=8c e1
+U+54A2 咢 index=302 addr=0x2C0DA7 CP932=99 f6
+U+54FD 哽 index=303 addr=0x2D3125 CP932=9a 4a
+U+5583 喃 index=304 addr=0x2E5740 CP932=9a 66
+U+55F7 嗷 index=305 addr=0x2F80AE CP932=9a 72
+U+5686 嚆 index=306 addr=0x30A985 CP932=9a 85
+U+56FA 固 index=307 addr=0x31C9F5 CP932=8c c5
+U+5751 坑 index=308 addr=0x32E96A CP932=8d 42
+U+57D6 埖 index=309 addr=0x3416E2 CP932=9a c0
+U+584B 塋 index=310 addr=0x354796 CP932=9a c8
+U+58BB 墻 index=311 addr=0x367A5C CP932=9a d4
+U+5909 変 index=312 addr=0x37A8BD CP932=95 cf
+U+5950 奐 index=313 addr=0x38D7CD CP932=9a f4
+U+5999 妙 index=314 addr=0x3A0DF2 CP932=96 ad
+U+5A03 娃 index=315 addr=0x3B3E88 CP932=88 a1
+U+5AC9 嫉 index=316 addr=0x3C7148 CP932=8e b9
+U+5B58 存 index=317 addr=0x3DA114 CP932=91 b6
+U+5B9A 定 index=318 addr=0x3EC659 CP932=92 e8
+U+5BD8 寘 index=319 addr=0x3FF43F CP932=ed 8d
+U+5C0A 尊 index=320 addr=0x412279 CP932=91 b8
+U+5C4E 屎 index=321 addr=0x424853 CP932=9b 9d
+U+5CBA 岺 index=322 addr=0x436C3E CP932=ed 91
+U+5D1F 崟 index=323 addr=0x4496DF CP932=9b be
+U+5DBC 嶼 index=324 addr=0x45BCDD CP932=9b d7
+U+5E0B 帋 index=325 addr=0x46D821 CP932=9b e1
+U+5E64 幤 index=326 addr=0x4803D1 CP932=9b f0
+U+5EB7 康 index=327 addr=0x492E3C CP932=8d 4e
+U+5EFC 廼 index=328 addr=0x4A617B CP932=94 55
+U+5F37 強 index=329 addr=0x4B8467 CP932=8b ad
+U+5F7F 彿 index=330 addr=0x4CAB71 CP932=9c 69
+U+5FBD 徽 index=331 addr=0x4DE679 CP932=8b 4a
+U+6020 怠 index=332 addr=0x4F14AD CP932=91 d3
+U+6069 恩 index=333 addr=0x504484 CP932=89 b6
+U+60B3 悳 index=334 addr=0x517574 CP932=9c 7b
+U+60FB 惻 index=335 addr=0x52A6B6 CP932=9c ba
+U+614B 態 index=336 addr=0x53D923 CP932=91 d4
+U+6191 憑 index=337 addr=0x550BE4 CP932=9c df
+U+61F8 懸 index=338 addr=0x563E7A CP932=8c 9c
+U+6234 戴 index=339 addr=0x576881 CP932=91 d5
+U+628A 把 index=340 addr=0x5895EB CP932=94 63
+U+62D1 拑 index=341 addr=0x59C65B CP932=9d 59
+U+6327 挧 index=342 addr=0x5AF75B CP932=9d 6a
+U+638F 掏 index=343 addr=0x5C2A7F CP932=9d 7a
+U+63DB 換 index=344 addr=0x5D5E08 CP932=8a b7
+U+6478 摸 index=345 addr=0x5E92FD CP932=96 cc
+U+64E1 擡 index=346 addr=0x5FC875 CP932=9d aa
+U+653E 放 index=347 addr=0x60FDDC CP932=95 fa
+U+6590 斐 index=348 addr=0x62365A CP932=94 e3
+U+65E0 无 index=349 addr=0x6367F9 CP932=9d d9
+U+6627 昧 index=350 addr=0x647CB9 CP932=96 86
+U+666E 普 index=351 addr=0x65A0FB CP932=95 81
+U+66C1 曁 index=352 addr=0x66CCA0 CP932=9d f8
+U+670E 朎 index=353 addr=0x67F222 CP932=ed c3
+U+6751 村 index=354 addr=0x6923CD CP932=91 ba
+U+6795 枕 index=355 addr=0x6A57CC CP932=96 8d
+U+67DE 柞 index=356 addr=0x6B8EF7 CP932=9e 6f
+U+683C 格 index=357 addr=0x6CC59C CP932=8a 69
+U+6893 梓 index=358 addr=0x6DFB9A CP932=88 b2
+U+68D7 棗 index=359 addr=0x6F3355 CP932=9e a5
+U+6926 椦 index=360 addr=0x706B74 CP932=9e 9b
+U+6979 楹 index=361 addr=0x71A367 CP932=9e b1
+U+69D3 槓 index=362 addr=0x72DDB6 CP932=9e c8
+U+6A2A 横 index=363 addr=0x74180F CP932=89 a1
+U+6A97 檗 index=364 addr=0x7552E2 CP932=9f 40
+U+6B1F 欟 index=365 addr=0x768EA0 CP932=9f 55
+U+6B74 歴 index=366 addr=0x77BFC3 CP932=97 f0
+U+6BC5 毅 index=367 addr=0x78F178 CP932=8b 42
+U+6C42 求 index=368 addr=0x7A1B31 CP932=8b 81
+U+6C99 沙 index=369 addr=0x7B43F7 CP932=8d b9
+U+6CE3 泣 index=370 addr=0x7C6DD8 CP932=8b 83
+U+6D59 浙 index=371 addr=0x7D9979 CP932=9f b4
+U+6DC0 淀 index=372 addr=0x7EC7CE CP932=97 84
+U+6E07 渇 index=373 addr=0x7FF6BE CP932=8a 89
+U+6E4D 湍 index=374 addr=0x812586 CP932=9f d8
+U+6EBA 溺 index=375 addr=0x8255CB CP932=93 4d
+U+6F20 漠 index=376 addr=0x8387C0 CP932=94 99
+U+6F88 澈 index=377 addr=0x84BC36 CP932=ed ec
+U+6FF6 濶 index=378 addr=0x85EF8C CP932=e8 89
+U+707C 灼 index=379 addr=0x87233F CP932=8e dc
+U+711A 焚 index=380 addr=0x884CD9 CP932=95 b0
+U+71A8 熨 index=381 addr=0x897B06 CP932=e0 91
+U+721B 爛 index=382 addr=0x8AAEC9 CP932=e0 a3
+U+7274 牴 index=383 addr=0x8BD8B3 CP932=e0 b0
+U+72E2 狢 index=384 addr=0x8D08C8 CP932=e0 c0
+U+7357 獗 index=385 addr=0x8E3C67 CP932=e0 d3
+U+73E3 珣 index=386 addr=0x8F6B04 CP932=ee 47
+U+745C 瑜 index=387 addr=0x90999F CP932=e0 ef
+U+74E9 瓩 index=388 addr=0x91C5B6 CP932=e1 43
+U+7532 甲 index=389 addr=0x92EA4F CP932=8d 62
+U+756F 畯 index=390 addr=0x940CFA CP932=ee 53
+U+75C2 痂 index=391 addr=0x9537C5 CP932=e1 6f
+U+7624 瘤 index=392 addr=0x96675D CP932=e1 8e
+U+7683 皃 index=393 addr=0x978CE4 CP932=e1 a4
+U+76D7 盗 index=394 addr=0x98B4C4 CP932=93 90
+U+7737 眷 index=395 addr=0x99D46D CP932=e1 c5
+U+77BD 瞽 index=396 addr=0x9AFA85 CP932=e1 da
+U+7845 硅 index=397 addr=0x9C2648 CP932=e1 e9
+U+78C5 磅 index=398 addr=0x9D5A1D CP932=e1 fa
+U+7949 祉 index=399 addr=0x9E8C54 CP932=8e 83
+U+79AE 禮 index=400 addr=0x9FBC52 CP932=e2 58
+U+7A17 稗 index=401 addr=0xA0EDBD CP932=95 42
+U+7A74 穴 index=402 addr=0xA2283A CP932=8c 8a
+U+7ACD 竍 index=403 addr=0xA353A1 CP932=e2 87
+U+7B0A 笊 index=404 addr=0xA47FCE CP932=e2 95
+U+7B67 筧 index=405 addr=0xA5AD8D CP932=e2 a8
+U+7BC4 範 index=406 addr=0xA6DC02 CP932=94 cd
+U+7C38 簸 index=407 addr=0xA80CF7 CP932=94 f4
+U+7C9B 粛 index=408 addr=0xA93DD2 CP932=8f 6c
+U+7CF2 糲 index=409 addr=0xAA732E CP932=e2 f8
+U+7D32 紲 index=410 addr=0xABA43C CP932=e3 47
+U+7D79 絹 index=411 addr=0xACD3E0 CP932=8c a6
+U+7DCB 緋 index=412 addr=0xAE0A56 CP932=94 ea
+U+7E22 縢 index=413 addr=0xAF4285 CP932=e3 77
+U+7E6D 繭 index=414 addr=0xB079C3 CP932=96 9a
+U+7F54 罔 index=415 addr=0xB1ADDF CP932=e3 a6
+U+7FA4 群 index=416 addr=0xB2D470 CP932=8c 51
+U+8005 者 index=417 addr=0xB3FF92 CP932=8e d2
+U+8073 聳 index=418 addr=0xB53020 CP932=e3 de
+U+80BA 肺 index=419 addr=0xB65D4C CP932=94 78
+U+812F 脯 index=420 addr=0xB78D38 CP932=e3 fb
+U+8195 膕 index=421 addr=0xB8C5A8 CP932=e4 51
+U+81E7 臧 index=422 addr=0xB9FCB3 CP932=e4 68
+U+822C 般 index=423 addr=0xBB2AD7 CP932=94 ca
+U+8299 芙 index=424 addr=0xBC62D0 CP932=95 87
+U+82F1 英 index=425 addr=0xBD8A8B CP932=89 70
+U+834A 荊 index=426 addr=0xBEB62A CP932=8c 74
+U+83C7 菇 index=427 addr=0xBFE391 CP932=ee 79
+U+842A 萪 index=428 addr=0xC110B0 CP932=e4 d2
+U+8494 蒔 index=429 addr=0xC23F1C CP932=8e aa
+U+8506 蔆 index=430 addr=0xC36D16 CP932=e4 cf
+U+856A 蕪 index=431 addr=0xC49C60 CP932=95 93
+U+85CF 藏 index=432 addr=0xC5CB10 CP932=e5 55
+U+8655 處 index=433 addr=0xC6F901 CP932=99 7c
+U+86DB 蛛 index=434 addr=0xC822FF CP932=e5 81
+U+8749 蝉 index=435 addr=0xC9522D CP932=90 e4
+U+87C7 蟇 index=436 addr=0xCA831E CP932=e5 af
+U+884C 行 index=437 addr=0xCBB42B CP932=8d 73
+U+88A4 袤 index=438 addr=0xCCE92B CP932=e5 db
+U+88FE 裾 index=439 addr=0xCE1FAE CP932=90 9e
+U+8972 襲 index=440 addr=0xCF56C5 CP932=8f 50
+U+89DA 觚 index=441 addr=0xD085E7 CP932=e6 57
+U+8A37 訷 index=442 addr=0xD1B67C CP932=ee 88
+U+8A87 誇 index=443 addr=0xD2E551 CP932=8c d6
+U+8ACF 諏 index=444 addr=0xD4157A CP932=90 7a
+U+8B14 謔 index=445 addr=0xD54757 CP932=e6 82
+U+8B70 議 index=446 addr=0xD67B11 CP932=8b 63
+U+8C6A 豪 index=447 addr=0xD7AB6C CP932=8d 8b
+U+8CB3 貳 index=448 addr=0xD8D6E9 CP932=e6 c6
+U+8CF0 賰 index=449 addr=0xDA0A98 CP932=ee 91
+U+8D8A 越 index=450 addr=0xDB3AB1 CP932=89 7a
+U+8E1E 踞 index=451 addr=0xDC6832 CP932=e6 f5
+U+8E93 躓 index=452 addr=0xDD988B CP932=e7 54
+U+8F09 載 index=453 addr=0xDECC30 CP932=8d da
+U+8F5F 轟 index=454 addr=0xE00192 CP932=8d 8c
+U+8FE6 迦 index=455 addr=0xE13095 CP932=89 de
+U+901E 逞 index=456 addr=0xE25A14 CP932=e7 97
+U+9056 遖 index=457 addr=0xE38664 CP932=e7 a6
+U+908F 邏 index=458 addr=0xE4B371 CP932=e7 b4
+U+914A 酊 index=459 addr=0xE5DB77 CP932=e7 c2
+U+91AB 醫 index=460 addr=0xE70C62 CP932=e7 ce
+U+91E6 釦 index=461 addr=0xE838E9 CP932=96 74
+U+9250 鉐 index=462 addr=0xE96629 CP932=e7 ef
+U+92D0 鋐 index=463 addr=0xEA97EE CP932=ee b6
+U+9323 錣 index=464 addr=0xEBCAFA CP932=e8 43
+U+939A 鎚 index=465 addr=0xED009A CP932=92 c8
+U+942B 鐫 index=466 addr=0xEE33DA CP932=e8 62
+U+9589 閉 index=467 addr=0xEF640D CP932=95 c2
+U+95D8 闘 index=468 addr=0xF07E92 CP932=93 ac
+U+966A 陪 index=469 addr=0xF1A066 CP932=94 86
+U+96AF 隯 index=470 addr=0xF2C731 CP932=ee d0
+U+96EB 雫 index=471 addr=0xF3F5DD CP932=8e b4
+U+973E 霾 index=472 addr=0xF52A32 CP932=e8 c8
+U+9785 鞅 index=473 addr=0xF657D6 CP932=e8 d7
+U+9803 頃 index=474 addr=0xF78A76 CP932=8d a0
+U+9858 願 index=475 addr=0xF8BF2A CP932=8a e8
+U+98FE 飾 index=476 addr=0xF9F3F3 CP932=8f fc
+U+9996 首 index=477 addr=0xFB31D1 CP932=8e f1
+U+99FB 駻 index=478 addr=0xFC620B CP932=e9 72
+U+9AAD 骭 index=479 addr=0xFD971E CP932=e9 8c
+U+9B23 鬣 index=480 addr=0xFECB59 CP932=e9 a5
+U+9B92 鮒 index=481 addr=0xFFF5FF CP932=95 a9
+U+9BF2 鯲 index=482 addr=0x1012BF1 CP932=e9 cc
+U+9C57 鱗 index=483 addr=0x10263E0 CP932=97 d8
+U+9D3E 鴾 index=484 addr=0x103923C CP932=e9 fa
+U+9DBA 鶺 index=485 addr=0x104C4A6 CP932=ea 54
+U+9E93 麓 index=486 addr=0x105F36B CP932=98 5b
+U+9EE0 黠 index=487 addr=0x1072188 CP932=ea 7b
+U+9F66 齦 index=488 addr=0x10853BD CP932=ea 95
+U+FA20 蘒 index=489 addr=0x10977DB CP932=ee 83
+U+FF13 ３ index=490 addr=0x10A3480 CP932=82 52
+U+FF33 Ｓ index=491 addr=0x10AD018 CP932=82 72
+U+FF53 ｓ index=492 addr=0x10B4FA1 CP932=82 93
+U+FF75 ｵ index=493 addr=0x10BA05C CP932=b5
+U+FF95 ﾕ index=494 addr=0x10C0A7B CP932=d5
+U+00A8 ¨ index=517 addr=0x23BDE CP932=81 4e
+U+0394 Δ index=527 addr=0x5C0A4 CP932=83 a2
+U+03A5 Υ index=528 addr=0x61C4C CP932=83 b2
+U+03BC μ index=529 addr=0x662D0 CP932=83 ca
+U+0415 Е index=531 addr=0x71C86 CP932=84 45
+U+0425 Х index=532 addr=0x7A66B CP932=84 56
+U+0435 е index=533 addr=0x82E4E CP932=84 75
+U+0445 х index=534 addr=0x885FC CP932=84 87
+U+2019 ’ index=536 addr=0x90C79 CP932=81 66
+U+2103 ℃ index=537 addr=0x94061 CP932=81 8e
+U+2170 ⅰ index=538 addr=0x9AC0E CP932=ee ef
+U+2200 ∀ index=539 addr=0x9FC49 CP932=81 cd
+U+222A ∪ index=540 addr=0xA4D1A CP932=81 be
+U+2286 ⊆ index=541 addr=0xAA0DC CP932=81 ba
+U+246B ⑫ index=542 addr=0xB2728 CP932=87 4b
+U+2513 ┓ index=543 addr=0xB8E15 CP932=84 ad
+U+2533 ┳ index=544 addr=0xBE0AB CP932=84 b1
+U+25C7 ◇ index=545 addr=0xC60A6 CP932=81 9e
+U+3002 。 index=546 addr=0xCCFD9 CP932=81 42
+U+3013 〓 index=547 addr=0xD10DB CP932=81 ac
+U+304C が index=548 addr=0xD5A96 CP932=82 aa
+U+305C ぜ index=549 addr=0xDC225 CP932=82 ba
+U+306C ぬ index=550 addr=0xE26BD CP932=82 ca
+U+307C ぼ index=551 addr=0xE90FD CP932=82 da
+U+308C れ index=552 addr=0xEF0DE CP932=82 ea
+U+30A5 ゥ index=553 addr=0xF422B CP932=83 44
+U+30B5 サ index=554 addr=0xFA1BF CP932=83 54
+U+30C5 ヅ index=555 addr=0x100A88 CP932=83 64
+U+30D5 フ index=556 addr=0x106748 CP932=83 74
+U+30E5 ュ index=557 addr=0x10C163 CP932=83 85
+U+30F5 ヵ index=558 addr=0x110E09 CP932=83 95
+U+3314 ㌔ index=559 addr=0x116BB7 CP932=87 60
+U+337D ㍽ index=560 addr=0x11DDAC CP932=87 8e
+U+4E0A 上 index=561 addr=0x1252B9 CP932=8f e3
+U+4E2A 个 index=562 addr=0x12D98B CP932=98 a2
+U+4E4F 乏 index=563 addr=0x135E1D CP932=96 52
+
+ARABIC CHECK
+--------------------------------------------------------------------------------------------------------------
+U+0621 ء NO_GLYPH
+U+0622 آ NO_GLYPH
+U+0623 أ NO_GLYPH
+U+0624 ؤ NO_GLYPH
+U+0625 إ NO_GLYPH
+U+0626 ئ NO_GLYPH
+U+0627 ا NO_GLYPH
+U+0628 ب NO_GLYPH
+U+0629 ة NO_GLYPH
+U+062A ت NO_GLYPH
+U+062B ث NO_GLYPH
+U+062C ج NO_GLYPH
+U+062D ح NO_GLYPH
+U+062E خ NO_GLYPH
+U+062F د NO_GLYPH
+U+0630 ذ NO_GLYPH
+U+0631 ر NO_GLYPH
+U+0632 ز NO_GLYPH
+U+0633 س NO_GLYPH
+U+0634 ش NO_GLYPH
+U+0635 ص NO_GLYPH
+U+0636 ض NO_GLYPH
+U+0637 ط NO_GLYPH
+U+0638 ظ NO_GLYPH
+U+0639 ع NO_GLYPH
+U+063A غ NO_GLYPH
+U+063B ػ NO_GLYPH
+U+063C ؼ NO_GLYPH
+U+063D ؽ NO_GLYPH
+U+063E ؾ NO_GLYPH
+U+063F ؿ NO_GLYPH
+U+0640 ـ NO_GLYPH
+U+0641 ف NO_GLYPH
+U+0642 ق NO_GLYPH
+U+0643 ك NO_GLYPH
+U+0644 ل NO_GLYPH
+U+0645 م NO_GLYPH
+U+0646 ن NO_GLYPH
+U+0647 ه NO_GLYPH
+U+0648 و NO_GLYPH
+U+0649 ى NO_GLYPH
+U+064A ي NO_GLYPH
