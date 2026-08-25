@@ -1,0 +1,244 @@
+YS MEMOIRE SCN DIALOGUE INDEX REPORT
+====================================================================================================
+
+SCN files: 219
+Dialogue entries: 1899
+Errors: 0
+Unique voice IDs: 1682
+Entries containing non-ASCII characters: 1052
+
+PER FILE
+----------------------------------------------------------------------------------------------------
+data/scn/s_0100.bin | markers=44 | entries=44 | size=62452
+data/scn/s_0102.bin | markers=7 | entries=7 | size=2872
+data/scn/s_0103.bin | markers=17 | entries=17 | size=3264
+data/scn/s_0110.bin | markers=121 | entries=121 | size=48040
+data/scn/s_0120.bin | markers=213 | entries=213 | size=49836
+data/scn/s_0121.bin | markers=11 | entries=11 | size=4672
+data/scn/s_0130.bin | markers=23 | entries=23 | size=20632
+data/scn/s_0140.bin | markers=42 | entries=42 | size=9984
+data/scn/s_0150.bin | markers=165 | entries=165 | size=62076
+data/scn/s_0160.bin | markers=12 | entries=12 | size=11932
+data/scn/s_0170.bin | markers=29 | entries=29 | size=18632
+data/scn/s_0180.bin | markers=52 | entries=52 | size=17632
+data/scn/s_0200.bin | markers=196 | entries=196 | size=143364
+data/scn/s_0201.bin | markers=23 | entries=23 | size=6268
+data/scn/s_1000.bin | markers=37 | entries=37 | size=37052
+data/scn/s_1001.bin | markers=12 | entries=12 | size=9524
+data/scn/s_1002.bin | markers=7 | entries=7 | size=6440
+data/scn/s_1004.bin | markers=55 | entries=55 | size=25276
+data/scn/s_1005.bin | markers=45 | entries=45 | size=28592
+data/scn/s_1010.bin | markers=38 | entries=38 | size=18276
+data/scn/s_1110.bin | markers=36 | entries=36 | size=9844
+data/scn/s_1111.bin | markers=24 | entries=24 | size=4304
+data/scn/s_1113.bin | markers=17 | entries=17 | size=4652
+data/scn/s_2009.bin | markers=17 | entries=17 | size=6684
+data/scn/s_2013.bin | markers=43 | entries=43 | size=10668
+data/scn/s_2199.bin | markers=6 | entries=6 | size=5648
+data/scn/s_3301.bin | markers=46 | entries=46 | size=8836
+data/scn/s_3304.bin | markers=12 | entries=12 | size=7148
+data/scn/s_3399.bin | markers=36 | entries=36 | size=19960
+data/scn/s_3507.bin | markers=4 | entries=4 | size=4920
+data/scn/s_4009.bin | markers=85 | entries=85 | size=16212
+data/scn/s_4099.bin | markers=8 | entries=8 | size=9356
+data/scn/s_4505.bin | markers=16 | entries=16 | size=10424
+data/scn/s_4598.bin | markers=12 | entries=12 | size=6792
+data/scn/s_5000.bin | markers=34 | entries=34 | size=15964
+data/scn/s_5007.bin | markers=39 | entries=39 | size=11108
+data/scn/s_5107.bin | markers=17 | entries=17 | size=5232
+data/scn/s_5304.bin | markers=36 | entries=36 | size=8268
+data/scn/s_5598.bin | markers=14 | entries=14 | size=2788
+data/scn/s_5599.bin | markers=20 | entries=20 | size=9128
+data/scn/s_5699.bin | markers=105 | entries=105 | size=26268
+data/scn/s_6000.bin | markers=5 | entries=5 | size=5016
+data/scn/s_6001.bin | markers=2 | entries=2 | size=5356
+data/scn/s_6099.bin | markers=17 | entries=17 | size=9096
+data/scn/s_6199.bin | markers=14 | entries=14 | size=8600
+data/scn/s_6298.bin | markers=65 | entries=65 | size=18408
+data/scn/s_6299.bin | markers=20 | entries=20 | size=8292
+
+ERRORS
+----------------------------------------------------------------------------------------------------
+
+SAMPLE ENTRIES
+----------------------------------------------------------------------------------------------------
+
+data_scn_s_0100__voice_15001__0001
+  data/scn/s_0100.bin @ 0x2EE9
+  voice=15001
+  bytes=43
+  text="Fine mess we've got here in Felghana、\\nno?"
+
+data_scn_s_0100__voice_15002__0001
+  data/scn/s_0100.bin @ 0x2F23
+  voice=15002
+  bytes=99
+  text="Chester's the big shocker、 for me.\\nHe's had a dignified air about him ever\\nsince he was a child."
+
+data_scn_s_0100__voice_15003__0001
+  data/scn/s_0100.bin @ 0x2F95
+  voice=15003
+  bytes=123
+  text="We always suspected that he might be the\\nson of a nobleman、 or some such thing.\\nBut there's nothing noble about McGuire!"
+
+data_scn_s_0100__voice_15004__0001
+  data/scn/s_0100.bin @ 0x301F
+  voice=15004
+  bytes=79
+  text='Dogi、 on the other hand、 was a total\\nmess as a child...and look at HIM\\nnow!'
+
+data_scn_s_0100__voice_65535__0001
+  data/scn/s_0100.bin @ 0x307D
+  voice=65535
+  bytes=3
+  text='...'
+
+data_scn_s_0100__voice_15005__0001
+  data/scn/s_0100.bin @ 0x308F
+  voice=15005
+  bytes=111
+  text="...Though I suppose I can't really\\ncompare、 since I know nothing at all\\nabout Chester's life before Redmont."
+
+data_scn_s_0100__voice_15006__0001
+  data/scn/s_0100.bin @ 0x310D
+  voice=15006
+  bytes=113
+  text='The events of his distant past could\\nhold the missing puzzle piece that\\ngives valid context to all his actions.'
+
+data_scn_s_0100__voice_65535__0002
+  data/scn/s_0100.bin @ 0x318D
+  voice=65535
+  bytes=3
+  text='...'
+
+data_scn_s_0100__voice_15007__0001
+  data/scn/s_0100.bin @ 0x319F
+  voice=15007
+  bytes=122
+  text='...But then、 what do I know? The more I\\nthink about it、 the more I realize just\\nhow pointless it is to think about it!'
+
+data_scn_s_0100__voice_15008__0001
+  data/scn/s_0100.bin @ 0x3228
+  voice=15008
+  bytes=123
+  text="I'm uninvolved in the proceedings、 and I\\nhave no skills to contribute to them. But\\nyou do! So I'd like you to have this."
+
+data_scn_s_0100__voice_15009__0001
+  data/scn/s_0100.bin @ 0x3375
+  voice=15009
+  bytes=104
+  text="We often find pieces of raval on the\\nfloor during cleanup. Dragged in on the\\nminers' shoes、 no doubt."
+
+data_scn_s_0100__voice_15010__0001
+  data/scn/s_0100.bin @ 0x33EC
+  voice=15010
+  bytes=60
+  text="It's not much、 but I do hope it can be\\nof some use to you."
+
+data_scn_s_0100__voice_15011__0001
+  data/scn/s_0100.bin @ 0x3437
+  voice=15011
+  bytes=119
+  text="Really、 it's about the only thing I can\\ndo to help、 I'm afraid. After all、 I'm\\nbasically just here to look pretty!"
+
+data_scn_s_0100__voice_16001__0001
+  data/scn/s_0100.bin @ 0x89D9
+  voice=16001
+  bytes=5
+  text='Huh?!'
+
+data_scn_s_0100__voice_16002__0001
+  data/scn/s_0100.bin @ 0x89ED
+  voice=16002
+  bytes=50
+  text='H-hey、 Red... Can I see that ring you\\ngot there?'
+
+data_scn_s_0100__voice_16003__0001
+  data/scn/s_0100.bin @ 0x8A2E
+  voice=16003
+  bytes=55
+  text="That's my ring、 all right. I'd recognize\\nit anywhere!"
+
+data_scn_s_0100__voice_16004__0001
+  data/scn/s_0100.bin @ 0x8AED
+  voice=16004
+  bytes=64
+  text="C-c'mon、 man、 help a guy out! Let me\\nhave it back、 will ya'?"
+
+data_scn_s_0100__voice_16005__0001
+  data/scn/s_0100.bin @ 0x8C25
+  voice=16005
+  bytes=70
+  text="Oh、 man、 thank you! I seriously owe you\\none! You're the best、 Red!"
+
+data_scn_s_0100__voice_16006__0001
+  data/scn/s_0100.bin @ 0x8C7A
+  voice=16006
+  bytes=93
+  text="In fact、 you know what? I've got\\nsomething I'd like to give you、\\nto show my appreciation."
+
+data_scn_s_0100__voice_16007__0001
+  data/scn/s_0100.bin @ 0x8E75
+  voice=16007
+  bytes=71
+  text="Now I can go back home to my family、 and\\nthey won't bite my head off!"
+
+data_scn_s_0100__voice_16008__0001
+  data/scn/s_0100.bin @ 0x8ECB
+  voice=16008
+  bytes=46
+  text='All riiiight! I am so ready for anything\\nnow!'
+
+data_scn_s_0100__voice_16011__0001
+  data/scn/s_0100.bin @ 0x8FD9
+  voice=16011
+  bytes=88
+  text="The hell、 man?! Geez、 what am I supposed\\nto do now? Can't go home without that\\nring!"
+
+data_scn_s_0100__voice_16009__0001
+  data/scn/s_0100.bin @ 0x91AD
+  voice=16009
+  bytes=62
+  text='All right、 now I can fight for the town\\nwithout any worries!'
+
+data_scn_s_0100__voice_16010__0001
+  data/scn/s_0100.bin @ 0x91FA
+  voice=16010
+  bytes=56
+  text='Then、 I can go right back home to my\\nfamily in Garman!'
+
+data_scn_s_0100__voice_14014__0001
+  data/scn/s_0100.bin @ 0x9539
+  voice=14014
+  bytes=51
+  text="Hi、 Adol. Isn't it a bit early to be\\nsetting off?"
+
+data_scn_s_0100__voice_14015__0001
+  data/scn/s_0100.bin @ 0x957B
+  voice=14015
+  bytes=60
+  text="Are you sure we can't convince you to\\nstay a little longer?"
+
+data_scn_s_0100__voice_04186__0001
+  data/scn/s_0100.bin @ 0x95F1
+  voice=4186
+  bytes=69
+  text="Come on、 now... You're going to make him\\nfeel guilty about leaving!"
+
+data_scn_s_0100__voice_14016__0001
+  data/scn/s_0100.bin @ 0x9671
+  voice=14016
+  bytes=76
+  text="Well、 he'll be missed! It'll be lonely\\naround here without him、 for sure."
+
+data_scn_s_0100__voice_14017__0001
+  data/scn/s_0100.bin @ 0x96F5
+  voice=14017
+  bytes=10
+  text='...I know!'
+
+data_scn_s_0100__voice_14018__0001
+  data/scn/s_0100.bin @ 0x970E
+  voice=14018
+  bytes=86
+  text='Maybe you can stay here、 and Dogi can\\ngo off on some grand adventure in your\\nplace!'
