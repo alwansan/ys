@@ -1,0 +1,3770 @@
+{
+  "slot_count": 256,
+  "arabic_letters": 28,
+  "forms_per_letter": 4,
+  "mapping_count": 112,
+  "slots": [
+    {
+      "codepoint": 29254,
+      "unicode": "U+7246",
+      "char": "牆",
+      "cp932_hex": "e0 ad",
+      "cp932_length": 2,
+      "itf_index": 0,
+      "glyph_address": 9125957
+    },
+    {
+      "codepoint": 23480,
+      "unicode": "U+5BB8",
+      "char": "宸",
+      "cp932_hex": "9b 82",
+      "cp932_length": 2,
+      "itf_index": 1,
+      "glyph_address": 4152268
+    },
+    {
+      "codepoint": 35737,
+      "unicode": "U+8B99",
+      "char": "讙",
+      "cp932_hex": "e6 aa",
+      "cp932_length": 2,
+      "itf_index": 2,
+      "glyph_address": 14095716
+    },
+    {
+      "codepoint": 20489,
+      "unicode": "U+5009",
+      "char": "倉",
+      "cp932_hex": "91 71",
+      "cp932_length": 2,
+      "itf_index": 3,
+      "glyph_address": 1711965
+    },
+    {
+      "codepoint": 26185,
+      "unicode": "U+6649",
+      "char": "晉",
+      "cp932_hex": "9d e7",
+      "cp932_length": 2,
+      "itf_index": 4,
+      "glyph_address": 6622352
+    },
+    {
+      "codepoint": 32402,
+      "unicode": "U+7E92",
+      "char": "纒",
+      "cp932_hex": "e3 95",
+      "cp932_length": 2,
+      "itf_index": 5,
+      "glyph_address": 11605678
+    },
+    {
+      "codepoint": 39491,
+      "unicode": "U+9A43",
+      "char": "驃",
+      "cp932_hex": "e9 7e",
+      "cp932_length": 2,
+      "itf_index": 6,
+      "glyph_address": 16579849
+    },
+    {
+      "codepoint": 21698,
+      "unicode": "U+54C2",
+      "char": "哂",
+      "cp932_hex": "9a 41",
+      "cp932_length": 2,
+      "itf_index": 8,
+      "glyph_address": 2924325
+    },
+    {
+      "codepoint": 24798,
+      "unicode": "U+60DE",
+      "char": "惞",
+      "cp932_hex": "ed a3",
+      "cp932_length": 2,
+      "itf_index": 9,
+      "glyph_address": 5377852
+    },
+    {
+      "codepoint": 27550,
+      "unicode": "U+6B9E",
+      "char": "殞",
+      "cp932_hex": "9f 6d",
+      "cp932_length": 2,
+      "itf_index": 10,
+      "glyph_address": 7886535
+    },
+    {
+      "codepoint": 30990,
+      "unicode": "U+790E",
+      "char": "礎",
+      "cp932_hex": "91 62",
+      "cp932_length": 2,
+      "itf_index": 11,
+      "glyph_address": 10351724
+    },
+    {
+      "codepoint": 34113,
+      "unicode": "U+8541",
+      "char": "蕁",
+      "cp932_hex": "e5 40",
+      "cp932_length": 2,
+      "itf_index": 12,
+      "glyph_address": 12846110
+    },
+    {
+      "codepoint": 37507,
+      "unicode": "U+9283",
+      "char": "銃",
+      "cp932_hex": "8f 65",
+      "cp932_length": 2,
+      "itf_index": 13,
+      "glyph_address": 15334935
+    },
+    {
+      "codepoint": 21108,
+      "unicode": "U+5274",
+      "char": "剴",
+      "cp932_hex": "99 93",
+      "cp932_length": 2,
+      "itf_index": 17,
+      "glyph_address": 2327763
+    },
+    {
+      "codepoint": 22654,
+      "unicode": "U+587E",
+      "char": "塾",
+      "cp932_hex": "8f 6d",
+      "cp932_length": 2,
+      "itf_index": 18,
+      "glyph_address": 3530813
+    },
+    {
+      "codepoint": 24196,
+      "unicode": "U+5E84",
+      "char": "庄",
+      "cp932_hex": "8f af",
+      "cp932_length": 2,
+      "itf_index": 19,
+      "glyph_address": 4757299
+    },
+    {
+      "codepoint": 25447,
+      "unicode": "U+6367",
+      "char": "捧",
+      "cp932_hex": "95 f9",
+      "cp932_length": 2,
+      "itf_index": 20,
+      "glyph_address": 6000531
+    },
+    {
+      "codepoint": 26805,
+      "unicode": "U+68B5",
+      "char": "梵",
+      "cp932_hex": "9e 90",
+      "cp932_length": 2,
+      "itf_index": 21,
+      "glyph_address": 7247608
+    },
+    {
+      "codepoint": 28290,
+      "unicode": "U+6E82",
+      "char": "溂",
+      "cp932_hex": "9f e1",
+      "cp932_length": 2,
+      "itf_index": 22,
+      "glyph_address": 8502372
+    },
+    {
+      "codepoint": 30097,
+      "unicode": "U+7591",
+      "char": "疑",
+      "cp932_hex": "8b 5e",
+      "cp932_length": 2,
+      "itf_index": 23,
+      "glyph_address": 9740480
+    },
+    {
+      "codepoint": 31735,
+      "unicode": "U+7BF7",
+      "char": "篷",
+      "cp932_hex": "e2 c9",
+      "cp932_length": 2,
+      "itf_index": 24,
+      "glyph_address": 10974402
+    },
+    {
+      "codepoint": 33290,
+      "unicode": "U+820A",
+      "char": "舊",
+      "cp932_hex": "e4 70",
+      "cp932_length": 2,
+      "itf_index": 25,
+      "glyph_address": 12226309
+    },
+    {
+      "codepoint": 35029,
+      "unicode": "U+88D5",
+      "char": "裕",
+      "cp932_hex": "97 54",
+      "cp932_length": 2,
+      "itf_index": 26,
+      "glyph_address": 13468815
+    },
+    {
+      "codepoint": 36785,
+      "unicode": "U+8FB1",
+      "char": "辱",
+      "cp932_hex": "90 4a",
+      "cp932_length": 2,
+      "itf_index": 27,
+      "glyph_address": 14720205
+    },
+    {
+      "codepoint": 38599,
+      "unicode": "U+96C7",
+      "char": "雇",
+      "cp932_hex": "8c d9",
+      "cp932_length": 2,
+      "itf_index": 28,
+      "glyph_address": 15949180
+    },
+    {
+      "codepoint": 40639,
+      "unicode": "U+9EBF",
+      "char": "麿",
+      "cp932_hex": "96 9b",
+      "cp932_length": 2,
+      "itf_index": 29,
+      "glyph_address": 17206117
+    },
+    {
+      "codepoint": 20173,
+      "unicode": "U+4ECD",
+      "char": "仍",
+      "cp932_hex": "98 b9",
+      "cp932_length": 2,
+      "itf_index": 34,
+      "glyph_address": 1395507
+    },
+    {
+      "codepoint": 20841,
+      "unicode": "U+5169",
+      "char": "兩",
+      "cp932_hex": "99 5f",
+      "cp932_length": 2,
+      "itf_index": 35,
+      "glyph_address": 2029315
+    },
+    {
+      "codepoint": 21402,
+      "unicode": "U+539A",
+      "char": "厚",
+      "cp932_hex": "8c fa",
+      "cp932_length": 2,
+      "itf_index": 36,
+      "glyph_address": 2627049
+    },
+    {
+      "codepoint": 22216,
+      "unicode": "U+56C8",
+      "char": "囈",
+      "cp932_hex": "9a 94",
+      "cp932_length": 2,
+      "itf_index": 37,
+      "glyph_address": 3227676
+    },
+    {
+      "codepoint": 22992,
+      "unicode": "U+59D0",
+      "char": "姐",
+      "cp932_hex": "88 b7",
+      "cp932_length": 2,
+      "itf_index": 38,
+      "glyph_address": 3843658
+    },
+    {
+      "codepoint": 23798,
+      "unicode": "U+5CF6",
+      "char": "島",
+      "cp932_hex": "93 87",
+      "cp932_length": 2,
+      "itf_index": 39,
+      "glyph_address": 4456931
+    },
+    {
+      "codepoint": 24471,
+      "unicode": "U+5F97",
+      "char": "得",
+      "cp932_hex": "93 be",
+      "cp932_length": 2,
+      "itf_index": 40,
+      "glyph_address": 5064902
+    },
+    {
+      "codepoint": 25107,
+      "unicode": "U+6213",
+      "char": "戓",
+      "cp932_hex": "ed ab",
+      "cp932_length": 2,
+      "itf_index": 41,
+      "glyph_address": 5689918
+    },
+    {
+      "codepoint": 25880,
+      "unicode": "U+6518",
+      "char": "攘",
+      "cp932_hex": "9d b5",
+      "cp932_length": 2,
+      "itf_index": 42,
+      "glyph_address": 6316975
+    },
+    {
+      "codepoint": 26479,
+      "unicode": "U+676F",
+      "char": "杯",
+      "cp932_hex": "94 74",
+      "cp932_length": 2,
+      "itf_index": 43,
+      "glyph_address": 6929900
+    },
+    {
+      "codepoint": 27141,
+      "unicode": "U+6A05",
+      "char": "樅",
+      "cp932_hex": "9e e0",
+      "cp932_length": 2,
+      "itf_index": 44,
+      "glyph_address": 7568050
+    },
+    {
+      "codepoint": 27935,
+      "unicode": "U+6D1F",
+      "char": "洟",
+      "cp932_hex": "9f a4",
+      "cp932_length": 2,
+      "itf_index": 45,
+      "glyph_address": 8192636
+    },
+    {
+      "codepoint": 28703,
+      "unicode": "U+701F",
+      "char": "瀟",
+      "cp932_hex": "e0 6e",
+      "cp932_length": 2,
+      "itf_index": 46,
+      "glyph_address": 8817133
+    },
+    {
+      "codepoint": 29734,
+      "unicode": "U+7426",
+      "char": "琦",
+      "cp932_hex": "ee 4b",
+      "cp932_length": 2,
+      "itf_index": 47,
+      "glyph_address": 9437931
+    },
+    {
+      "codepoint": 30462,
+      "unicode": "U+76FE",
+      "char": "盾",
+      "cp932_hex": "8f 82",
+      "cp932_length": 2,
+      "itf_index": 48,
+      "glyph_address": 10044546
+    },
+    {
+      "codepoint": 31391,
+      "unicode": "U+7A9F",
+      "char": "窟",
+      "cp932_hex": "8c 41",
+      "cp932_length": 2,
+      "itf_index": 49,
+      "glyph_address": 10665200
+    },
+    {
+      "codepoint": 32080,
+      "unicode": "U+7D50",
+      "char": "結",
+      "cp932_hex": "8c 8b",
+      "cp932_length": 2,
+      "itf_index": 50,
+      "glyph_address": 11288136
+    },
+    {
+      "codepoint": 32918,
+      "unicode": "U+8096",
+      "char": "肖",
+      "cp932_hex": "8f d1",
+      "cp932_length": 2,
+      "itf_index": 51,
+      "glyph_address": 11913116
+    },
+    {
+      "codepoint": 33678,
+      "unicode": "U+838E",
+      "char": "莎",
+      "cp932_hex": "e4 b3",
+      "cp932_length": 2,
+      "itf_index": 52,
+      "glyph_address": 12536832
+    },
+    {
+      "codepoint": 34566,
+      "unicode": "U+8706",
+      "char": "蜆",
+      "cp932_hex": "e5 84",
+      "cp932_length": 2,
+      "itf_index": 53,
+      "glyph_address": 13154912
+    },
+    {
+      "codepoint": 35427,
+      "unicode": "U+8A63",
+      "char": "詣",
+      "cp932_hex": "8c 77",
+      "cp932_length": 2,
+      "itf_index": 54,
+      "glyph_address": 13782259
+    },
+    {
+      "codepoint": 36321,
+      "unicode": "U+8DE1",
+      "char": "跡",
+      "cp932_hex": "90 d5",
+      "cp932_length": 2,
+      "itf_index": 55,
+      "glyph_address": 14405610
+    },
+    {
+      "codepoint": 37090,
+      "unicode": "U+90E2",
+      "char": "郢",
+      "cp932_hex": "e7 b9",
+      "cp932_length": 2,
+      "itf_index": 56,
+      "glyph_address": 15025762
+    },
+    {
+      "codepoint": 37984,
+      "unicode": "U+9460",
+      "char": "鑠",
+      "cp932_hex": "e8 6a",
+      "cp932_length": 2,
+      "itf_index": 57,
+      "glyph_address": 15650487
+    },
+    {
+      "codepoint": 38957,
+      "unicode": "U+982D",
+      "char": "頭",
+      "cp932_hex": "93 aa",
+      "cp932_length": 2,
+      "itf_index": 58,
+      "glyph_address": 16262198
+    },
+    {
+      "codepoint": 39969,
+      "unicode": "U+9C21",
+      "char": "鰡",
+      "cp932_hex": "e9 dd",
+      "cp932_length": 2,
+      "itf_index": 59,
+      "glyph_address": 16893853
+    },
+    {
+      "codepoint": 20028,
+      "unicode": "U+4E3C",
+      "char": "丼",
+      "cp932_hex": "98 a5",
+      "cp932_length": 2,
+      "itf_index": 69,
+      "glyph_address": 1252096
+    },
+    {
+      "codepoint": 20329,
+      "unicode": "U+4F69",
+      "char": "佩",
+      "cp932_hex": "98 ce",
+      "cp932_length": 2,
+      "itf_index": 70,
+      "glyph_address": 1552423
+    },
+    {
+      "codepoint": 20674,
+      "unicode": "U+50C2",
+      "char": "僂",
+      "cp932_hex": "99 43",
+      "cp932_length": 2,
+      "itf_index": 71,
+      "glyph_address": 1872027
+    },
+    {
+      "codepoint": 20967,
+      "unicode": "U+51E7",
+      "char": "凧",
+      "cp932_hex": "91 fa",
+      "cp932_length": 2,
+      "itf_index": 72,
+      "glyph_address": 2178014
+    },
+    {
+      "codepoint": 21254,
+      "unicode": "U+5306",
+      "char": "匆",
+      "cp932_hex": "99 b0",
+      "cp932_length": 2,
+      "itf_index": 73,
+      "glyph_address": 2482170
+    },
+    {
+      "codepoint": 21531,
+      "unicode": "U+541B",
+      "char": "君",
+      "cp932_hex": "8c 4e",
+      "cp932_length": 2,
+      "itf_index": 74,
+      "glyph_address": 2775598
+    },
+    {
+      "codepoint": 21929,
+      "unicode": "U+55A9",
+      "char": "喩",
+      "cp932_hex": "9a 67",
+      "cp932_length": 2,
+      "itf_index": 75,
+      "glyph_address": 3074789
+    },
+    {
+      "codepoint": 22435,
+      "unicode": "U+57A3",
+      "char": "垣",
+      "cp932_hex": "8a 5f",
+      "cp932_length": 2,
+      "itf_index": 76,
+      "glyph_address": 3374899
+    },
+    {
+      "codepoint": 22826,
+      "unicode": "U+592A",
+      "char": "太",
+      "cp932_hex": "91 be",
+      "cp932_length": 2,
+      "itf_index": 77,
+      "glyph_address": 3686104
+    },
+    {
+      "codepoint": 23330,
+      "unicode": "U+5B22",
+      "char": "嬢",
+      "cp932_hex": "8f ec",
+      "cp932_length": 2,
+      "itf_index": 78,
+      "glyph_address": 4000702
+    },
+    {
+      "codepoint": 23608,
+      "unicode": "U+5C38",
+      "char": "尸",
+      "cp932_hex": "9b 99",
+      "cp932_length": 2,
+      "itf_index": 79,
+      "glyph_address": 4306920
+    },
+    {
+      "codepoint": 24039,
+      "unicode": "U+5DE7",
+      "char": "巧",
+      "cp932_hex": "8d 49",
+      "cp932_length": 2,
+      "itf_index": 80,
+      "glyph_address": 4607771
+    },
+    {
+      "codepoint": 24341,
+      "unicode": "U+5F15",
+      "char": "引",
+      "cp932_hex": "88 f8",
+      "cp932_length": 2,
+      "itf_index": 81,
+      "glyph_address": 4912362
+    },
+    {
+      "codepoint": 24650,
+      "unicode": "U+604A",
+      "char": "恊",
+      "cp932_hex": "9c 90",
+      "cp932_length": 2,
+      "itf_index": 82,
+      "glyph_address": 5221690
+    },
+    {
+      "codepoint": 24939,
+      "unicode": "U+616B",
+      "char": "慫",
+      "cp932_hex": "9c cf",
+      "cp932_length": 2,
+      "itf_index": 83,
+      "glyph_address": 5534512
+    },
+    {
+      "codepoint": 25269,
+      "unicode": "U+62B5",
+      "char": "抵",
+      "cp932_hex": "92 ef",
+      "cp932_length": 2,
+      "itf_index": 84,
+      "glyph_address": 5844681
+    },
+    {
+      "codepoint": 25638,
+      "unicode": "U+6426",
+      "char": "搦",
+      "cp932_hex": "9d 8e",
+      "cp932_length": 2,
+      "itf_index": 85,
+      "glyph_address": 6158375
+    },
+    {
+      "codepoint": 26039,
+      "unicode": "U+65B7",
+      "char": "斷",
+      "cp932_hex": "9d d0",
+      "cp932_length": 2,
+      "itf_index": 86,
+      "glyph_address": 6475033
+    },
+    {
+      "codepoint": 26357,
+      "unicode": "U+66F5",
+      "char": "曵",
+      "cp932_hex": "9e 49",
+      "cp932_length": 2,
+      "itf_index": 87,
+      "glyph_address": 6774488
+    },
+    {
+      "codepoint": 26626,
+      "unicode": "U+6802",
+      "char": "栂",
+      "cp932_hex": "92 cc",
+      "cp932_length": 2,
+      "itf_index": 88,
+      "glyph_address": 7088610
+    },
+    {
+      "codepoint": 26973,
+      "unicode": "U+695D",
+      "char": "楝",
+      "cp932_hex": "9e c0",
+      "cp932_length": 2,
+      "itf_index": 89,
+      "glyph_address": 7407513
+    },
+    {
+      "codepoint": 27354,
+      "unicode": "U+6ADA",
+      "char": "櫚",
+      "cp932_hex": "9f 4c",
+      "cp932_length": 2,
+      "itf_index": 90,
+      "glyph_address": 7729468
+    },
+    {
+      "codepoint": 27762,
+      "unicode": "U+6C72",
+      "char": "汲",
+      "cp932_hex": "8b 82",
+      "cp932_length": 2,
+      "itf_index": 91,
+      "glyph_address": 8039656
+    },
+    {
+      "codepoint": 28136,
+      "unicode": "U+6DE8",
+      "char": "淨",
+      "cp932_hex": "9f c4",
+      "cp932_length": 2,
+      "itf_index": 92,
+      "glyph_address": 8347503
+    },
+    {
+      "codepoint": 28511,
+      "unicode": "U+6F5F",
+      "char": "潟",
+      "cp932_hex": "8a 83",
+      "cp932_length": 2,
+      "itf_index": 93,
+      "glyph_address": 8659631
+    },
+    {
+      "codepoint": 29028,
+      "unicode": "U+7164",
+      "char": "煤",
+      "cp932_hex": "94 81",
+      "cp932_length": 2,
+      "itf_index": 94,
+      "glyph_address": 8971549
+    },
+    {
+      "codepoint": 29476,
+      "unicode": "U+7324",
+      "char": "猤",
+      "cp932_hex": "ee 41",
+      "cp932_length": 2,
+      "itf_index": 95,
+      "glyph_address": 9282099
+    },
+    {
+      "codepoint": 29971,
+      "unicode": "U+7513",
+      "char": "甓",
+      "cp932_hex": "e1 51",
+      "cp932_length": 2,
+      "itf_index": 96,
+      "glyph_address": 9591832
+    },
+    {
+      "codepoint": 30311,
+      "unicode": "U+7667",
+      "char": "癧",
+      "cp932_hex": "e1 9c",
+      "cp932_length": 2,
+      "itf_index": 97,
+      "glyph_address": 9895463
+    },
+    {
+      "codepoint": 30707,
+      "unicode": "U+77F3",
+      "char": "石",
+      "cp932_hex": "90 ce",
+      "cp932_length": 2,
+      "itf_index": 98,
+      "glyph_address": 10194970
+    },
+    {
+      "codepoint": 31199,
+      "unicode": "U+79DF",
+      "char": "租",
+      "cp932_hex": "91 64",
+      "cp932_length": 2,
+      "itf_index": 99,
+      "glyph_address": 10506523
+    },
+    {
+      "codepoint": 31545,
+      "unicode": "U+7B39",
+      "char": "笹",
+      "cp932_hex": "8d f9",
+      "cp932_length": 2,
+      "itf_index": 100,
+      "glyph_address": 10819019
+    },
+    {
+      "codepoint": 31934,
+      "unicode": "U+7CBE",
+      "char": "精",
+      "cp932_hex": "90 b8",
+      "cp932_length": 2,
+      "itf_index": 101,
+      "glyph_address": 11130556
+    },
+    {
+      "codepoint": 32236,
+      "unicode": "U+7DEC",
+      "char": "緬",
+      "cp932_hex": "96 c9",
+      "cp932_length": 2,
+      "itf_index": 102,
+      "glyph_address": 11445661
+    },
+    {
+      "codepoint": 32724,
+      "unicode": "U+7FD4",
+      "char": "翔",
+      "cp932_hex": "e3 c4",
+      "cp932_length": 2,
+      "itf_index": 103,
+      "glyph_address": 11757801
+    },
+    {
+      "codepoint": 33131,
+      "unicode": "U+816B",
+      "char": "腫",
+      "cp932_hex": "8e ee",
+      "cp932_length": 2,
+      "itf_index": 104,
+      "glyph_address": 12069061
+    },
+    {
+      "codepoint": 33489,
+      "unicode": "U+82D1",
+      "char": "苑",
+      "cp932_hex": "89 91",
+      "cp932_length": 2,
+      "itf_index": 105,
+      "glyph_address": 12383767
+    },
+    {
+      "codepoint": 33894,
+      "unicode": "U+8466",
+      "char": "葦",
+      "cp932_hex": "88 af",
+      "cp932_length": 2,
+      "itf_index": 106,
+      "glyph_address": 12691739
+    },
+    {
+      "codepoint": 34311,
+      "unicode": "U+8607",
+      "char": "蘇",
+      "cp932_hex": "91 68",
+      "cp932_length": 2,
+      "itf_index": 107,
+      "glyph_address": 13001431
+    },
+    {
+      "codepoint": 34831,
+      "unicode": "U+880F",
+      "char": "蠏",
+      "cp932_hex": "e5 b5",
+      "cp932_length": 2,
+      "itf_index": 108,
+      "glyph_address": 13310967
+    },
+    {
+      "codepoint": 35224,
+      "unicode": "U+8998",
+      "char": "覘",
+      "cp932_hex": "e6 4c",
+      "cp932_length": 2,
+      "itf_index": 109,
+      "glyph_address": 13626702
+    },
+    {
+      "codepoint": 35566,
+      "unicode": "U+8AEE",
+      "char": "諮",
+      "cp932_hex": "8e 90",
+      "cp932_length": 2,
+      "itf_index": 110,
+      "glyph_address": 13938469
+    },
+    {
+      "codepoint": 36042,
+      "unicode": "U+8CCA",
+      "char": "賊",
+      "cp932_hex": "91 af",
+      "cp932_length": 2,
+      "itf_index": 111,
+      "glyph_address": 14250097
+    },
+    {
+      "codepoint": 36556,
+      "unicode": "U+8ECC",
+      "char": "軌",
+      "cp932_hex": "8b 4f",
+      "cp932_length": 2,
+      "itf_index": 112,
+      "glyph_address": 14561732
+    },
+    {
+      "codepoint": 36929,
+      "unicode": "U+9041",
+      "char": "遁",
+      "cp932_hex": "93 d9",
+      "cp932_length": 2,
+      "itf_index": 113,
+      "glyph_address": 14872652
+    },
+    {
+      "codepoint": 37327,
+      "unicode": "U+91CF",
+      "char": "量",
+      "cp932_hex": "97 ca",
+      "cp932_length": 2,
+      "itf_index": 114,
+      "glyph_address": 15180546
+    },
+    {
+      "codepoint": 37716,
+      "unicode": "U+9354",
+      "char": "鍔",
+      "cp932_hex": "92 d5",
+      "cp932_length": 2,
+      "itf_index": 115,
+      "glyph_address": 15492300
+    },
+    {
+      "codepoint": 38468,
+      "unicode": "U+9644",
+      "char": "附",
+      "cp932_hex": "95 8d",
+      "cp932_length": 2,
+      "itf_index": 116,
+      "glyph_address": 15797750
+    },
+    {
+      "codepoint": 38752,
+      "unicode": "U+9760",
+      "char": "靠",
+      "cp932_hex": "e8 cf",
+      "cp932_length": 2,
+      "itf_index": 117,
+      "glyph_address": 16104762
+    },
+    {
+      "codepoint": 39207,
+      "unicode": "U+9927",
+      "char": "餧",
+      "cp932_hex": "ee dc",
+      "cp932_length": 2,
+      "itf_index": 118,
+      "glyph_address": 16421703
+    },
+    {
+      "codepoint": 39749,
+      "unicode": "U+9B45",
+      "char": "魅",
+      "cp932_hex": "96 a3",
+      "cp932_length": 2,
+      "itf_index": 119,
+      "glyph_address": 16735538
+    },
+    {
+      "codepoint": 40300,
+      "unicode": "U+9D6C",
+      "char": "鵬",
+      "cp932_hex": "96 51",
+      "cp932_length": 2,
+      "itf_index": 120,
+      "glyph_address": 17050242
+    },
+    {
+      "codepoint": 20114,
+      "unicode": "U+4E92",
+      "char": "互",
+      "cp932_hex": "8c dd",
+      "cp932_length": 2,
+      "itf_index": 140,
+      "glyph_address": 1321990
+    },
+    {
+      "codepoint": 20240,
+      "unicode": "U+4F10",
+      "char": "伐",
+      "cp932_hex": "94 b0",
+      "cp932_length": 2,
+      "itf_index": 141,
+      "glyph_address": 1473591
+    },
+    {
+      "codepoint": 20415,
+      "unicode": "U+4FBF",
+      "char": "便",
+      "cp932_hex": "95 d6",
+      "cp932_length": 2,
+      "itf_index": 142,
+      "glyph_address": 1632077
+    },
+    {
+      "codepoint": 20553,
+      "unicode": "U+5049",
+      "char": "偉",
+      "cp932_hex": "88 cc",
+      "cp932_length": 2,
+      "itf_index": 143,
+      "glyph_address": 1792153
+    },
+    {
+      "codepoint": 20767,
+      "unicode": "U+511F",
+      "char": "償",
+      "cp932_hex": "8f 9e",
+      "cp932_length": 2,
+      "itf_index": 144,
+      "glyph_address": 1952652
+    },
+    {
+      "codepoint": 20900,
+      "unicode": "U+51A4",
+      "char": "冤",
+      "cp932_hex": "99 6c",
+      "cp932_length": 2,
+      "itf_index": 145,
+      "glyph_address": 2101512
+    },
+    {
+      "codepoint": 21034,
+      "unicode": "U+522A",
+      "char": "刪",
+      "cp932_hex": "99 88",
+      "cp932_length": 2,
+      "itf_index": 146,
+      "glyph_address": 2251296
+    },
+    {
+      "codepoint": 21187,
+      "unicode": "U+52C3",
+      "char": "勃",
+      "cp932_hex": "96 75",
+      "cp932_length": 2,
+      "itf_index": 147,
+      "glyph_address": 2404879
+    },
+    {
+      "codepoint": 21321,
+      "unicode": "U+5349",
+      "char": "卉",
+      "cp932_hex": "99 c1",
+      "cp932_length": 2,
+      "itf_index": 148,
+      "glyph_address": 2553394
+    },
+    {
+      "codepoint": 21475,
+      "unicode": "U+53E3",
+      "char": "口",
+      "cp932_hex": "8c fb",
+      "cp932_length": 2,
+      "itf_index": 149,
+      "glyph_address": 2704151
+    },
+    {
+      "codepoint": 21622,
+      "unicode": "U+5476",
+      "char": "呶",
+      "cp932_hex": "99 f1",
+      "cp932_length": 2,
+      "itf_index": 150,
+      "glyph_address": 2849939
+    },
+    {
+      "codepoint": 21824,
+      "unicode": "U+5540",
+      "char": "啀",
+      "cp932_hex": "9a 50",
+      "cp932_length": 2,
+      "itf_index": 151,
+      "glyph_address": 2999349
+    },
+    {
+      "codepoint": 22070,
+      "unicode": "U+5636",
+      "char": "嘶",
+      "cp932_hex": "9a 7c",
+      "cp932_length": 2,
+      "itf_index": 152,
+      "glyph_address": 3151413
+    },
+    {
+      "codepoint": 22303,
+      "unicode": "U+571F",
+      "char": "土",
+      "cp932_hex": "93 79",
+      "cp932_length": 2,
+      "itf_index": 153,
+      "glyph_address": 3298830
+    },
+    {
+      "codepoint": 22549,
+      "unicode": "U+5815",
+      "char": "堕",
+      "cp932_hex": "91 c2",
+      "cp932_length": 2,
+      "itf_index": 154,
+      "glyph_address": 3452750
+    },
+    {
+      "codepoint": 22756,
+      "unicode": "U+58E4",
+      "char": "壤",
+      "cp932_hex": "9a df",
+      "cp932_length": 2,
+      "itf_index": 155,
+      "glyph_address": 3609579
+    },
+    {
+      "codepoint": 22889,
+      "unicode": "U+5969",
+      "char": "奩",
+      "cp932_hex": "9a fc",
+      "cp932_length": 2,
+      "itf_index": 156,
+      "glyph_address": 3765538
+    },
+    {
+      "codepoint": 23110,
+      "unicode": "U+5A46",
+      "char": "婆",
+      "cp932_hex": "94 6b",
+      "cp932_length": 2,
+      "itf_index": 157,
+      "glyph_address": 3921606
+    },
+    {
+      "codepoint": 23416,
+      "unicode": "U+5B78",
+      "char": "學",
+      "cp932_hex": "9b 7b",
+      "cp932_length": 2,
+      "itf_index": 158,
+      "glyph_address": 4077522
+    },
+    {
+      "codepoint": 23536,
+      "unicode": "U+5BF0",
+      "char": "寰",
+      "cp932_hex": "9b 8e",
+      "cp932_length": 2,
+      "itf_index": 159,
+      "glyph_address": 4229682
+    },
+    {
+      "codepoint": 23673,
+      "unicode": "U+5C79",
+      "char": "屹",
+      "cp932_hex": "9b a6",
+      "cp932_length": 2,
+      "itf_index": 160,
+      "glyph_address": 4381068
+    },
+    {
+      "codepoint": 23923,
+      "unicode": "U+5D73",
+      "char": "嵳",
+      "cp932_hex": "9b cb",
+      "cp932_length": 2,
+      "itf_index": 161,
+      "glyph_address": 4532613
+    },
+    {
+      "codepoint": 24120,
+      "unicode": "U+5E38",
+      "char": "常",
+      "cp932_hex": "8f ed",
+      "cp932_length": 2,
+      "itf_index": 162,
+      "glyph_address": 4681188
+    },
+    {
+      "codepoint": 24288,
+      "unicode": "U+5EE0",
+      "char": "廠",
+      "cp932_hex": "8f b1",
+      "cp932_length": 2,
+      "itf_index": 163,
+      "glyph_address": 4835457
+    },
+    {
+      "codepoint": 24413,
+      "unicode": "U+5F5D",
+      "char": "彝",
+      "cp932_hex": "9c 52",
+      "cp932_length": 2,
+      "itf_index": 164,
+      "glyph_address": 4986609
+    },
+    {
+      "codepoint": 24561,
+      "unicode": "U+5FF1",
+      "char": "忱",
+      "cp932_hex": "9c 79",
+      "cp932_length": 2,
+      "itf_index": 165,
+      "glyph_address": 5143323
+    },
+    {
+      "codepoint": 24716,
+      "unicode": "U+608C",
+      "char": "悌",
+      "cp932_hex": "92 ee",
+      "cp932_length": 2,
+      "itf_index": 166,
+      "glyph_address": 5299124
+    },
+    {
+      "codepoint": 24865,
+      "unicode": "U+6121",
+      "char": "愡",
+      "cp932_hex": "9c b9",
+      "cp932_length": 2,
+      "itf_index": 167,
+      "glyph_address": 5455896
+    },
+    {
+      "codepoint": 25027,
+      "unicode": "U+61C3",
+      "char": "懃",
+      "cp932_hex": "9c e7",
+      "cp932_length": 2,
+      "itf_index": 168,
+      "glyph_address": 5612620
+    },
+    {
+      "codepoint": 25182,
+      "unicode": "U+625E",
+      "char": "扞",
+      "cp932_hex": "9d 49",
+      "cp932_length": 2,
+      "itf_index": 169,
+      "glyph_address": 5766814
+    },
+    {
+      "codepoint": 25329,
+      "unicode": "U+62F1",
+      "char": "拱",
+      "cp932_hex": "9d 69",
+      "cp932_length": 2,
+      "itf_index": 170,
+      "glyph_address": 5922344
+    },
+    {
+      "codepoint": 25516,
+      "unicode": "U+63AC",
+      "char": "掬",
+      "cp932_hex": "8b 64",
+      "cp932_length": 2,
+      "itf_index": 171,
+      "glyph_address": 6079497
+    },
+    {
+      "codepoint": 25776,
+      "unicode": "U+64B0",
+      "char": "撰",
+      "cp932_hex": "90 ef",
+      "cp932_length": 2,
+      "itf_index": 172,
+      "glyph_address": 6237537
+    },
+    {
+      "codepoint": 25955,
+      "unicode": "U+6563",
+      "char": "散",
+      "cp932_hex": "8e 55",
+      "cp932_length": 2,
+      "itf_index": 173,
+      "glyph_address": 6396774
+    },
+    {
+      "codepoint": 26118,
+      "unicode": "U+6606",
+      "char": "昆",
+      "cp932_hex": "8d a9",
+      "cp932_length": 2,
+      "itf_index": 174,
+      "glyph_address": 6550026
+    },
+    {
+      "codepoint": 26263,
+      "unicode": "U+6697",
+      "char": "暗",
+      "cp932_hex": "88 c3",
+      "cp932_length": 2,
+      "itf_index": 175,
+      "glyph_address": 6698313
+    },
+    {
+      "codepoint": 26413,
+      "unicode": "U+672D",
+      "char": "札",
+      "cp932_hex": "8e 44",
+      "cp932_length": 2,
+      "itf_index": 176,
+      "glyph_address": 6851579
+    },
+    {
+      "codepoint": 26553,
+      "unicode": "U+67B9",
+      "char": "枹",
+      "cp932_hex": "9e 73",
+      "cp932_length": 2,
+      "itf_index": 177,
+      "glyph_address": 7008873
+    },
+    {
+      "codepoint": 26713,
+      "unicode": "U+6859",
+      "char": "桙",
+      "cp932_hex": "9e 82",
+      "cp932_length": 2,
+      "itf_index": 178,
+      "glyph_address": 7168209
+    },
+    {
+      "codepoint": 26885,
+      "unicode": "U+6905",
+      "char": "椅",
+      "cp932_hex": "88 d6",
+      "cp932_length": 2,
+      "itf_index": 179,
+      "glyph_address": 7327536
+    },
+    {
+      "codepoint": 27054,
+      "unicode": "U+69AE",
+      "char": "榮",
+      "cp932_hex": "9e c4",
+      "cp932_length": 2,
+      "itf_index": 180,
+      "glyph_address": 7487820
+    },
+    {
+      "codepoint": 27225,
+      "unicode": "U+6A59",
+      "char": "橙",
+      "cp932_hex": "9e f2",
+      "cp932_length": 2,
+      "itf_index": 181,
+      "glyph_address": 7648581
+    },
+    {
+      "codepoint": 27470,
+      "unicode": "U+6B4E",
+      "char": "歎",
+      "cp932_hex": "92 56",
+      "cp932_length": 2,
+      "itf_index": 182,
+      "glyph_address": 7809385
+    },
+    {
+      "codepoint": 27656,
+      "unicode": "U+6C08",
+      "char": "氈",
+      "cp932_hex": "9f 81",
+      "cp932_length": 2,
+      "itf_index": 183,
+      "glyph_address": 7964043
+    },
+    {
+      "codepoint": 27839,
+      "unicode": "U+6CBF",
+      "char": "沿",
+      "cp932_hex": "89 88",
+      "cp932_length": 2,
+      "itf_index": 184,
+      "glyph_address": 8116390
+    },
+    {
+      "codepoint": 28039,
+      "unicode": "U+6D87",
+      "char": "涇",
+      "cp932_hex": "ed df",
+      "cp932_length": 2,
+      "itf_index": 185,
+      "glyph_address": 8270301
+    },
+    {
+      "codepoint": 28197,
+      "unicode": "U+6E25",
+      "char": "渥",
+      "cp932_hex": "88 ad",
+      "cp932_length": 2,
+      "itf_index": 186,
+      "glyph_address": 8425177
+    },
+    {
+      "codepoint": 28399,
+      "unicode": "U+6EEF",
+      "char": "滯",
+      "cp932_hex": "9f fa",
+      "cp932_length": 2,
+      "itf_index": 187,
+      "glyph_address": 8580788
+    },
+    {
+      "codepoint": 28614,
+      "unicode": "U+6FC6",
+      "char": "濆",
+      "cp932_hex": "e0 58",
+      "cp932_length": 2,
+      "itf_index": 188,
+      "glyph_address": 8738325
+    },
+    {
+      "codepoint": 28858,
+      "unicode": "U+70BA",
+      "char": "為",
+      "cp932_hex": "88 d7",
+      "cp932_length": 2,
+      "itf_index": 189,
+      "glyph_address": 8894574
+    },
+    {
+      "codepoint": 29152,
+      "unicode": "U+71E0",
+      "char": "燠",
+      "cp932_hex": "e0 9a",
+      "cp932_length": 2,
+      "itf_index": 190,
+      "glyph_address": 9049325
+    },
+    {
+      "codepoint": 29362,
+      "unicode": "U+72B2",
+      "char": "犲",
+      "cp932_hex": "e0 ba",
+      "cp932_length": 2,
+      "itf_index": 191,
+      "glyph_address": 9204167
+    },
+    {
+      "codepoint": 29609,
+      "unicode": "U+73A9",
+      "char": "玩",
+      "cp932_hex": "8a df",
+      "cp932_length": 2,
+      "itf_index": 192,
+      "glyph_address": 9360063
+    },
+    {
+      "codepoint": 29835,
+      "unicode": "U+748B",
+      "char": "璋",
+      "cp932_hex": "e0 f6",
+      "cp932_length": 2,
+      "itf_index": 193,
+      "glyph_address": 9514153
+    },
+    {
+      "codepoint": 30036,
+      "unicode": "U+7554",
+      "char": "畔",
+      "cp932_hex": "94 c8",
+      "cp932_length": 2,
+      "itf_index": 194,
+      "glyph_address": 9664628
+    },
+    {
+      "codepoint": 30192,
+      "unicode": "U+75F0",
+      "char": "痰",
+      "cp932_hex": "e1 82",
+      "cp932_length": 2,
+      "itf_index": 195,
+      "glyph_address": 9817968
+    },
+    {
+      "codepoint": 30382,
+      "unicode": "U+76AE",
+      "char": "皮",
+      "cp932_hex": "94 e7",
+      "cp932_length": 2,
+      "itf_index": 196,
+      "glyph_address": 9969708
+    },
+    {
+      "codepoint": 30590,
+      "unicode": "U+777E",
+      "char": "睾",
+      "cp932_hex": "e1 ce",
+      "cp932_length": 2,
+      "itf_index": 197,
+      "glyph_address": 10118878
+    },
+    {
+      "codepoint": 30862,
+      "unicode": "U+788E",
+      "char": "碎",
+      "cp932_hex": "e1 ea",
+      "cp932_length": 2,
+      "itf_index": 198,
+      "glyph_address": 10272531
+    },
+    {
+      "codepoint": 31098,
+      "unicode": "U+797A",
+      "char": "祺",
+      "cp932_hex": "e2 51",
+      "cp932_length": 2,
+      "itf_index": 199,
+      "glyph_address": 10429422
+    },
+    {
+      "codepoint": 31296,
+      "unicode": "U+7A40",
+      "char": "穀",
+      "cp932_hex": "8d 92",
+      "cp932_length": 2,
+      "itf_index": 200,
+      "glyph_address": 10586674
+    },
+    {
+      "codepoint": 31462,
+      "unicode": "U+7AE6",
+      "char": "竦",
+      "cp932_hex": "e2 90",
+      "cp932_length": 2,
+      "itf_index": 201,
+      "glyph_address": 10741902
+    },
+    {
+      "codepoint": 31639,
+      "unicode": "U+7B97",
+      "char": "算",
+      "cp932_hex": "8e 5a",
+      "cp932_length": 2,
+      "itf_index": 202,
+      "glyph_address": 10896719
+    },
+    {
+      "codepoint": 31845,
+      "unicode": "U+7C65",
+      "char": "籥",
+      "cp932_hex": "e2 de",
+      "cp932_length": 2,
+      "itf_index": 203,
+      "glyph_address": 11052022
+    },
+    {
+      "codepoint": 32020,
+      "unicode": "U+7D14",
+      "char": "純",
+      "cp932_hex": "8f 83",
+      "cp932_length": 2,
+      "itf_index": 204,
+      "glyph_address": 11209538
+    },
+    {
+      "codepoint": 32174,
+      "unicode": "U+7DAE",
+      "char": "綮",
+      "cp932_hex": "e3 5a",
+      "cp932_length": 2,
+      "itf_index": 205,
+      "glyph_address": 11366218
+    },
+    {
+      "codepoint": 32326,
+      "unicode": "U+7E46",
+      "char": "繆",
+      "cp932_hex": "e3 78",
+      "cp932_length": 2,
+      "itf_index": 206,
+      "glyph_address": 11525582
+    },
+    {
+      "codepoint": 32633,
+      "unicode": "U+7F79",
+      "char": "罹",
+      "cp932_hex": "9c eb",
+      "cp932_length": 2,
+      "itf_index": 207,
+      "glyph_address": 11681895
+    },
+    {
+      "codepoint": 32829,
+      "unicode": "U+803D",
+      "char": "耽",
+      "cp932_hex": "92 5e",
+      "cp932_length": 2,
+      "itf_index": 208,
+      "glyph_address": 11835144
+    },
+    {
+      "codepoint": 33009,
+      "unicode": "U+80F1",
+      "char": "胱",
+      "cp932_hex": "e3 f7",
+      "cp932_length": 2,
+      "itf_index": 209,
+      "glyph_address": 11989753
+    },
+    {
+      "codepoint": 33215,
+      "unicode": "U+81BF",
+      "char": "膿",
+      "cp932_hex": "94 5e",
+      "cp932_length": 2,
+      "itf_index": 210,
+      "glyph_address": 12149358
+    },
+    {
+      "codepoint": 33380,
+      "unicode": "U+8264",
+      "char": "艤",
+      "cp932_hex": "e4 7e",
+      "cp932_length": 2,
+      "itf_index": 211,
+      "glyph_address": 12307011
+    },
+    {
+      "codepoint": 33560,
+      "unicode": "U+8318",
+      "char": "茘",
+      "cp932_hex": "e4 ab",
+      "cp932_length": 2,
+      "itf_index": 212,
+      "glyph_address": 12460052
+    },
+    {
+      "codepoint": 33780,
+      "unicode": "U+83F4",
+      "char": "菴",
+      "cp932_hex": "e4 bd",
+      "cp932_length": 2,
+      "itf_index": 213,
+      "glyph_address": 12614132
+    },
+    {
+      "codepoint": 33993,
+      "unicode": "U+84C9",
+      "char": "蓉",
+      "cp932_hex": "97 75",
+      "cp932_length": 2,
+      "itf_index": 214,
+      "glyph_address": 12768543
+    },
+    {
+      "codepoint": 34204,
+      "unicode": "U+859C",
+      "char": "薜",
+      "cp932_hex": "e5 4f",
+      "cp932_length": 2,
+      "itf_index": 215,
+      "glyph_address": 12923863
+    },
+    {
+      "codepoint": 34468,
+      "unicode": "U+86A4",
+      "char": "蚤",
+      "cp932_hex": "94 61",
+      "cp932_length": 2,
+      "itf_index": 216,
+      "glyph_address": 13078043
+    },
+    {
+      "codepoint": 34678,
+      "unicode": "U+8776",
+      "char": "蝶",
+      "cp932_hex": "92 b1",
+      "cp932_length": 2,
+      "itf_index": 217,
+      "glyph_address": 13232736
+    },
+    {
+      "codepoint": 34933,
+      "unicode": "U+8875",
+      "char": "衵",
+      "cp932_hex": "e5 d0",
+      "cp932_length": 2,
+      "itf_index": 218,
+      "glyph_address": 13389496
+    },
+    {
+      "codepoint": 35128,
+      "unicode": "U+8938",
+      "char": "褸",
+      "cp932_hex": "e5 f8",
+      "cp932_length": 2,
+      "itf_index": 219,
+      "glyph_address": 13548467
+    },
+    {
+      "codepoint": 35346,
+      "unicode": "U+8A12",
+      "char": "訒",
+      "cp932_hex": "ee 87",
+      "cp932_length": 2,
+      "itf_index": 220,
+      "glyph_address": 13705290
+    },
+    {
+      "codepoint": 35495,
+      "unicode": "U+8AA7",
+      "char": "誧",
+      "cp932_hex": "ee 8a",
+      "cp932_length": 2,
+      "itf_index": 221,
+      "glyph_address": 13860233
+    },
+    {
+      "codepoint": 35649,
+      "unicode": "U+8B41",
+      "char": "譁",
+      "cp932_hex": "e6 96",
+      "cp932_length": 2,
+      "itf_index": 222,
+      "glyph_address": 14016959
+    },
+    {
+      "codepoint": 35997,
+      "unicode": "U+8C9D",
+      "char": "貝",
+      "cp932_hex": "8a 4c",
+      "cp932_length": 2,
+      "itf_index": 223,
+      "glyph_address": 14172142
+    },
+    {
+      "codepoint": 36115,
+      "unicode": "U+8D13",
+      "char": "贓",
+      "cp932_hex": "e6 d9",
+      "cp932_length": 2,
+      "itf_index": 224,
+      "glyph_address": 14328965
+    },
+    {
+      "codepoint": 36447,
+      "unicode": "U+8E5F",
+      "char": "蹟",
+      "cp932_hex": "90 d6",
+      "cp932_length": 2,
+      "itf_index": 225,
+      "glyph_address": 14483588
+    },
+    {
+      "codepoint": 36659,
+      "unicode": "U+8F33",
+      "char": "輳",
+      "cp932_hex": "e7 73",
+      "cp932_length": 2,
+      "itf_index": 226,
+      "glyph_address": 14640593
+    },
+    {
+      "codepoint": 36869,
+      "unicode": "U+9005",
+      "char": "逅",
+      "cp932_hex": "e7 90",
+      "cp932_length": 2,
+      "itf_index": 227,
+      "glyph_address": 14796118
+    },
+    {
+      "codepoint": 36981,
+      "unicode": "U+9075",
+      "char": "遵",
+      "cp932_hex": "8f 85",
+      "cp932_length": 2,
+      "itf_index": 228,
+      "glyph_address": 14949676
+    },
+    {
+      "codepoint": 37235,
+      "unicode": "U+9173",
+      "char": "酳",
+      "cp932_hex": "e7 c8",
+      "cp932_length": 2,
+      "itf_index": 229,
+      "glyph_address": 15102697
+    },
+    {
+      "codepoint": 37406,
+      "unicode": "U+921E",
+      "char": "鈞",
+      "cp932_hex": "e7 e0",
+      "cp932_length": 2,
+      "itf_index": 230,
+      "glyph_address": 15257318
+    },
+    {
+      "codepoint": 37626,
+      "unicode": "U+92FA",
+      "char": "鋺",
+      "cp932_hex": "e7 fa",
+      "cp932_length": 2,
+      "itf_index": 231,
+      "glyph_address": 15413625
+    },
+    {
+      "codepoint": 37853,
+      "unicode": "U+93DD",
+      "char": "鏝",
+      "cp932_hex": "e8 57",
+      "cp932_length": 2,
+      "itf_index": 232,
+      "glyph_address": 15571478
+    },
+    {
+      "codepoint": 38311,
+      "unicode": "U+95A7",
+      "char": "閧",
+      "cp932_hex": "e8 82",
+      "cp932_length": 2,
+      "itf_index": 233,
+      "glyph_address": 15724550
+    },
+    {
+      "codepoint": 38541,
+      "unicode": "U+968D",
+      "char": "隍",
+      "cp932_hex": "e8 a4",
+      "cp932_length": 2,
+      "itf_index": 234,
+      "glyph_address": 15872971
+    },
+    {
+      "codepoint": 38673,
+      "unicode": "U+9711",
+      "char": "霑",
+      "cp932_hex": "e8 bf",
+      "cp932_length": 2,
+      "itf_index": 235,
+      "glyph_address": 16027461
+    },
+    {
+      "codepoint": 38851,
+      "unicode": "U+97C3",
+      "char": "韃",
+      "cp932_hex": "e8 e5",
+      "cp932_length": 2,
+      "itf_index": 236,
+      "glyph_address": 16184130
+    },
+    {
+      "codepoint": 39107,
+      "unicode": "U+98C3",
+      "char": "飃",
+      "cp932_hex": "e9 48",
+      "cp932_length": 2,
+      "itf_index": 237,
+      "glyph_address": 16341055
+    },
+    {
+      "codepoint": 39366,
+      "unicode": "U+99C6",
+      "char": "駆",
+      "cp932_hex": "8b ec",
+      "cp932_length": 2,
+      "itf_index": 238,
+      "glyph_address": 16501421
+    },
+    {
+      "codepoint": 39651,
+      "unicode": "U+9AE3",
+      "char": "髣",
+      "cp932_hex": "e9 97",
+      "cp932_length": 2,
+      "itf_index": 239,
+      "glyph_address": 16658572
+    },
+    {
+      "codepoint": 39878,
+      "unicode": "U+9BC6",
+      "char": "鯆",
+      "cp932_hex": "e9 c2",
+      "cp932_length": 2,
+      "itf_index": 240,
+      "glyph_address": 16814412
+    },
+    {
+      "codepoint": 40198,
+      "unicode": "U+9D06",
+      "char": "鴆",
+      "cp932_hex": "e9 ef",
+      "cp932_length": 2,
+      "itf_index": 241,
+      "glyph_address": 16972903
+    },
+    {
+      "codepoint": 40445,
+      "unicode": "U+9DFD",
+      "char": "鷽",
+      "cp932_hex": "ea 5e",
+      "cp932_length": 2,
+      "itf_index": 242,
+      "glyph_address": 17128639
+    },
+    {
+      "codepoint": 40736,
+      "unicode": "U+9F20",
+      "char": "鼠",
+      "cp932_hex": "91 6c",
+      "cp932_length": 2,
+      "itf_index": 243,
+      "glyph_address": 17283476
+    },
+    {
+      "codepoint": 19990,
+      "unicode": "U+4E16",
+      "char": "世",
+      "cp932_hex": "90 a2",
+      "cp932_length": 2,
+      "itf_index": 280,
+      "glyph_address": 1218909
+    },
+    {
+      "codepoint": 20063,
+      "unicode": "U+4E5F",
+      "char": "也",
+      "cp932_hex": "96 e7",
+      "cp932_length": 2,
+      "itf_index": 281,
+      "glyph_address": 1287228
+    },
+    {
+      "codepoint": 20139,
+      "unicode": "U+4EAB",
+      "char": "享",
+      "cp932_hex": "8b 9d",
+      "cp932_length": 2,
+      "itf_index": 282,
+      "glyph_address": 1356827
+    },
+    {
+      "codepoint": 20205,
+      "unicode": "U+4EED",
+      "char": "仭",
+      "cp932_hex": "98 bf",
+      "cp932_length": 2,
+      "itf_index": 283,
+      "glyph_address": 1433885
+    },
+    {
+      "codepoint": 20295,
+      "unicode": "U+4F47",
+      "char": "佇",
+      "cp932_hex": "98 c8",
+      "cp932_length": 2,
+      "itf_index": 284,
+      "glyph_address": 1512771
+    },
+    {
+      "codepoint": 20369,
+      "unicode": "U+4F91",
+      "char": "侑",
+      "cp932_hex": "98 d0",
+      "cp932_length": 2,
+      "itf_index": 285,
+      "glyph_address": 1592213
+    },
+    {
+      "codepoint": 20447,
+      "unicode": "U+4FDF",
+      "char": "俟",
+      "cp932_hex": "98 d6",
+      "cp932_length": 2,
+      "itf_index": 286,
+      "glyph_address": 1671720
+    },
+    {
+      "codepoint": 20517,
+      "unicode": "U+5025",
+      "char": "倥",
+      "cp932_hex": "98 e3",
+      "cp932_length": 2,
+      "itf_index": 287,
+      "glyph_address": 1752047
+    },
+    {
+      "codepoint": 20608,
+      "unicode": "U+5080",
+      "char": "傀",
+      "cp932_hex": "98 f8",
+      "cp932_length": 2,
+      "itf_index": 288,
+      "glyph_address": 1831909
+    },
+    {
+      "codepoint": 20718,
+      "unicode": "U+50EE",
+      "char": "僮",
+      "cp932_hex": "99 49",
+      "cp932_length": 2,
+      "itf_index": 289,
+      "glyph_address": 1912464
+    },
+    {
+      "codepoint": 20808,
+      "unicode": "U+5148",
+      "char": "先",
+      "cp932_hex": "90 e6",
+      "cp932_length": 2,
+      "itf_index": 290,
+      "glyph_address": 1991173
+    },
+    {
+      "codepoint": 20873,
+      "unicode": "U+5189",
+      "char": "冉",
+      "cp932_hex": "99 66",
+      "cp932_length": 2,
+      "itf_index": 291,
+      "glyph_address": 2066150
+    },
+    {
+      "codepoint": 20925,
+      "unicode": "U+51BD",
+      "char": "冽",
+      "cp932_hex": "99 77",
+      "cp932_length": 2,
+      "itf_index": 292,
+      "glyph_address": 2138986
+    },
+    {
+      "codepoint": 20996,
+      "unicode": "U+5204",
+      "char": "刄",
+      "cp932_hex": "99 83",
+      "cp932_length": 2,
+      "itf_index": 293,
+      "glyph_address": 2213797
+    },
+    {
+      "codepoint": 21069,
+      "unicode": "U+524D",
+      "char": "前",
+      "cp932_hex": "91 4f",
+      "cp932_length": 2,
+      "itf_index": 294,
+      "glyph_address": 2289431
+    },
+    {
+      "codepoint": 21155,
+      "unicode": "U+52A3",
+      "char": "劣",
+      "cp932_hex": "97 f2",
+      "cp932_length": 2,
+      "itf_index": 295,
+      "glyph_address": 2366343
+    },
+    {
+      "codepoint": 21219,
+      "unicode": "U+52E3",
+      "char": "勣",
+      "cp932_hex": "99 a8",
+      "cp932_length": 2,
+      "itf_index": 296,
+      "glyph_address": 2444075
+    },
+    {
+      "codepoint": 21290,
+      "unicode": "U+532A",
+      "char": "匪",
+      "cp932_hex": "94 d9",
+      "cp932_length": 2,
+      "itf_index": 297,
+      "glyph_address": 2517055
+    },
+    {
+      "codepoint": 21359,
+      "unicode": "U+536F",
+      "char": "卯",
+      "cp932_hex": "89 4b",
+      "cp932_length": 2,
+      "itf_index": 298,
+      "glyph_address": 2589111
+    },
+    {
+      "codepoint": 21448,
+      "unicode": "U+53C8",
+      "char": "又",
+      "cp932_hex": "96 94",
+      "cp932_length": 2,
+      "itf_index": 299,
+      "glyph_address": 2665930
+    },
+    {
+      "codepoint": 21495,
+      "unicode": "U+53F7",
+      "char": "号",
+      "cp932_hex": "8d 86",
+      "cp932_length": 2,
+      "itf_index": 300,
+      "glyph_address": 2739426
+    },
+    {
+      "codepoint": 21566,
+      "unicode": "U+543E",
+      "char": "吾",
+      "cp932_hex": "8c e1",
+      "cp932_length": 2,
+      "itf_index": 301,
+      "glyph_address": 2812876
+    },
+    {
+      "codepoint": 21666,
+      "unicode": "U+54A2",
+      "char": "咢",
+      "cp932_hex": "99 f6",
+      "cp932_length": 2,
+      "itf_index": 302,
+      "glyph_address": 2887079
+    },
+    {
+      "codepoint": 21757,
+      "unicode": "U+54FD",
+      "char": "哽",
+      "cp932_hex": "9a 4a",
+      "cp932_length": 2,
+      "itf_index": 303,
+      "glyph_address": 2961701
+    },
+    {
+      "codepoint": 21891,
+      "unicode": "U+5583",
+      "char": "喃",
+      "cp932_hex": "9a 66",
+      "cp932_length": 2,
+      "itf_index": 304,
+      "glyph_address": 3036992
+    },
+    {
+      "codepoint": 22007,
+      "unicode": "U+55F7",
+      "char": "嗷",
+      "cp932_hex": "9a 72",
+      "cp932_length": 2,
+      "itf_index": 305,
+      "glyph_address": 3113134
+    },
+    {
+      "codepoint": 22150,
+      "unicode": "U+5686",
+      "char": "嚆",
+      "cp932_hex": "9a 85",
+      "cp932_length": 2,
+      "itf_index": 306,
+      "glyph_address": 3189125
+    },
+    {
+      "codepoint": 22266,
+      "unicode": "U+56FA",
+      "char": "固",
+      "cp932_hex": "8c c5",
+      "cp932_length": 2,
+      "itf_index": 307,
+      "glyph_address": 3262965
+    },
+    {
+      "codepoint": 22353,
+      "unicode": "U+5751",
+      "char": "坑",
+      "cp932_hex": "8d 42",
+      "cp932_length": 2,
+      "itf_index": 308,
+      "glyph_address": 3336554
+    },
+    {
+      "codepoint": 22486,
+      "unicode": "U+57D6",
+      "char": "埖",
+      "cp932_hex": "9a c0",
+      "cp932_length": 2,
+      "itf_index": 309,
+      "glyph_address": 3413730
+    },
+    {
+      "codepoint": 22603,
+      "unicode": "U+584B",
+      "char": "塋",
+      "cp932_hex": "9a c8",
+      "cp932_length": 2,
+      "itf_index": 310,
+      "glyph_address": 3491734
+    },
+    {
+      "codepoint": 22715,
+      "unicode": "U+58BB",
+      "char": "墻",
+      "cp932_hex": "9a d4",
+      "cp932_length": 2,
+      "itf_index": 311,
+      "glyph_address": 3570268
+    },
+    {
+      "codepoint": 22793,
+      "unicode": "U+5909",
+      "char": "変",
+      "cp932_hex": "95 cf",
+      "cp932_length": 2,
+      "itf_index": 312,
+      "glyph_address": 3647677
+    },
+    {
+      "codepoint": 22864,
+      "unicode": "U+5950",
+      "char": "奐",
+      "cp932_hex": "9a f4",
+      "cp932_length": 2,
+      "itf_index": 313,
+      "glyph_address": 3725261
+    },
+    {
+      "codepoint": 22937,
+      "unicode": "U+5999",
+      "char": "妙",
+      "cp932_hex": "96 ad",
+      "cp932_length": 2,
+      "itf_index": 314,
+      "glyph_address": 3804658
+    },
+    {
+      "codepoint": 23043,
+      "unicode": "U+5A03",
+      "char": "娃",
+      "cp932_hex": "88 a1",
+      "cp932_length": 2,
+      "itf_index": 315,
+      "glyph_address": 3882632
+    },
+    {
+      "codepoint": 23241,
+      "unicode": "U+5AC9",
+      "char": "嫉",
+      "cp932_hex": "8e b9",
+      "cp932_length": 2,
+      "itf_index": 316,
+      "glyph_address": 3961160
+    },
+    {
+      "codepoint": 23384,
+      "unicode": "U+5B58",
+      "char": "存",
+      "cp932_hex": "91 b6",
+      "cp932_length": 2,
+      "itf_index": 317,
+      "glyph_address": 4038932
+    },
+    {
+      "codepoint": 23450,
+      "unicode": "U+5B9A",
+      "char": "定",
+      "cp932_hex": "92 e8",
+      "cp932_length": 2,
+      "itf_index": 318,
+      "glyph_address": 4114009
+    },
+    {
+      "codepoint": 23512,
+      "unicode": "U+5BD8",
+      "char": "寘",
+      "cp932_hex": "ed 8d",
+      "cp932_length": 2,
+      "itf_index": 319,
+      "glyph_address": 4191295
+    },
+    {
+      "codepoint": 23562,
+      "unicode": "U+5C0A",
+      "char": "尊",
+      "cp932_hex": "91 b8",
+      "cp932_length": 2,
+      "itf_index": 320,
+      "glyph_address": 4268665
+    },
+    {
+      "codepoint": 23630,
+      "unicode": "U+5C4E",
+      "char": "屎",
+      "cp932_hex": "9b 9d",
+      "cp932_length": 2,
+      "itf_index": 321,
+      "glyph_address": 4343891
+    },
+    {
+      "codepoint": 23738,
+      "unicode": "U+5CBA",
+      "char": "岺",
+      "cp932_hex": "ed 91",
+      "cp932_length": 2,
+      "itf_index": 322,
+      "glyph_address": 4418622
+    },
+    {
+      "codepoint": 23839,
+      "unicode": "U+5D1F",
+      "char": "崟",
+      "cp932_hex": "9b be",
+      "cp932_length": 2,
+      "itf_index": 323,
+      "glyph_address": 4495071
+    },
+    {
+      "codepoint": 23996,
+      "unicode": "U+5DBC",
+      "char": "嶼",
+      "cp932_hex": "9b d7",
+      "cp932_length": 2,
+      "itf_index": 324,
+      "glyph_address": 4570333
+    },
+    {
+      "codepoint": 24075,
+      "unicode": "U+5E0B",
+      "char": "帋",
+      "cp932_hex": "9b e1",
+      "cp932_length": 2,
+      "itf_index": 325,
+      "glyph_address": 4642849
+    },
+    {
+      "codepoint": 24164,
+      "unicode": "U+5E64",
+      "char": "幤",
+      "cp932_hex": "9b f0",
+      "cp932_length": 2,
+      "itf_index": 326,
+      "glyph_address": 4719569
+    },
+    {
+      "codepoint": 24247,
+      "unicode": "U+5EB7",
+      "char": "康",
+      "cp932_hex": "8d 4e",
+      "cp932_length": 2,
+      "itf_index": 327,
+      "glyph_address": 4795964
+    }
+  ],
+  "arabic_mapping_preview": [
+    {
+      "arabic": "ا",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 29254,
+        "unicode": "U+7246",
+        "char": "牆",
+        "cp932_hex": "e0 ad",
+        "cp932_length": 2,
+        "itf_index": 0,
+        "glyph_address": 9125957
+      }
+    },
+    {
+      "arabic": "ا",
+      "form": "initial",
+      "slot": {
+        "codepoint": 23480,
+        "unicode": "U+5BB8",
+        "char": "宸",
+        "cp932_hex": "9b 82",
+        "cp932_length": 2,
+        "itf_index": 1,
+        "glyph_address": 4152268
+      }
+    },
+    {
+      "arabic": "ا",
+      "form": "medial",
+      "slot": {
+        "codepoint": 35737,
+        "unicode": "U+8B99",
+        "char": "讙",
+        "cp932_hex": "e6 aa",
+        "cp932_length": 2,
+        "itf_index": 2,
+        "glyph_address": 14095716
+      }
+    },
+    {
+      "arabic": "ا",
+      "form": "final",
+      "slot": {
+        "codepoint": 20489,
+        "unicode": "U+5009",
+        "char": "倉",
+        "cp932_hex": "91 71",
+        "cp932_length": 2,
+        "itf_index": 3,
+        "glyph_address": 1711965
+      }
+    },
+    {
+      "arabic": "ب",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 26185,
+        "unicode": "U+6649",
+        "char": "晉",
+        "cp932_hex": "9d e7",
+        "cp932_length": 2,
+        "itf_index": 4,
+        "glyph_address": 6622352
+      }
+    },
+    {
+      "arabic": "ب",
+      "form": "initial",
+      "slot": {
+        "codepoint": 32402,
+        "unicode": "U+7E92",
+        "char": "纒",
+        "cp932_hex": "e3 95",
+        "cp932_length": 2,
+        "itf_index": 5,
+        "glyph_address": 11605678
+      }
+    },
+    {
+      "arabic": "ب",
+      "form": "medial",
+      "slot": {
+        "codepoint": 39491,
+        "unicode": "U+9A43",
+        "char": "驃",
+        "cp932_hex": "e9 7e",
+        "cp932_length": 2,
+        "itf_index": 6,
+        "glyph_address": 16579849
+      }
+    },
+    {
+      "arabic": "ب",
+      "form": "final",
+      "slot": {
+        "codepoint": 21698,
+        "unicode": "U+54C2",
+        "char": "哂",
+        "cp932_hex": "9a 41",
+        "cp932_length": 2,
+        "itf_index": 8,
+        "glyph_address": 2924325
+      }
+    },
+    {
+      "arabic": "ت",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 24798,
+        "unicode": "U+60DE",
+        "char": "惞",
+        "cp932_hex": "ed a3",
+        "cp932_length": 2,
+        "itf_index": 9,
+        "glyph_address": 5377852
+      }
+    },
+    {
+      "arabic": "ت",
+      "form": "initial",
+      "slot": {
+        "codepoint": 27550,
+        "unicode": "U+6B9E",
+        "char": "殞",
+        "cp932_hex": "9f 6d",
+        "cp932_length": 2,
+        "itf_index": 10,
+        "glyph_address": 7886535
+      }
+    },
+    {
+      "arabic": "ت",
+      "form": "medial",
+      "slot": {
+        "codepoint": 30990,
+        "unicode": "U+790E",
+        "char": "礎",
+        "cp932_hex": "91 62",
+        "cp932_length": 2,
+        "itf_index": 11,
+        "glyph_address": 10351724
+      }
+    },
+    {
+      "arabic": "ت",
+      "form": "final",
+      "slot": {
+        "codepoint": 34113,
+        "unicode": "U+8541",
+        "char": "蕁",
+        "cp932_hex": "e5 40",
+        "cp932_length": 2,
+        "itf_index": 12,
+        "glyph_address": 12846110
+      }
+    },
+    {
+      "arabic": "ث",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 37507,
+        "unicode": "U+9283",
+        "char": "銃",
+        "cp932_hex": "8f 65",
+        "cp932_length": 2,
+        "itf_index": 13,
+        "glyph_address": 15334935
+      }
+    },
+    {
+      "arabic": "ث",
+      "form": "initial",
+      "slot": {
+        "codepoint": 21108,
+        "unicode": "U+5274",
+        "char": "剴",
+        "cp932_hex": "99 93",
+        "cp932_length": 2,
+        "itf_index": 17,
+        "glyph_address": 2327763
+      }
+    },
+    {
+      "arabic": "ث",
+      "form": "medial",
+      "slot": {
+        "codepoint": 22654,
+        "unicode": "U+587E",
+        "char": "塾",
+        "cp932_hex": "8f 6d",
+        "cp932_length": 2,
+        "itf_index": 18,
+        "glyph_address": 3530813
+      }
+    },
+    {
+      "arabic": "ث",
+      "form": "final",
+      "slot": {
+        "codepoint": 24196,
+        "unicode": "U+5E84",
+        "char": "庄",
+        "cp932_hex": "8f af",
+        "cp932_length": 2,
+        "itf_index": 19,
+        "glyph_address": 4757299
+      }
+    },
+    {
+      "arabic": "ج",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 25447,
+        "unicode": "U+6367",
+        "char": "捧",
+        "cp932_hex": "95 f9",
+        "cp932_length": 2,
+        "itf_index": 20,
+        "glyph_address": 6000531
+      }
+    },
+    {
+      "arabic": "ج",
+      "form": "initial",
+      "slot": {
+        "codepoint": 26805,
+        "unicode": "U+68B5",
+        "char": "梵",
+        "cp932_hex": "9e 90",
+        "cp932_length": 2,
+        "itf_index": 21,
+        "glyph_address": 7247608
+      }
+    },
+    {
+      "arabic": "ج",
+      "form": "medial",
+      "slot": {
+        "codepoint": 28290,
+        "unicode": "U+6E82",
+        "char": "溂",
+        "cp932_hex": "9f e1",
+        "cp932_length": 2,
+        "itf_index": 22,
+        "glyph_address": 8502372
+      }
+    },
+    {
+      "arabic": "ج",
+      "form": "final",
+      "slot": {
+        "codepoint": 30097,
+        "unicode": "U+7591",
+        "char": "疑",
+        "cp932_hex": "8b 5e",
+        "cp932_length": 2,
+        "itf_index": 23,
+        "glyph_address": 9740480
+      }
+    },
+    {
+      "arabic": "ح",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 31735,
+        "unicode": "U+7BF7",
+        "char": "篷",
+        "cp932_hex": "e2 c9",
+        "cp932_length": 2,
+        "itf_index": 24,
+        "glyph_address": 10974402
+      }
+    },
+    {
+      "arabic": "ح",
+      "form": "initial",
+      "slot": {
+        "codepoint": 33290,
+        "unicode": "U+820A",
+        "char": "舊",
+        "cp932_hex": "e4 70",
+        "cp932_length": 2,
+        "itf_index": 25,
+        "glyph_address": 12226309
+      }
+    },
+    {
+      "arabic": "ح",
+      "form": "medial",
+      "slot": {
+        "codepoint": 35029,
+        "unicode": "U+88D5",
+        "char": "裕",
+        "cp932_hex": "97 54",
+        "cp932_length": 2,
+        "itf_index": 26,
+        "glyph_address": 13468815
+      }
+    },
+    {
+      "arabic": "ح",
+      "form": "final",
+      "slot": {
+        "codepoint": 36785,
+        "unicode": "U+8FB1",
+        "char": "辱",
+        "cp932_hex": "90 4a",
+        "cp932_length": 2,
+        "itf_index": 27,
+        "glyph_address": 14720205
+      }
+    },
+    {
+      "arabic": "خ",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 38599,
+        "unicode": "U+96C7",
+        "char": "雇",
+        "cp932_hex": "8c d9",
+        "cp932_length": 2,
+        "itf_index": 28,
+        "glyph_address": 15949180
+      }
+    },
+    {
+      "arabic": "خ",
+      "form": "initial",
+      "slot": {
+        "codepoint": 40639,
+        "unicode": "U+9EBF",
+        "char": "麿",
+        "cp932_hex": "96 9b",
+        "cp932_length": 2,
+        "itf_index": 29,
+        "glyph_address": 17206117
+      }
+    },
+    {
+      "arabic": "خ",
+      "form": "medial",
+      "slot": {
+        "codepoint": 20173,
+        "unicode": "U+4ECD",
+        "char": "仍",
+        "cp932_hex": "98 b9",
+        "cp932_length": 2,
+        "itf_index": 34,
+        "glyph_address": 1395507
+      }
+    },
+    {
+      "arabic": "خ",
+      "form": "final",
+      "slot": {
+        "codepoint": 20841,
+        "unicode": "U+5169",
+        "char": "兩",
+        "cp932_hex": "99 5f",
+        "cp932_length": 2,
+        "itf_index": 35,
+        "glyph_address": 2029315
+      }
+    },
+    {
+      "arabic": "د",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 21402,
+        "unicode": "U+539A",
+        "char": "厚",
+        "cp932_hex": "8c fa",
+        "cp932_length": 2,
+        "itf_index": 36,
+        "glyph_address": 2627049
+      }
+    },
+    {
+      "arabic": "د",
+      "form": "initial",
+      "slot": {
+        "codepoint": 22216,
+        "unicode": "U+56C8",
+        "char": "囈",
+        "cp932_hex": "9a 94",
+        "cp932_length": 2,
+        "itf_index": 37,
+        "glyph_address": 3227676
+      }
+    },
+    {
+      "arabic": "د",
+      "form": "medial",
+      "slot": {
+        "codepoint": 22992,
+        "unicode": "U+59D0",
+        "char": "姐",
+        "cp932_hex": "88 b7",
+        "cp932_length": 2,
+        "itf_index": 38,
+        "glyph_address": 3843658
+      }
+    },
+    {
+      "arabic": "د",
+      "form": "final",
+      "slot": {
+        "codepoint": 23798,
+        "unicode": "U+5CF6",
+        "char": "島",
+        "cp932_hex": "93 87",
+        "cp932_length": 2,
+        "itf_index": 39,
+        "glyph_address": 4456931
+      }
+    },
+    {
+      "arabic": "ذ",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 24471,
+        "unicode": "U+5F97",
+        "char": "得",
+        "cp932_hex": "93 be",
+        "cp932_length": 2,
+        "itf_index": 40,
+        "glyph_address": 5064902
+      }
+    },
+    {
+      "arabic": "ذ",
+      "form": "initial",
+      "slot": {
+        "codepoint": 25107,
+        "unicode": "U+6213",
+        "char": "戓",
+        "cp932_hex": "ed ab",
+        "cp932_length": 2,
+        "itf_index": 41,
+        "glyph_address": 5689918
+      }
+    },
+    {
+      "arabic": "ذ",
+      "form": "medial",
+      "slot": {
+        "codepoint": 25880,
+        "unicode": "U+6518",
+        "char": "攘",
+        "cp932_hex": "9d b5",
+        "cp932_length": 2,
+        "itf_index": 42,
+        "glyph_address": 6316975
+      }
+    },
+    {
+      "arabic": "ذ",
+      "form": "final",
+      "slot": {
+        "codepoint": 26479,
+        "unicode": "U+676F",
+        "char": "杯",
+        "cp932_hex": "94 74",
+        "cp932_length": 2,
+        "itf_index": 43,
+        "glyph_address": 6929900
+      }
+    },
+    {
+      "arabic": "ر",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 27141,
+        "unicode": "U+6A05",
+        "char": "樅",
+        "cp932_hex": "9e e0",
+        "cp932_length": 2,
+        "itf_index": 44,
+        "glyph_address": 7568050
+      }
+    },
+    {
+      "arabic": "ر",
+      "form": "initial",
+      "slot": {
+        "codepoint": 27935,
+        "unicode": "U+6D1F",
+        "char": "洟",
+        "cp932_hex": "9f a4",
+        "cp932_length": 2,
+        "itf_index": 45,
+        "glyph_address": 8192636
+      }
+    },
+    {
+      "arabic": "ر",
+      "form": "medial",
+      "slot": {
+        "codepoint": 28703,
+        "unicode": "U+701F",
+        "char": "瀟",
+        "cp932_hex": "e0 6e",
+        "cp932_length": 2,
+        "itf_index": 46,
+        "glyph_address": 8817133
+      }
+    },
+    {
+      "arabic": "ر",
+      "form": "final",
+      "slot": {
+        "codepoint": 29734,
+        "unicode": "U+7426",
+        "char": "琦",
+        "cp932_hex": "ee 4b",
+        "cp932_length": 2,
+        "itf_index": 47,
+        "glyph_address": 9437931
+      }
+    },
+    {
+      "arabic": "ز",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 30462,
+        "unicode": "U+76FE",
+        "char": "盾",
+        "cp932_hex": "8f 82",
+        "cp932_length": 2,
+        "itf_index": 48,
+        "glyph_address": 10044546
+      }
+    },
+    {
+      "arabic": "ز",
+      "form": "initial",
+      "slot": {
+        "codepoint": 31391,
+        "unicode": "U+7A9F",
+        "char": "窟",
+        "cp932_hex": "8c 41",
+        "cp932_length": 2,
+        "itf_index": 49,
+        "glyph_address": 10665200
+      }
+    },
+    {
+      "arabic": "ز",
+      "form": "medial",
+      "slot": {
+        "codepoint": 32080,
+        "unicode": "U+7D50",
+        "char": "結",
+        "cp932_hex": "8c 8b",
+        "cp932_length": 2,
+        "itf_index": 50,
+        "glyph_address": 11288136
+      }
+    },
+    {
+      "arabic": "ز",
+      "form": "final",
+      "slot": {
+        "codepoint": 32918,
+        "unicode": "U+8096",
+        "char": "肖",
+        "cp932_hex": "8f d1",
+        "cp932_length": 2,
+        "itf_index": 51,
+        "glyph_address": 11913116
+      }
+    },
+    {
+      "arabic": "س",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 33678,
+        "unicode": "U+838E",
+        "char": "莎",
+        "cp932_hex": "e4 b3",
+        "cp932_length": 2,
+        "itf_index": 52,
+        "glyph_address": 12536832
+      }
+    },
+    {
+      "arabic": "س",
+      "form": "initial",
+      "slot": {
+        "codepoint": 34566,
+        "unicode": "U+8706",
+        "char": "蜆",
+        "cp932_hex": "e5 84",
+        "cp932_length": 2,
+        "itf_index": 53,
+        "glyph_address": 13154912
+      }
+    },
+    {
+      "arabic": "س",
+      "form": "medial",
+      "slot": {
+        "codepoint": 35427,
+        "unicode": "U+8A63",
+        "char": "詣",
+        "cp932_hex": "8c 77",
+        "cp932_length": 2,
+        "itf_index": 54,
+        "glyph_address": 13782259
+      }
+    },
+    {
+      "arabic": "س",
+      "form": "final",
+      "slot": {
+        "codepoint": 36321,
+        "unicode": "U+8DE1",
+        "char": "跡",
+        "cp932_hex": "90 d5",
+        "cp932_length": 2,
+        "itf_index": 55,
+        "glyph_address": 14405610
+      }
+    },
+    {
+      "arabic": "ش",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 37090,
+        "unicode": "U+90E2",
+        "char": "郢",
+        "cp932_hex": "e7 b9",
+        "cp932_length": 2,
+        "itf_index": 56,
+        "glyph_address": 15025762
+      }
+    },
+    {
+      "arabic": "ش",
+      "form": "initial",
+      "slot": {
+        "codepoint": 37984,
+        "unicode": "U+9460",
+        "char": "鑠",
+        "cp932_hex": "e8 6a",
+        "cp932_length": 2,
+        "itf_index": 57,
+        "glyph_address": 15650487
+      }
+    },
+    {
+      "arabic": "ش",
+      "form": "medial",
+      "slot": {
+        "codepoint": 38957,
+        "unicode": "U+982D",
+        "char": "頭",
+        "cp932_hex": "93 aa",
+        "cp932_length": 2,
+        "itf_index": 58,
+        "glyph_address": 16262198
+      }
+    },
+    {
+      "arabic": "ش",
+      "form": "final",
+      "slot": {
+        "codepoint": 39969,
+        "unicode": "U+9C21",
+        "char": "鰡",
+        "cp932_hex": "e9 dd",
+        "cp932_length": 2,
+        "itf_index": 59,
+        "glyph_address": 16893853
+      }
+    },
+    {
+      "arabic": "ص",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 20028,
+        "unicode": "U+4E3C",
+        "char": "丼",
+        "cp932_hex": "98 a5",
+        "cp932_length": 2,
+        "itf_index": 69,
+        "glyph_address": 1252096
+      }
+    },
+    {
+      "arabic": "ص",
+      "form": "initial",
+      "slot": {
+        "codepoint": 20329,
+        "unicode": "U+4F69",
+        "char": "佩",
+        "cp932_hex": "98 ce",
+        "cp932_length": 2,
+        "itf_index": 70,
+        "glyph_address": 1552423
+      }
+    },
+    {
+      "arabic": "ص",
+      "form": "medial",
+      "slot": {
+        "codepoint": 20674,
+        "unicode": "U+50C2",
+        "char": "僂",
+        "cp932_hex": "99 43",
+        "cp932_length": 2,
+        "itf_index": 71,
+        "glyph_address": 1872027
+      }
+    },
+    {
+      "arabic": "ص",
+      "form": "final",
+      "slot": {
+        "codepoint": 20967,
+        "unicode": "U+51E7",
+        "char": "凧",
+        "cp932_hex": "91 fa",
+        "cp932_length": 2,
+        "itf_index": 72,
+        "glyph_address": 2178014
+      }
+    },
+    {
+      "arabic": "ض",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 21254,
+        "unicode": "U+5306",
+        "char": "匆",
+        "cp932_hex": "99 b0",
+        "cp932_length": 2,
+        "itf_index": 73,
+        "glyph_address": 2482170
+      }
+    },
+    {
+      "arabic": "ض",
+      "form": "initial",
+      "slot": {
+        "codepoint": 21531,
+        "unicode": "U+541B",
+        "char": "君",
+        "cp932_hex": "8c 4e",
+        "cp932_length": 2,
+        "itf_index": 74,
+        "glyph_address": 2775598
+      }
+    },
+    {
+      "arabic": "ض",
+      "form": "medial",
+      "slot": {
+        "codepoint": 21929,
+        "unicode": "U+55A9",
+        "char": "喩",
+        "cp932_hex": "9a 67",
+        "cp932_length": 2,
+        "itf_index": 75,
+        "glyph_address": 3074789
+      }
+    },
+    {
+      "arabic": "ض",
+      "form": "final",
+      "slot": {
+        "codepoint": 22435,
+        "unicode": "U+57A3",
+        "char": "垣",
+        "cp932_hex": "8a 5f",
+        "cp932_length": 2,
+        "itf_index": 76,
+        "glyph_address": 3374899
+      }
+    },
+    {
+      "arabic": "ط",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 22826,
+        "unicode": "U+592A",
+        "char": "太",
+        "cp932_hex": "91 be",
+        "cp932_length": 2,
+        "itf_index": 77,
+        "glyph_address": 3686104
+      }
+    },
+    {
+      "arabic": "ط",
+      "form": "initial",
+      "slot": {
+        "codepoint": 23330,
+        "unicode": "U+5B22",
+        "char": "嬢",
+        "cp932_hex": "8f ec",
+        "cp932_length": 2,
+        "itf_index": 78,
+        "glyph_address": 4000702
+      }
+    },
+    {
+      "arabic": "ط",
+      "form": "medial",
+      "slot": {
+        "codepoint": 23608,
+        "unicode": "U+5C38",
+        "char": "尸",
+        "cp932_hex": "9b 99",
+        "cp932_length": 2,
+        "itf_index": 79,
+        "glyph_address": 4306920
+      }
+    },
+    {
+      "arabic": "ط",
+      "form": "final",
+      "slot": {
+        "codepoint": 24039,
+        "unicode": "U+5DE7",
+        "char": "巧",
+        "cp932_hex": "8d 49",
+        "cp932_length": 2,
+        "itf_index": 80,
+        "glyph_address": 4607771
+      }
+    },
+    {
+      "arabic": "ظ",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 24341,
+        "unicode": "U+5F15",
+        "char": "引",
+        "cp932_hex": "88 f8",
+        "cp932_length": 2,
+        "itf_index": 81,
+        "glyph_address": 4912362
+      }
+    },
+    {
+      "arabic": "ظ",
+      "form": "initial",
+      "slot": {
+        "codepoint": 24650,
+        "unicode": "U+604A",
+        "char": "恊",
+        "cp932_hex": "9c 90",
+        "cp932_length": 2,
+        "itf_index": 82,
+        "glyph_address": 5221690
+      }
+    },
+    {
+      "arabic": "ظ",
+      "form": "medial",
+      "slot": {
+        "codepoint": 24939,
+        "unicode": "U+616B",
+        "char": "慫",
+        "cp932_hex": "9c cf",
+        "cp932_length": 2,
+        "itf_index": 83,
+        "glyph_address": 5534512
+      }
+    },
+    {
+      "arabic": "ظ",
+      "form": "final",
+      "slot": {
+        "codepoint": 25269,
+        "unicode": "U+62B5",
+        "char": "抵",
+        "cp932_hex": "92 ef",
+        "cp932_length": 2,
+        "itf_index": 84,
+        "glyph_address": 5844681
+      }
+    },
+    {
+      "arabic": "ع",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 25638,
+        "unicode": "U+6426",
+        "char": "搦",
+        "cp932_hex": "9d 8e",
+        "cp932_length": 2,
+        "itf_index": 85,
+        "glyph_address": 6158375
+      }
+    },
+    {
+      "arabic": "ع",
+      "form": "initial",
+      "slot": {
+        "codepoint": 26039,
+        "unicode": "U+65B7",
+        "char": "斷",
+        "cp932_hex": "9d d0",
+        "cp932_length": 2,
+        "itf_index": 86,
+        "glyph_address": 6475033
+      }
+    },
+    {
+      "arabic": "ع",
+      "form": "medial",
+      "slot": {
+        "codepoint": 26357,
+        "unicode": "U+66F5",
+        "char": "曵",
+        "cp932_hex": "9e 49",
+        "cp932_length": 2,
+        "itf_index": 87,
+        "glyph_address": 6774488
+      }
+    },
+    {
+      "arabic": "ع",
+      "form": "final",
+      "slot": {
+        "codepoint": 26626,
+        "unicode": "U+6802",
+        "char": "栂",
+        "cp932_hex": "92 cc",
+        "cp932_length": 2,
+        "itf_index": 88,
+        "glyph_address": 7088610
+      }
+    },
+    {
+      "arabic": "غ",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 26973,
+        "unicode": "U+695D",
+        "char": "楝",
+        "cp932_hex": "9e c0",
+        "cp932_length": 2,
+        "itf_index": 89,
+        "glyph_address": 7407513
+      }
+    },
+    {
+      "arabic": "غ",
+      "form": "initial",
+      "slot": {
+        "codepoint": 27354,
+        "unicode": "U+6ADA",
+        "char": "櫚",
+        "cp932_hex": "9f 4c",
+        "cp932_length": 2,
+        "itf_index": 90,
+        "glyph_address": 7729468
+      }
+    },
+    {
+      "arabic": "غ",
+      "form": "medial",
+      "slot": {
+        "codepoint": 27762,
+        "unicode": "U+6C72",
+        "char": "汲",
+        "cp932_hex": "8b 82",
+        "cp932_length": 2,
+        "itf_index": 91,
+        "glyph_address": 8039656
+      }
+    },
+    {
+      "arabic": "غ",
+      "form": "final",
+      "slot": {
+        "codepoint": 28136,
+        "unicode": "U+6DE8",
+        "char": "淨",
+        "cp932_hex": "9f c4",
+        "cp932_length": 2,
+        "itf_index": 92,
+        "glyph_address": 8347503
+      }
+    },
+    {
+      "arabic": "ف",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 28511,
+        "unicode": "U+6F5F",
+        "char": "潟",
+        "cp932_hex": "8a 83",
+        "cp932_length": 2,
+        "itf_index": 93,
+        "glyph_address": 8659631
+      }
+    },
+    {
+      "arabic": "ف",
+      "form": "initial",
+      "slot": {
+        "codepoint": 29028,
+        "unicode": "U+7164",
+        "char": "煤",
+        "cp932_hex": "94 81",
+        "cp932_length": 2,
+        "itf_index": 94,
+        "glyph_address": 8971549
+      }
+    },
+    {
+      "arabic": "ف",
+      "form": "medial",
+      "slot": {
+        "codepoint": 29476,
+        "unicode": "U+7324",
+        "char": "猤",
+        "cp932_hex": "ee 41",
+        "cp932_length": 2,
+        "itf_index": 95,
+        "glyph_address": 9282099
+      }
+    },
+    {
+      "arabic": "ف",
+      "form": "final",
+      "slot": {
+        "codepoint": 29971,
+        "unicode": "U+7513",
+        "char": "甓",
+        "cp932_hex": "e1 51",
+        "cp932_length": 2,
+        "itf_index": 96,
+        "glyph_address": 9591832
+      }
+    },
+    {
+      "arabic": "ق",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 30311,
+        "unicode": "U+7667",
+        "char": "癧",
+        "cp932_hex": "e1 9c",
+        "cp932_length": 2,
+        "itf_index": 97,
+        "glyph_address": 9895463
+      }
+    },
+    {
+      "arabic": "ق",
+      "form": "initial",
+      "slot": {
+        "codepoint": 30707,
+        "unicode": "U+77F3",
+        "char": "石",
+        "cp932_hex": "90 ce",
+        "cp932_length": 2,
+        "itf_index": 98,
+        "glyph_address": 10194970
+      }
+    },
+    {
+      "arabic": "ق",
+      "form": "medial",
+      "slot": {
+        "codepoint": 31199,
+        "unicode": "U+79DF",
+        "char": "租",
+        "cp932_hex": "91 64",
+        "cp932_length": 2,
+        "itf_index": 99,
+        "glyph_address": 10506523
+      }
+    },
+    {
+      "arabic": "ق",
+      "form": "final",
+      "slot": {
+        "codepoint": 31545,
+        "unicode": "U+7B39",
+        "char": "笹",
+        "cp932_hex": "8d f9",
+        "cp932_length": 2,
+        "itf_index": 100,
+        "glyph_address": 10819019
+      }
+    },
+    {
+      "arabic": "ك",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 31934,
+        "unicode": "U+7CBE",
+        "char": "精",
+        "cp932_hex": "90 b8",
+        "cp932_length": 2,
+        "itf_index": 101,
+        "glyph_address": 11130556
+      }
+    },
+    {
+      "arabic": "ك",
+      "form": "initial",
+      "slot": {
+        "codepoint": 32236,
+        "unicode": "U+7DEC",
+        "char": "緬",
+        "cp932_hex": "96 c9",
+        "cp932_length": 2,
+        "itf_index": 102,
+        "glyph_address": 11445661
+      }
+    },
+    {
+      "arabic": "ك",
+      "form": "medial",
+      "slot": {
+        "codepoint": 32724,
+        "unicode": "U+7FD4",
+        "char": "翔",
+        "cp932_hex": "e3 c4",
+        "cp932_length": 2,
+        "itf_index": 103,
+        "glyph_address": 11757801
+      }
+    },
+    {
+      "arabic": "ك",
+      "form": "final",
+      "slot": {
+        "codepoint": 33131,
+        "unicode": "U+816B",
+        "char": "腫",
+        "cp932_hex": "8e ee",
+        "cp932_length": 2,
+        "itf_index": 104,
+        "glyph_address": 12069061
+      }
+    },
+    {
+      "arabic": "ل",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 33489,
+        "unicode": "U+82D1",
+        "char": "苑",
+        "cp932_hex": "89 91",
+        "cp932_length": 2,
+        "itf_index": 105,
+        "glyph_address": 12383767
+      }
+    },
+    {
+      "arabic": "ل",
+      "form": "initial",
+      "slot": {
+        "codepoint": 33894,
+        "unicode": "U+8466",
+        "char": "葦",
+        "cp932_hex": "88 af",
+        "cp932_length": 2,
+        "itf_index": 106,
+        "glyph_address": 12691739
+      }
+    },
+    {
+      "arabic": "ل",
+      "form": "medial",
+      "slot": {
+        "codepoint": 34311,
+        "unicode": "U+8607",
+        "char": "蘇",
+        "cp932_hex": "91 68",
+        "cp932_length": 2,
+        "itf_index": 107,
+        "glyph_address": 13001431
+      }
+    },
+    {
+      "arabic": "ل",
+      "form": "final",
+      "slot": {
+        "codepoint": 34831,
+        "unicode": "U+880F",
+        "char": "蠏",
+        "cp932_hex": "e5 b5",
+        "cp932_length": 2,
+        "itf_index": 108,
+        "glyph_address": 13310967
+      }
+    },
+    {
+      "arabic": "م",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 35224,
+        "unicode": "U+8998",
+        "char": "覘",
+        "cp932_hex": "e6 4c",
+        "cp932_length": 2,
+        "itf_index": 109,
+        "glyph_address": 13626702
+      }
+    },
+    {
+      "arabic": "م",
+      "form": "initial",
+      "slot": {
+        "codepoint": 35566,
+        "unicode": "U+8AEE",
+        "char": "諮",
+        "cp932_hex": "8e 90",
+        "cp932_length": 2,
+        "itf_index": 110,
+        "glyph_address": 13938469
+      }
+    },
+    {
+      "arabic": "م",
+      "form": "medial",
+      "slot": {
+        "codepoint": 36042,
+        "unicode": "U+8CCA",
+        "char": "賊",
+        "cp932_hex": "91 af",
+        "cp932_length": 2,
+        "itf_index": 111,
+        "glyph_address": 14250097
+      }
+    },
+    {
+      "arabic": "م",
+      "form": "final",
+      "slot": {
+        "codepoint": 36556,
+        "unicode": "U+8ECC",
+        "char": "軌",
+        "cp932_hex": "8b 4f",
+        "cp932_length": 2,
+        "itf_index": 112,
+        "glyph_address": 14561732
+      }
+    },
+    {
+      "arabic": "ن",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 36929,
+        "unicode": "U+9041",
+        "char": "遁",
+        "cp932_hex": "93 d9",
+        "cp932_length": 2,
+        "itf_index": 113,
+        "glyph_address": 14872652
+      }
+    },
+    {
+      "arabic": "ن",
+      "form": "initial",
+      "slot": {
+        "codepoint": 37327,
+        "unicode": "U+91CF",
+        "char": "量",
+        "cp932_hex": "97 ca",
+        "cp932_length": 2,
+        "itf_index": 114,
+        "glyph_address": 15180546
+      }
+    },
+    {
+      "arabic": "ن",
+      "form": "medial",
+      "slot": {
+        "codepoint": 37716,
+        "unicode": "U+9354",
+        "char": "鍔",
+        "cp932_hex": "92 d5",
+        "cp932_length": 2,
+        "itf_index": 115,
+        "glyph_address": 15492300
+      }
+    },
+    {
+      "arabic": "ن",
+      "form": "final",
+      "slot": {
+        "codepoint": 38468,
+        "unicode": "U+9644",
+        "char": "附",
+        "cp932_hex": "95 8d",
+        "cp932_length": 2,
+        "itf_index": 116,
+        "glyph_address": 15797750
+      }
+    },
+    {
+      "arabic": "ه",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 38752,
+        "unicode": "U+9760",
+        "char": "靠",
+        "cp932_hex": "e8 cf",
+        "cp932_length": 2,
+        "itf_index": 117,
+        "glyph_address": 16104762
+      }
+    },
+    {
+      "arabic": "ه",
+      "form": "initial",
+      "slot": {
+        "codepoint": 39207,
+        "unicode": "U+9927",
+        "char": "餧",
+        "cp932_hex": "ee dc",
+        "cp932_length": 2,
+        "itf_index": 118,
+        "glyph_address": 16421703
+      }
+    },
+    {
+      "arabic": "ه",
+      "form": "medial",
+      "slot": {
+        "codepoint": 39749,
+        "unicode": "U+9B45",
+        "char": "魅",
+        "cp932_hex": "96 a3",
+        "cp932_length": 2,
+        "itf_index": 119,
+        "glyph_address": 16735538
+      }
+    },
+    {
+      "arabic": "ه",
+      "form": "final",
+      "slot": {
+        "codepoint": 40300,
+        "unicode": "U+9D6C",
+        "char": "鵬",
+        "cp932_hex": "96 51",
+        "cp932_length": 2,
+        "itf_index": 120,
+        "glyph_address": 17050242
+      }
+    },
+    {
+      "arabic": "و",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 20114,
+        "unicode": "U+4E92",
+        "char": "互",
+        "cp932_hex": "8c dd",
+        "cp932_length": 2,
+        "itf_index": 140,
+        "glyph_address": 1321990
+      }
+    },
+    {
+      "arabic": "و",
+      "form": "initial",
+      "slot": {
+        "codepoint": 20240,
+        "unicode": "U+4F10",
+        "char": "伐",
+        "cp932_hex": "94 b0",
+        "cp932_length": 2,
+        "itf_index": 141,
+        "glyph_address": 1473591
+      }
+    },
+    {
+      "arabic": "و",
+      "form": "medial",
+      "slot": {
+        "codepoint": 20415,
+        "unicode": "U+4FBF",
+        "char": "便",
+        "cp932_hex": "95 d6",
+        "cp932_length": 2,
+        "itf_index": 142,
+        "glyph_address": 1632077
+      }
+    },
+    {
+      "arabic": "و",
+      "form": "final",
+      "slot": {
+        "codepoint": 20553,
+        "unicode": "U+5049",
+        "char": "偉",
+        "cp932_hex": "88 cc",
+        "cp932_length": 2,
+        "itf_index": 143,
+        "glyph_address": 1792153
+      }
+    },
+    {
+      "arabic": "ي",
+      "form": "isolated",
+      "slot": {
+        "codepoint": 20767,
+        "unicode": "U+511F",
+        "char": "償",
+        "cp932_hex": "8f 9e",
+        "cp932_length": 2,
+        "itf_index": 144,
+        "glyph_address": 1952652
+      }
+    },
+    {
+      "arabic": "ي",
+      "form": "initial",
+      "slot": {
+        "codepoint": 20900,
+        "unicode": "U+51A4",
+        "char": "冤",
+        "cp932_hex": "99 6c",
+        "cp932_length": 2,
+        "itf_index": 145,
+        "glyph_address": 2101512
+      }
+    },
+    {
+      "arabic": "ي",
+      "form": "medial",
+      "slot": {
+        "codepoint": 21034,
+        "unicode": "U+522A",
+        "char": "刪",
+        "cp932_hex": "99 88",
+        "cp932_length": 2,
+        "itf_index": 146,
+        "glyph_address": 2251296
+      }
+    },
+    {
+      "arabic": "ي",
+      "form": "final",
+      "slot": {
+        "codepoint": 21187,
+        "unicode": "U+52C3",
+        "char": "勃",
+        "cp932_hex": "96 75",
+        "cp932_length": 2,
+        "itf_index": 147,
+        "glyph_address": 2404879
+      }
+    }
+  ]
+}
