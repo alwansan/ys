@@ -1,0 +1,2117 @@
+ot@localhost:/storage/emulated/0/Download/Games/nsp# cd /storage/emulated/0/Download/Games/nsp
+root@localhost:/storage/emulated/0/Download/Games/nsp# ls -lh ys_felghana_localizer
+ls -ld ys_romfs
+total 40K
+-rw-rw---- 1 10254 1023 1.2K Aug 25 20:54 PROJECT_STATUS.md
+-rw-rw---- 1 10254 1023 2.3K Aug 25 20:54 README.md
+-rw-rw---- 1 10254 1023  458 Aug 25 20:54 build_arabic_font.py
+-rw-rw---- 1 10254 1023 8.7K Aug 25 20:54 build_index.py                                -rw-rw---- 1 10254 1023 1.2K Aug 25 20:54 extract_dialogue.py
+-rw-rw---- 1 10254 1023 3.5K Aug 25 20:54 inject_translation.py
+-rw-rw---- 1 10254 1023 1.2K Aug 25 20:54 probe_scn_structure.py
+-rw-rw---- 1 10254 1023 1.2K Aug 25 20:54 verify_romfs.py
+drwxrws--- 5 10254 1023 3452 Aug 25 17:28 ys_romfs
+root@localhost:/storage/emulated/0/Download/Games/nsp# /data/data/com.termux/files/usr/bin/python3 \
+  ys_felghana_localizer/probe_scn_structure.py \
+  ys_romfs/data/scn/s_1113.bin \
+  --out ys_font_analysis/scn_record_analysis/s1113_structure_probe.json
+ys_font_analysis/scn_record_analysis/s1113_structure_probe.json
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# cat ys_font_analysis/scn_record_analysis/s1113_structure_probe.json
+{
+  "file": "ys_romfs/data/scn/s_1113.bin",
+  "size": 4652,
+  "candidate_opcodes": [
+    {
+      "offset": 724,
+      "opcode": "0x00000057",                                                                 "next32": 87
+    },
+    {
+      "offset": 728,
+      "opcode": "0x00000057",
+      "next32": 1090633335                                                                  },
+    {
+      "offset": 1004,
+      "opcode": "0x00000061",
+      "next32": 1
+    },
+    {
+      "offset": 1128,
+      "opcode": "0x00000057",
+      "next32": 1
+    },
+    {                                                                                         "offset": 1200,
+      "opcode": "0x00000060",
+      "next32": 8
+    },
+    {
+      "offset": 1228,
+      "opcode": "0x00000057",
+      "next32": 0
+    },
+    {
+      "offset": 1236,
+      "opcode": "0x00000030",
+      "next32": 1768912444
+    },
+    {                                                                                         "offset": 1868,
+      "opcode": "0x00000057",
+      "next32": 0
+    },
+    {
+      "offset": 1900,
+      "opcode": "0x00000057",
+      "next32": 1132920832
+    },
+    {
+      "offset": 1928,
+      "opcode": "0x00000057",
+      "next32": 3239651049
+    },
+    {
+      "offset": 1956,
+      "opcode": "0x00000057",
+      "next32": 262225
+    },
+    {
+      "offset": 1968,
+      "opcode": "0x00000057",
+      "next32": 1
+    },
+    {
+      "offset": 1976,
+      "opcode": "0x00000030",
+      "next32": 1768912444
+    },
+    {
+      "offset": 2084,
+      "opcode": "0x00000057",
+      "next32": 13
+    },
+    {
+      "offset": 2112,
+      "opcode": "0x00000057",
+      "next32": 1
+    },
+    {
+      "offset": 2120,
+      "opcode": "0x00000030",
+      "next32": 1768912444
+    },
+    {
+      "offset": 2568,
+      "opcode": "0x00000057",
+      "next32": 0
+    },
+    {
+      "offset": 2628,
+      "opcode": "0x00000057",
+      "next32": 1127481344
+    },
+    {
+      "offset": 2656,
+      "opcode": "0x00000057",
+      "next32": 1
+    },
+    {
+      "offset": 2664,
+      "opcode": "0x00000030",
+      "next32": 1768912444
+    },
+    {
+      "offset": 2920,
+      "opcode": "0x00000057",
+      "next32": 3239543046
+    },
+    {
+      "offset": 2960,
+      "opcode": "0x00000057",
+      "next32": 1
+    },
+    {
+      "offset": 2968,
+      "opcode": "0x00000030",
+      "next32": 1768912444
+    },
+    {
+      "offset": 3156,
+      "opcode": "0x00000057",
+      "next32": 1
+    },
+    {
+      "offset": 3172,
+      "opcode": "0x00000057",
+      "next32": 3240218329
+    },
+    {
+      "offset": 3232,
+      "opcode": "0x00000057",
+      "next32": 196734
+    },
+    {
+      "offset": 3244,
+      "opcode": "0x00000057",
+      "next32": 0
+    },
+    {
+      "offset": 3276,
+      "opcode": "0x00000057",
+      "next32": 1
+    },
+    {
+      "offset": 3284,
+      "opcode": "0x00000030",
+      "next32": 1768912444
+    },
+    {
+      "offset": 3364,
+      "opcode": "0x00000057",
+      "next32": 0
+    },
+    {
+      "offset": 3396,
+      "opcode": "0x00000057",
+      "next32": 0
+    },
+    {
+      "offset": 3480,
+      "opcode": "0x00000057",
+      "next32": 2
+    },
+    {
+      "offset": 3488,
+      "opcode": "0x00000030",
+      "next32": 1768912444
+    },
+    {
+      "offset": 3616,
+      "opcode": "0x00000057",
+      "next32": 3
+    },
+    {
+      "offset": 3664,
+      "opcode": "0x00000057",
+      "next32": 63
+    },
+    {
+      "offset": 3708,
+      "opcode": "0x00000057",
+      "next32": 166
+    },
+    {
+      "offset": 3736,
+      "opcode": "0x00000057",
+      "next32": 1127481344
+    },
+    {
+      "offset": 3768,
+      "opcode": "0x00000060",
+      "next32": 8
+    },
+    {
+      "offset": 3964,
+      "opcode": "0x00000057",
+      "next32": 66539
+    },
+    {
+      "offset": 4120,
+      "opcode": "0x00000057",
+      "next32": 1090357559
+    },
+    {
+      "offset": 4148,
+      "opcode": "0x00000057",
+      "next32": 327801
+    },
+    {
+      "offset": 4160,
+      "opcode": "0x00000057",
+      "next32": 1082709246
+    },
+    {
+      "offset": 4188,
+      "opcode": "0x00000057",
+      "next32": 327801
+    },
+    {
+      "offset": 4200,
+      "opcode": "0x00000057",
+      "next32": 3220118176
+    },
+    {
+      "offset": 4228,
+      "opcode": "0x00000057",
+      "next32": 327801
+    },
+    {
+      "offset": 4240,
+      "opcode": "0x00000057",
+      "next32": 3238942212
+    },
+    {
+      "offset": 4268,
+      "opcode": "0x00000057",
+      "next32": 131186
+    },
+    {
+      "offset": 4280,
+      "opcode": "0x00000057",
+      "next32": 13
+    },
+    {
+      "offset": 4552,
+      "opcode": "0x00000057",
+      "next32": 66539
+    },
+    {
+      "offset": 4636,
+      "opcode": "0x00000057",
+      "next32": 66539
+    }
+  ],
+  "voice_markers": [
+    {
+      "offset": 1240,
+      "tag": "<voice:04001>"
+    },
+    {
+      "offset": 1300,
+      "tag": "<voice:04002>"
+    },
+    {
+      "offset": 1423,
+      "tag": "<voice:04003>"
+    },
+    {
+      "offset": 1548,
+      "tag": "<voice:04004>"
+    },
+    {
+      "offset": 1625,
+      "tag": "<voice:04005>"
+    },
+    {
+      "offset": 1675,
+      "tag": "<voice:04006>"
+    },
+    {
+      "offset": 1980,
+      "tag": "<voice:04007>"
+    },
+    {
+      "offset": 2124,
+      "tag": "<voice:04008>"
+    },
+    {
+      "offset": 2194,
+      "tag": "<voice:04009>"
+    },
+    {
+      "offset": 2325,
+      "tag": "<voice:04010>"
+    },
+    {
+      "offset": 2406,
+      "tag": "<voice:04011>"
+    },
+    {
+      "offset": 2668,
+      "tag": "<voice:04012>"
+    },
+    {
+      "offset": 2972,
+      "tag": "<voice:04013>"
+    },
+    {
+      "offset": 3009,
+      "tag": "<voice:04014>"
+    },
+    {
+      "offset": 3288,
+      "tag": "<voice:04015>"
+    },
+    {
+      "offset": 3492,
+      "tag": "<voice:04016>"
+    },
+    {
+      "offset": 3536,
+      "tag": "<voice:04017>"
+    }
+  ]
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# rm -rf ys_dialogue_project_v2
+root@localhost:/storage/emulated/0/Download/Games/nsp# mkdir -p ys_dialogue_project_v2
+root@localhost:/storage/emulated/0/Download/Games/nsp# /data/data/com.termux/files/usr/bin/python3 \
+  ys_felghana_localizer/build_index.py \
+  ys_romfs \
+  --out ys_dialogue_project_v2
+DONE
+ys_dialogue_project_v2/scn_dialogue_index.json
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# cat ys_dialogue_project_v2/scn_dialogue_report.txt
+YS FELGHANA INDEX BUILD                                                                 ==========================================================================================
+SCN files: 219
+Total entries: 12092
+Dialogue entries: 5079
+Non-dialogue text entries: 7013
+root@localhost:/storage/emulated/0/Download/Games/nsp# ls -lh ys_dialogue_project_v2/scn_dialogue_index.json
+-rw-rw---- 1 10254 1023 8.4M Aug 25 20:59 ys_dialogue_project_v2/scn_dialogue_index.json
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# /data/data/com.termux/files/usr/bin/python3 \
+  ys_felghana_localizer/extract_dialogue.py \                                             ys_dialogue_project_v2/scn_dialogue_index.json \                                        --out ys_dialogue_project_v2/scn_dialogue_translation.txt
+Wrote ys_dialogue_project_v2/scn_dialogue_translation.txt
+root@localhost:/storage/emulated/0/Download/Games/nsp# wc -l ys_dialogue_project_v2/scn_dialogue_translation.txt
+10158 ys_dialogue_project_v2/scn_dialogue_translation.txt
+root@localhost:/storage/emulated/0/Download/Games/nsp# sed -n '1,120p' ys_dialogue_project_v2/scn_dialogue_translation.txt
+e.
+**********
+d!
+**********
+d!
+**********
+s.
+**********
+d!
+**********
+g.
+**********
+e.
+**********
+y!
+**********
+
+**********
+
+**********
+e.
+**********
+
+**********
+n?
+**********
+n...
+**********
+e.
+**********
+e.
+**********
+y.
+**********
+r.
+**********
+n.
+**********
+n.
+**********
+d.
+**********
+e.
+**********
+s.
+**********
+n.
+**********
+d.
+**********
+t.
+**********
+e.
+**********
+n.
+**********
+s...
+**********
+
+**********
+n.
+**********
+a.
+**********
+s.
+**********
+
+**********
+e.
+**********
+r.
+**********
+s.
+**********
+s.
+**********
+d.
+**********
+
+**********
+e.
+**********
+i.
+**********
+e.
+**********
+
+**********
+t.
+**********
+e.
+**********
+d.
+**********
+n.
+**********
+h.
+**********
+
+**********
+h.
+**********
+n.
+**********
+s.
+**********
+d.
+**********
+s.
+**********
+s.
+**********
+g!'
+**********
+e.
+**********
+w.
+**********
+y.
+**********
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# /data/data/com.termux/files/usr/bin/python3 - <<'PY'
+from pathlib import Path
+
+p = Path("ys_dialogue_project_v2/scn_dialogue_translation.txt")
+text = p.read_text(encoding="utf-8")
+
+blocks = [
+    b.strip()
+    for b in text.split("**********")
+    if b.strip()
+]
+
+print("Translation blocks:", len(blocks))
+
+for i, b in enumerate(blocks[:10], 1):
+    print(f"\n--- BLOCK {i} ---")
+    print(b)
+PY
+Translation blocks: 5027
+
+--- BLOCK 1 ---
+e.
+
+--- BLOCK 2 ---
+d!
+
+--- BLOCK 3 ---
+d!
+
+--- BLOCK 4 ---
+s.
+
+--- BLOCK 5 ---
+d!
+
+--- BLOCK 6 ---
+g.
+
+--- BLOCK 7 ---
+e.
+
+--- BLOCK 8 ---
+y!
+
+--- BLOCK 9 ---
+e.
+
+--- BLOCK 10 ---
+n?
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# /data/data/com.termux/files/usr/bin/python3 \
+  ys_felghana_localizer/verify_romfs.py \
+  ys_romfs \
+  ys_dialogue_project_v2/scn_dialogue_index.json \
+  --out ys_dialogue_project_v2/source_verify.json
+{
+  "ok": true,
+  "files": [
+    {
+      "file": "data/scn/s_0000.bin",
+      "exists": true,
+      "size": 30228,
+      "sha256": "7ce92bf515ed9ed8ae6d39ccf78dde452882e11b82a99ebcb19e1ac157ff2455"
+    },
+    {
+      "file": "data/scn/s_0001.bin",
+      "exists": true,
+      "size": 28472,
+      "sha256": "40259b0333bae1958176162323a45daf0df3302e1baa67e5e61ee6dbdf2393d0"
+    },
+    {
+      "file": "data/scn/s_0100.bin",
+      "exists": true,
+      "size": 62452,
+      "sha256": "8736b2a43f7a13e2e936f9b4a818b0ab125cdb8b084ae563ec0e9eeba2eb0438"
+    },
+    {
+      "file": "data/scn/s_0101.bin",
+      "exists": true,
+      "size": 4488,
+      "sha256": "3347e583bfe22a2ad62f67ccdc1f96780650d1ba7bb4a1d62f8a0b20384c02d2"
+    },
+    {
+      "file": "data/scn/s_0102.bin",
+      "exists": true,
+      "size": 2872,
+      "sha256": "4d36a1ccf338e17104a9543c0ca537ce34f6772c5b92fe94d27e85e92c55e349"
+    },
+    {
+      "file": "data/scn/s_0103.bin",
+      "exists": true,
+      "size": 3264,
+      "sha256": "4c94a1d7b865d45115c0c71924885efba32942ae5f369431a50b24ec77293bc4"
+    },
+    {
+      "file": "data/scn/s_0110.bin",
+      "exists": true,
+      "size": 48040,
+      "sha256": "554018207763a19a31299ca9e1f6da84d5f1f4de82e05e410ce61759d46f5dcf"
+    },
+    {
+      "file": "data/scn/s_0120.bin",
+      "exists": true,
+      "size": 49836,
+      "sha256": "e8547cf97ec356675b13c621a22f603182607d503ed526914cb126f57c311a5e"
+    },
+    {
+      "file": "data/scn/s_0121.bin",
+      "exists": true,
+      "size": 4672,
+      "sha256": "03fd7e7079539d577b12d1eae58cf6b7ddacf81758405db338c9ab7e723c6ca6"
+    },
+    {
+      "file": "data/scn/s_0122.bin",
+      "exists": true,
+      "size": 2160,
+      "sha256": "d5b3880c64325e44a6a7445829534ccb3236e3748de24b94976dc04f14cb52be"
+    },
+    {
+      "file": "data/scn/s_0130.bin",
+      "exists": true,
+      "size": 20632,
+      "sha256": "31811b27e864b41fa81ef01d23a2b70bdd570c6f021d5d407b37f4fc94feb61f"
+    },
+    {
+      "file": "data/scn/s_0140.bin",
+      "exists": true,
+      "size": 9984,
+      "sha256": "927ce11a6eadff7fd79f8c22f2ef0b398d1f998e72fc200ce600be045b32500d"
+    },
+    {
+      "file": "data/scn/s_0150.bin",
+      "exists": true,
+      "size": 62076,
+      "sha256": "08c9d4b80b321e046a56a68b363a7d080bcf81af3ace41dd04df4032086430c1"
+    },
+    {
+      "file": "data/scn/s_0160.bin",
+      "exists": true,
+      "size": 11932,
+      "sha256": "536a9819c8e3a685784b4f5c6d48bfbe7c7d019b21fdd86c735e9c50c16e2c55"
+    },
+    {
+      "file": "data/scn/s_0170.bin",
+      "exists": true,
+      "size": 18632,
+      "sha256": "c03d96563af532e20845d61f40709baa6599854602e4b6dade6de34fd4f103c3"
+    },
+    {
+      "file": "data/scn/s_0180.bin",
+      "exists": true,
+      "size": 17632,
+      "sha256": "561eb30b556e8050fc0ea236a8fba252b71f4a8fbc770016d97204bc9136318f"
+    },
+    {
+      "file": "data/scn/s_0200.bin",
+      "exists": true,
+      "size": 143364,
+      "sha256": "81ce194008ad572140d3cd7fd5e60ba87d8a495f1a53e9921b3c6e2eda2eebf2"
+    },
+    {
+      "file": "data/scn/s_0201.bin",
+      "exists": true,
+      "size": 6268,
+      "sha256": "77dafd279855aff3c6467b39e3b91bdfa3b6bc7545fb89deedf1213b94421144"
+    },
+    {
+      "file": "data/scn/s_1000.bin",
+      "exists": true,
+      "size": 37052,
+      "sha256": "fc6814087810783d2a5dd63ca5ec660e5f89de078130d2cfb19c5e470bd3ac6c"
+    },
+    {
+      "file": "data/scn/s_1001.bin",
+      "exists": true,
+      "size": 9524,
+      "sha256": "306d0c65c8161571c452cf6797e9215b232f0e6aad6dc014fd987b4b72e286ab"
+    },
+    {
+      "file": "data/scn/s_1002.bin",
+      "exists": true,
+      "size": 6440,
+      "sha256": "24d0d8b63928b3b315791352cef8aa296b91917c6aa1e40b95c01dcc5b1c7c5d"
+    },
+    {
+      "file": "data/scn/s_1003.bin",
+      "exists": true,
+      "size": 3312,
+      "sha256": "525208478732cda3021581812abcdfad2be1ffa1f51297b9e070ee5a20934592"
+    },
+    {
+      "file": "data/scn/s_1004.bin",
+      "exists": true,
+      "size": 25276,
+      "sha256": "d7a4967111fb550ddf00e814b6803372d1af667145481457dde74514905f5bc8"
+    },
+    {
+      "file": "data/scn/s_1005.bin",
+      "exists": true,
+      "size": 28592,
+      "sha256": "26da0566ff4038c0861095fb2fc7e1eab0fc9c4031e7e486fdec3eca34fcfa5c"
+    },
+    {
+      "file": "data/scn/s_1010.bin",
+      "exists": true,
+      "size": 18276,
+      "sha256": "44049c456c1815730d9f6b9fd7798deb8e970b66eca4520fd29aa7f83ae60385"
+    },
+    {
+      "file": "data/scn/s_1100.bin",
+      "exists": true,
+      "size": 5160,
+      "sha256": "94376685c722cc84b7a7682c55d4527938f9282632fc235b21a60393dd5ce525"
+    },
+    {
+      "file": "data/scn/s_1101.bin",
+      "exists": true,
+      "size": 5252,
+      "sha256": "5e3ca2c1c559e786ecf8cc73cd67e74747a537fa05a3036a266991132353dcc6"
+    },
+    {
+      "file": "data/scn/s_1102.bin",
+      "exists": true,
+      "size": 5256,
+      "sha256": "e96581800c9d983060bb5615120c0a6701171dec097e3c0a9ba4b0142285b4cd"
+    },
+    {
+      "file": "data/scn/s_1103.bin",
+      "exists": true,
+      "size": 5312,
+      "sha256": "98f22120e004d3bddd8470855ee7c45b867d2ff66d9883e9ac3e9ae4528ea0d3"
+    },
+    {
+      "file": "data/scn/s_1104.bin",
+      "exists": true,
+      "size": 3912,
+      "sha256": "da2a032591dda537399d8d8d7886711500744d657bb3c77346b98bb5548b7f9c"
+    },
+    {
+      "file": "data/scn/s_1110.bin",
+      "exists": true,
+      "size": 9844,
+      "sha256": "bc28bcdf307cc13511f8083f5b27c2699d71ecb2e9b9ed8f0ed876d75f591aea"
+    },
+    {
+      "file": "data/scn/s_1111.bin",
+      "exists": true,
+      "size": 4304,
+      "sha256": "84ee49ca37d1e466d6ed819983df714857314d3a0881280d3db542a3d773df5b"
+    },
+    {
+      "file": "data/scn/s_1112.bin",
+      "exists": true,
+      "size": 72736,
+      "sha256": "d53c9b9383ffd67705cb14d01bfc8402160259d28ef3e554ce95f099ba8dee1b"
+    },
+    {
+      "file": "data/scn/s_1113.bin",
+      "exists": true,
+      "size": 4652,
+      "sha256": "cf346659f0330a54b7d4a2041f40d7355f32fa55b8a26ea190db77685484fa53"
+    },
+    {
+      "file": "data/scn/s_2001.bin",
+      "exists": true,
+      "size": 672,
+      "sha256": "6f80b517b320a7cb8bbbbdfd338c0a734c9c754ce91a05c36d0ec9586796d207"
+    },
+    {
+      "file": "data/scn/s_2002.bin",
+      "exists": true,
+      "size": 828,
+      "sha256": "faee1ea55875a3843d06665ffeab23a5834552355be1e5284c0bad15bf8b594b"
+    },
+    {
+      "file": "data/scn/s_2003.bin",
+      "exists": true,
+      "size": 1972,
+      "sha256": "b2cd9144c5623a855b7fe34d15a8c219f38f063df751176296ce244bc54af1a8"
+    },
+    {
+      "file": "data/scn/s_2004.bin",
+      "exists": true,
+      "size": 1536,
+      "sha256": "f8ca396aeed8522cb424ec29830d4905edc5841d54a0096d686a6512bd0d18dd"
+    },
+    {
+      "file": "data/scn/s_2005.bin",
+      "exists": true,
+      "size": 5028,
+      "sha256": "c160caeb6c9b14c6d730eebc4c4a350a3a004194e30a1e71e9881ccedeb393e1"
+    },
+    {
+      "file": "data/scn/s_2006.bin",
+      "exists": true,
+      "size": 824,
+      "sha256": "48b9f5c6a1ff2490d05cb36da58c68acd8a855042aa1facf5d5e3348a05ca1f0"
+    },
+    {
+      "file": "data/scn/s_2007.bin",
+      "exists": true,
+      "size": 2200,
+      "sha256": "f32e5a46f97f6aff4ba0e5c8384cca1b92fec31355d12783be55420698bf0e99"
+    },
+    {
+      "file": "data/scn/s_2008.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "d6c6e78fc2dec889dfbb9bc1cfdd977f792fddd14196875895ad4f37954c00f8"
+    },
+    {
+      "file": "data/scn/s_2009.bin",
+      "exists": true,
+      "size": 6684,
+      "sha256": "c5c95b47fe20043e004c76cd8ab6b23d305e0596a5129a0edd92aea41603fc04"
+    },
+    {
+      "file": "data/scn/s_2010.bin",
+      "exists": true,
+      "size": 1720,
+      "sha256": "7f8ef905bb9383df9cfa3d2fac774038416ebb09f2b22d794c91c699c5c2f21f"
+    },
+    {
+      "file": "data/scn/s_2011.bin",
+      "exists": true,
+      "size": 424,
+      "sha256": "f1bef701d716fa0311c5a05d465befce56f2f6bc7b8950875bf352183339d723"
+    },
+    {
+      "file": "data/scn/s_2012.bin",
+      "exists": true,
+      "size": 1868,
+      "sha256": "57bd740b6bfed1b358ebd350dafd89317f706c94a71c2fd769418052cb57f7d0"
+    },
+    {
+      "file": "data/scn/s_2013.bin",
+      "exists": true,
+      "size": 10668,
+      "sha256": "e4262180625b667c9e8c01db5e8415dd3d0fdcec036d4112671d3a9b61746d89"
+    },
+    {
+      "file": "data/scn/s_2098.bin",
+      "exists": true,
+      "size": 312,
+      "sha256": "f006775bb69844783f7cd1d433009d4efd504c5d2f05f9a5ac0dc5bc559bfb9b"
+    },
+    {
+      "file": "data/scn/s_2099.bin",
+      "exists": true,
+      "size": 7116,
+      "sha256": "02abbb7021388799c52583bcb379f5d12278c6e20dea709adc507e3ae61fd2d9"
+    },
+    {
+      "file": "data/scn/s_2198.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "a3c922431a6ee35d5cf6d13be1a967bba18e11ffff6a3c1297c480f127cc4c3e"
+    },
+    {
+      "file": "data/scn/s_2199.bin",
+      "exists": true,
+      "size": 5648,
+      "sha256": "86d406d11b8bddee9109149d84231498cc76afa24ad266ac0a6ab433086e9b0d"
+    },
+    {
+      "file": "data/scn/s_2500.bin",
+      "exists": true,
+      "size": 700,
+      "sha256": "5052a2c89f24fa5a5f949d8a5a73654fd83f32d47ce0cad39954eeb2c9e3ce15"
+    },
+    {
+      "file": "data/scn/s_2501.bin",
+      "exists": true,
+      "size": 384,
+      "sha256": "ca7dfa2896495b13f78adace98c549d466e109ab7363a92674fde67205025550"
+    },
+    {
+      "file": "data/scn/s_2502.bin",
+      "exists": true,
+      "size": 1188,
+      "sha256": "3ed4c54f4ec6954e526c37f40beab66b9bfac98ecd51650218ad5c5bf50746f8"
+    },
+    {
+      "file": "data/scn/s_2503.bin",
+      "exists": true,
+      "size": 5332,
+      "sha256": "27fc0083dc1e274b7ffd85065f11e6e898d1163e29b36d783a5d8f6cc0f61c89"
+    },
+    {
+      "file": "data/scn/s_2504.bin",
+      "exists": true,
+      "size": 1236,
+      "sha256": "91a6d40cef0c80599fdf1ff0a23e72c437823c23490a20381a3081cd8b11bced"
+    },
+    {
+      "file": "data/scn/s_2505.bin",
+      "exists": true,
+      "size": 692,
+      "sha256": "756694c5bd971519266e75c73d6aa9457ab26ec35383afaaf5bae004c85d00b0"
+    },
+    {
+      "file": "data/scn/s_2506.bin",
+      "exists": true,
+      "size": 900,
+      "sha256": "1fbeeefb4be0a8ba21d9b28a5aed93bdaa813b850a9e49f96f7aa154ad4e164b"
+    },
+    {
+      "file": "data/scn/s_2507.bin",
+      "exists": true,
+      "size": 1476,
+      "sha256": "1a339c04b90e82f02dace21805ee2d6754e3b0f9c442009e32aa18447b5efcfd"
+    },
+    {
+      "file": "data/scn/s_2508.bin",
+      "exists": true,
+      "size": 764,
+      "sha256": "68fb58fe2800a2793aaa08c642621900abf5eeac8bcb0a8624e6dd06daa932b4"
+    },
+    {
+      "file": "data/scn/s_2509.bin",
+      "exists": true,
+      "size": 1916,
+      "sha256": "f9e35186a4aa813a7456222d6d2d2b42aa48560d35ebd2f45c826b892d321f6e"
+    },
+    {
+      "file": "data/scn/s_2510.bin",
+      "exists": true,
+      "size": 2300,
+      "sha256": "72f4bf9fbaac10b1b765bd98eae241e362f61fcff269a53f6177b7ebbed9d50f"
+    },
+    {
+      "file": "data/scn/s_2511.bin",
+      "exists": true,
+      "size": 760,
+      "sha256": "5ed2bd0eee1dcbca8af75c96cabc4cce76a88c61f123e9d094c7a91af2d5eb53"
+    },
+    {
+      "file": "data/scn/s_2598.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "9049d15b91ce5fa9c6d1529676ebd9fbf52151cc49d77fc9a1585c3b872aa9bb"
+    },
+    {
+      "file": "data/scn/s_2599.bin",
+      "exists": true,
+      "size": 5676,
+      "sha256": "22e48b4549eb6da479940d85a651818965332622158d8c30369631315fde2106"
+    },
+    {
+      "file": "data/scn/s_3000.bin",
+      "exists": true,
+      "size": 612,
+      "sha256": "113c0a24451b0a88bf7226a0b41a9af82bd93ab76cc908a959449807dec9904f"
+    },
+    {
+      "file": "data/scn/s_3100.bin",
+      "exists": true,
+      "size": 332,
+      "sha256": "d319a793305800bd60cfe04e58b5e533501976d86ba873febe6fe88340871d75"
+    },
+    {
+      "file": "data/scn/s_3101.bin",
+      "exists": true,
+      "size": 528,
+      "sha256": "b27ba7ee8a5bbd3f73925c1d62737799f8dba11ea0820867e6dea8c8ca640539"
+    },
+    {
+      "file": "data/scn/s_3102.bin",
+      "exists": true,
+      "size": 1696,
+      "sha256": "e08d05b9f2f1c3a938f34f28d5288f7ea803142427b8c9171f01b4b3218a1fad"
+    },
+    {
+      "file": "data/scn/s_3103.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "44b7bf595a68ebdec2432937afd2172b8e75c0eb2cd4f951c1c2e35759d94e42"
+    },
+    {
+      "file": "data/scn/s_3104.bin",
+      "exists": true,
+      "size": 1280,
+      "sha256": "900cf18c7dc823dec8c518c7b46fa852c4597446a637eb093c21b1bef1f4e25d"
+    },
+    {
+      "file": "data/scn/s_3105.bin",
+      "exists": true,
+      "size": 808,
+      "sha256": "e795665ca0ddbb89cb0201bd1df6bfea1054b5b1f35e8799346cab966779cabd"
+    },
+    {
+      "file": "data/scn/s_3106.bin",
+      "exists": true,
+      "size": 1648,
+      "sha256": "b2dfca9936b78ee68637b0fdc3f5d0b1189fc9feba85937bb5f64ecd47938d78"
+    },
+    {
+      "file": "data/scn/s_3107.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "180daaf6a9099c1294ba5b4506c31ff05e0d62d5b2c6cfeb7805aa396c7dd8f7"
+    },
+    {
+      "file": "data/scn/s_3108.bin",
+      "exists": true,
+      "size": 1028,
+      "sha256": "0406327787122e3cfc58bd9b49bff1679f8a162d73bcd609a33e3cf5c4e5b6a8"
+    },
+    {
+      "file": "data/scn/s_3109.bin",
+      "exists": true,
+      "size": 1816,
+      "sha256": "1672c1934189ab717d290ab32a3b597d56801a502cff8ff4000b44e7cb6bfcdb"
+    },
+    {
+      "file": "data/scn/s_3110.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "455f4261ebddedf422fe848b20d0e55bbdea14e20c41c82df6ba50c8c2e99811"
+    },
+    {
+      "file": "data/scn/s_3111.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "793f8c313972607d768e66f6e6630af3ae1403ffacb64a9a12d76266983d397e"
+    },
+    {
+      "file": "data/scn/s_3200.bin",
+      "exists": true,
+      "size": 732,
+      "sha256": "68d4e222570f930637408370380f6969fe19f5adf4f712953197141123d08d91"
+    },
+    {
+      "file": "data/scn/s_3201.bin",
+      "exists": true,
+      "size": 676,
+      "sha256": "afb666eef570a54ced2dd3b8ddb013797c658bc62e60cf4a2ee4865c9aca4ce0"
+    },
+    {
+      "file": "data/scn/s_3202.bin",
+      "exists": true,
+      "size": 692,
+      "sha256": "204aac0333a3ddce1ed16e5e38d8f33be109e559bef9ee81322be1ac3877bf50"
+    },
+    {
+      "file": "data/scn/s_3203.bin",
+      "exists": true,
+      "size": 808,
+      "sha256": "796a6569addb6d41f4067727a09cdbbdda19dfa86f2b0db3e308c5cc496e499d"
+    },
+    {
+      "file": "data/scn/s_3300.bin",
+      "exists": true,
+      "size": 676,
+      "sha256": "40e2307eac8e920d039eac92677dccd1b776bf8c1980cd80f23844005b24cbe4"
+    },
+    {
+      "file": "data/scn/s_3301.bin",
+      "exists": true,
+      "size": 8836,
+      "sha256": "99e72b815342001a751766800ff2d4b28952260253fed01261aa87bcd53c7eab"
+    },
+    {
+      "file": "data/scn/s_3302.bin",
+      "exists": true,
+      "size": 716,
+      "sha256": "d4ac4c31b425bd3db025af6350c6aab25866c3f9bf37e06bae8065b19df1cc6c"
+    },
+    {
+      "file": "data/scn/s_3303.bin",
+      "exists": true,
+      "size": 2200,
+      "sha256": "6e15b3beec68b526f6e1c0d78019390024ebf211edf264c2f183df14ee501c21"
+    },
+    {
+      "file": "data/scn/s_3304.bin",
+      "exists": true,
+      "size": 7148,
+      "sha256": "a7e2b8658fada68d180542af62e8128e472ad21abc23fdde027fe16a356249a9"
+    },
+    {
+      "file": "data/scn/s_3305.bin",
+      "exists": true,
+      "size": 812,
+      "sha256": "2c1185be76839d617aa51ca139c0f597ebf4372a477643d6eb67adce000354aa"
+    },
+    {
+      "file": "data/scn/s_3398.bin",
+      "exists": true,
+      "size": 360,
+      "sha256": "118ba1573ab676e3d9cd16339460a3eff470ce84cf29f124cdcfdcb1ac31d761"
+    },
+    {
+      "file": "data/scn/s_3399.bin",
+      "exists": true,
+      "size": 19960,
+      "sha256": "911cd30b37dc59508a2ce1753c2eaa0f88e09c4f3d480e56bbf2f85818faf13b"
+    },
+    {
+      "file": "data/scn/s_3500.bin",
+      "exists": true,
+      "size": 2428,
+      "sha256": "c7711b23edaf627c13e87b3fc6cf21433de5669987460727acdce918556b8575"
+    },
+    {
+      "file": "data/scn/s_3501.bin",
+      "exists": true,
+      "size": 3200,
+      "sha256": "076ec0be388070e338dbb994db79a2421de7035f6fb176b42ffe97c038c3ecad"
+    },
+    {
+      "file": "data/scn/s_3502.bin",
+      "exists": true,
+      "size": 2824,
+      "sha256": "582c6d10c13d11b08a9165a606661fe1ef20a1e9125a56c5fcf8010d1af8925d"
+    },
+    {
+      "file": "data/scn/s_3503.bin",
+      "exists": true,
+      "size": 2292,
+      "sha256": "9feee54c093535568602ab7f22e2f9ced85e129276a5bb12b62877ab0e2df2e5"
+    },
+    {
+      "file": "data/scn/s_3504.bin",
+      "exists": true,
+      "size": 2748,
+      "sha256": "e144e7cc057cbb0dff3949f5fc35b61e8744dbe7949fb5ee849d2e41dc0265b1"
+    },
+    {
+      "file": "data/scn/s_3505.bin",
+      "exists": true,
+      "size": 4260,
+      "sha256": "6facd14f3287773d32a36830b28ed1a9d3e2db64a5b316e4c4490366c393edd2"
+    },
+    {
+      "file": "data/scn/s_3506.bin",
+      "exists": true,
+      "size": 2808,
+      "sha256": "931df3158bf3b22f80b5bfade2e3c92ada6d654ef2e76fe933101a242a6bfcc1"
+    },
+    {
+      "file": "data/scn/s_3507.bin",
+      "exists": true,
+      "size": 4920,
+      "sha256": "99e9ef872e256d812385655fc4ccbe673b85f2e89ddd4d0680703cf8a16b67fb"
+    },
+    {
+      "file": "data/scn/s_3508.bin",
+      "exists": true,
+      "size": 2644,
+      "sha256": "b6e379c651ab9f9c1539fdc2695cb2075eea1b82923984bcda596ed1d06b5c1a"
+    },
+    {
+      "file": "data/scn/s_3509.bin",
+      "exists": true,
+      "size": 3580,
+      "sha256": "468e4db90537e4e34f3e37f6e1233538a3d68ccbc3243d2281bff7a1aa96e040"
+    },
+    {
+      "file": "data/scn/s_3510.bin",
+      "exists": true,
+      "size": 2740,
+      "sha256": "9968fe4762db3afbc7e0a7fea8993cf5f414466143bc809d9cf6119e72f2986e"
+    },
+    {
+      "file": "data/scn/s_3511.bin",
+      "exists": true,
+      "size": 2284,
+      "sha256": "0fdaa610b18e01c1f7e2413d8c6ff730acd17e32b0e1c7a09a996d4af3460ae3"
+    },
+    {
+      "file": "data/scn/s_3512.bin",
+      "exists": true,
+      "size": 1608,
+      "sha256": "10797c667370925973e6680a3e6038bdb60cd18aab29fbf6560b9d3866c950dd"
+    },
+    {
+      "file": "data/scn/s_3513.bin",
+      "exists": true,
+      "size": 2536,
+      "sha256": "5b9ccb06374b6a3f78411fcdf8bf53fb1ce4e388370cd0d45239a0a23616b383"
+    },
+    {
+      "file": "data/scn/s_3514.bin",
+      "exists": true,
+      "size": 3500,
+      "sha256": "8ddef910d7f4097b21b3f235ecdd5f6775f34350da1c5eb7c1f932754112f061"
+    },
+    {
+      "file": "data/scn/s_3515.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "f60b8cb9dc85bb1412eaabf0c97ce4594a068e28ea30c6005a7dec0751bffc52"
+    },
+    {
+      "file": "data/scn/s_3516.bin",
+      "exists": true,
+      "size": 1944,
+      "sha256": "ae1dba6e410093cb8a6027f571344e60b6ddd943ab806db6c7876ce2c8122339"
+    },
+    {
+      "file": "data/scn/s_3517.bin",
+      "exists": true,
+      "size": 1364,
+      "sha256": "b268b2d05a7c9b15931d57b81d75b7324781f24ecbdf0403c9d3dc7da603d5dd"
+    },
+    {
+      "file": "data/scn/s_3598.bin",
+      "exists": true,
+      "size": 2420,
+      "sha256": "e465d1396bfbe4dd42169914f1d82ce0898c31c9f47f2a6fcbfe8c2dbb28677e"
+    },
+    {
+      "file": "data/scn/s_3599.bin",
+      "exists": true,
+      "size": 6292,
+      "sha256": "4c57ad345aa679dfd4477e8df09d4f8b11d42021879a51a7556de1e508ee8489"
+    },
+    {
+      "file": "data/scn/s_3698.bin",
+      "exists": true,
+      "size": 956,
+      "sha256": "a409a2853744bd47dd02e69e708c54aafdb31e18767d81b2a97e0a2e2b0581df"
+    },
+    {
+      "file": "data/scn/s_3699.bin",
+      "exists": true,
+      "size": 5796,
+      "sha256": "5e031236f3c1dd4805ab7d7caa12496069cddd4dec68cd293c4dcdee6a2a1ed0"
+    },
+    {
+      "file": "data/scn/s_4000.bin",
+      "exists": true,
+      "size": 708,
+      "sha256": "f64821ad32421653b463a7917e7adfa1d45055101c075446eef2edc1b9c1210d"
+    },
+    {
+      "file": "data/scn/s_4001.bin",
+      "exists": true,
+      "size": 1948,
+      "sha256": "5d995364ccbcf41762958d39d48340ee3ccabc413bb1913bec9a3075712da195"
+    },
+    {
+      "file": "data/scn/s_4002.bin",
+      "exists": true,
+      "size": 808,
+      "sha256": "c8afbfe3b1aeee43fd5c3a056baf0742081df019f5b9cc9e3eb6661f478cf878"
+    },
+    {
+      "file": "data/scn/s_4003.bin",
+      "exists": true,
+      "size": 392,
+      "sha256": "f33b7d608214853912d76dd5201235b1cc52171d8a2368ff9c290cab90ab1492"
+    },
+    {
+      "file": "data/scn/s_4004.bin",
+      "exists": true,
+      "size": 1380,
+      "sha256": "b7c7f9d041edfaa082744aa10881886dc864a56554f3930a236f7ded4f3cbebf"
+    },
+    {
+      "file": "data/scn/s_4005.bin",
+      "exists": true,
+      "size": 820,
+      "sha256": "e614b143fdb86232c61ac9ee1aed57588250f5502d2e4f6b9e4c5b7ec84993cd"
+    },
+    {
+      "file": "data/scn/s_4006.bin",
+      "exists": true,
+      "size": 448,
+      "sha256": "05871a223f5bf3f44439af8bd325ec190aeab86374d28b52ca2725802798cfd8"
+    },
+    {
+      "file": "data/scn/s_4007.bin",
+      "exists": true,
+      "size": 628,
+      "sha256": "e14d21e81ee07a4d18e1e9084f622509e2f768dd39366e1307b2cdb8aec9e227"
+    },
+    {
+      "file": "data/scn/s_4008.bin",
+      "exists": true,
+      "size": 448,
+      "sha256": "1f29dfdc5f1d5f3fd9128d0433e1bc6096a8162427158c4fa2fe54e48d905b3d"
+    },
+    {
+      "file": "data/scn/s_4009.bin",
+      "exists": true,
+      "size": 16212,
+      "sha256": "19e5f64248de2d68de50698b8328ef3d19c43c1401920b6e5874ca46da56639f"
+    },
+    {
+      "file": "data/scn/s_4098.bin",
+      "exists": true,
+      "size": 312,
+      "sha256": "82d18d9071b2631e8a6551aa0b492ed60fd5810d6c35a3d228996d5071bcbb11"
+    },
+    {
+      "file": "data/scn/s_4099.bin",
+      "exists": true,
+      "size": 9356,
+      "sha256": "58026f4f1438e258086ce8a724cc7aa2188bb0081b87211093c18ef92804dc64"
+    },
+    {
+      "file": "data/scn/s_4500.bin",
+      "exists": true,
+      "size": 712,
+      "sha256": "a76d5346479220f547bf6944182429c2bcdd40a64b0683ba3e860c2672b1b91d"
+    },
+    {
+      "file": "data/scn/s_4501.bin",
+      "exists": true,
+      "size": 1796,
+      "sha256": "6b3d97967403a5279eac9dfc360c0dc63186ee9b4b9348e85eb4a08df815286e"
+    },
+    {
+      "file": "data/scn/s_4502.bin",
+      "exists": true,
+      "size": 1344,
+      "sha256": "54170d59a34e1ef2624973d33a79519f190e915e59cc6f582db75b0221b1e747"
+    },
+    {
+      "file": "data/scn/s_4503.bin",
+      "exists": true,
+      "size": 1640,
+      "sha256": "112724a3a17b70c8e0754ac9cf6429b93908ab746c8681a1fc749bc9562f7eae"
+    },
+    {
+      "file": "data/scn/s_4504.bin",
+      "exists": true,
+      "size": 512,
+      "sha256": "02daf1860d7572102dbb1299d675ba74d07a8144876412331eb7fd4344f8e9b6"
+    },
+    {
+      "file": "data/scn/s_4505.bin",
+      "exists": true,
+      "size": 10424,
+      "sha256": "ff44ad98a303a0fd2ee3189cb6555591a9522ae6b9e7ab56c695564e11e292fd"
+    },
+    {
+      "file": "data/scn/s_4506.bin",
+      "exists": true,
+      "size": 1256,
+      "sha256": "8153530ccba9574321f5417f0e294dd3f6030dff61372c233e994569c82e69d7"
+    },
+    {
+      "file": "data/scn/s_4507.bin",
+      "exists": true,
+      "size": 776,
+      "sha256": "e7dcbc0a46249a44679090feece9bed10ee3d529125499b16aac49a376372905"
+    },
+    {
+      "file": "data/scn/s_4508.bin",
+      "exists": true,
+      "size": 1688,
+      "sha256": "32aed0bc7606169aebe5f0ea65b1eff34c7807c33e623f6235f513b9ee01c463"
+    },
+    {
+      "file": "data/scn/s_4509.bin",
+      "exists": true,
+      "size": 1024,
+      "sha256": "8a6e497075fa8d9cb9d197323aaa9a5b151c6558144aed0768db70395f60c344"
+    },
+    {
+      "file": "data/scn/s_4510.bin",
+      "exists": true,
+      "size": 1076,
+      "sha256": "d9494ae93d45d187321addbc2f93b3044474baac168d9714795926eff9a90fd7"
+    },
+    {
+      "file": "data/scn/s_4511.bin",
+      "exists": true,
+      "size": 1028,
+      "sha256": "68bee45baf0c8703d125cb977284e47d3443a927e49d7b93a8231ea8b2e461c7"
+    },
+    {
+      "file": "data/scn/s_4512.bin",
+      "exists": true,
+      "size": 2984,
+      "sha256": "24254c4c807093fc3942515ec72b244b4d549cc0b77038b4687d2cf5b0dfb8c8"
+    },
+    {
+      "file": "data/scn/s_4513.bin",
+      "exists": true,
+      "size": 2296,
+      "sha256": "bcf6cab19f645a5619ae465f9aad2eaf6c7c721ec18c2354300db6b57c2b54dd"
+    },
+    {
+      "file": "data/scn/s_4514.bin",
+      "exists": true,
+      "size": 792,
+      "sha256": "94dbbc34c0528c889e734e4a93b32e8e865c7d20b19fdbf3ae5e3bab8e4b8123"
+    },
+    {
+      "file": "data/scn/s_4598.bin",
+      "exists": true,
+      "size": 6792,
+      "sha256": "92d9b3eb2048aa7a38216854f0e2b10d917bc7667ff66c90c82591305a19412f"
+    },
+    {
+      "file": "data/scn/s_4599.bin",
+      "exists": true,
+      "size": 4988,
+      "sha256": "34f55b6bbb2d361dff58ebecf596b24ce2350c9f4e9105c7524fc97744280d00"
+    },
+    {
+      "file": "data/scn/s_5000.bin",
+      "exists": true,
+      "size": 15964,
+      "sha256": "fa5ecdac552d638ff3323341d997a27b129c5e05e8cc3c332bf380fcba047215"
+    },
+    {
+      "file": "data/scn/s_5001.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "bf643d754e489556d88af84f1e8806254ba238c7a77b396026c1bcba99562674"
+    },
+    {
+      "file": "data/scn/s_5002.bin",
+      "exists": true,
+      "size": 312,
+      "sha256": "e40736e346f35673d2a42561d4cd77d83120aa0f954a69056f7548b5ed16b51e"
+    },
+    {
+      "file": "data/scn/s_5003.bin",
+      "exists": true,
+      "size": 3004,
+      "sha256": "f463fdf7042403d810ebe90d49cd0741a34dc6626fdd6664c75f0adef24d69bc"
+    },
+    {
+      "file": "data/scn/s_5004.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "dbb70be878f9f21d995698233d3368c25e08273f9022cdb6eb70bee3a9874449"
+    },
+    {
+      "file": "data/scn/s_5005.bin",
+      "exists": true,
+      "size": 1384,
+      "sha256": "51ee7ffb04302140691511526a680305fd6674a9c1abc2ffb5ed4ba7cda9c290"
+    },
+    {
+      "file": "data/scn/s_5006.bin",
+      "exists": true,
+      "size": 676,
+      "sha256": "7241b0261e8c9c848c16cfe0258e0f4b04621019d2932c2e1e7900b703787d5f"
+    },
+    {
+      "file": "data/scn/s_5007.bin",
+      "exists": true,
+      "size": 11108,
+      "sha256": "386d904e3346a06811333007a7082a7a75232b06a1abf6679d4e536fa2cd3011"
+    },
+    {
+      "file": "data/scn/s_5008.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "136413a70e75c53ad9a462568c8041bdf9467b5e27f805ada36a0ed2de56ec94"
+    },
+    {
+      "file": "data/scn/s_5009.bin",
+      "exists": true,
+      "size": 1304,
+      "sha256": "3ebf2ed8d7079f52db71620f2cc9c33d84c3903bbd4349d8e2040df83fba13e1"
+    },
+    {
+      "file": "data/scn/s_5010.bin",
+      "exists": true,
+      "size": 1680,
+      "sha256": "fcef21ee1543402764a128aa9f6797d9062e7ee80a1548a715e7ad2e1722139c"
+    },
+    {
+      "file": "data/scn/s_5011.bin",
+      "exists": true,
+      "size": 748,
+      "sha256": "c1976a9ec94bbd798774e0ce1865cfa4bde7cb65b4411cca5d51faf870252fca"
+    },
+    {
+      "file": "data/scn/s_5098.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "dcb8a8b8df4ef13fa6a1e1e007149ed93906223b7a5e8e10ea81b536b6566ad1"
+    },
+    {
+      "file": "data/scn/s_5099.bin",
+      "exists": true,
+      "size": 5920,
+      "sha256": "b017b0dc2056da41dacb1fd9714e0526eb55b655131e98a15b7a2ebdcc6dc156"
+    },
+    {
+      "file": "data/scn/s_5101.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "edf02825444af043517b427a04d10e54ff80872d105182a54b7410b1d76745f5"
+    },
+    {
+      "file": "data/scn/s_5102.bin",
+      "exists": true,
+      "size": 1228,
+      "sha256": "728f1b53763e02bb6afa822951bfd1af65c2d9365626e4838ba8584cd5f2a132"
+    },
+    {
+      "file": "data/scn/s_5103.bin",
+      "exists": true,
+      "size": 1184,
+      "sha256": "648afa3f76dfea32f87da568d5c1215e43518b2de7e50b24ec0e215e9fa5f672"
+    },
+    {
+      "file": "data/scn/s_5104.bin",
+      "exists": true,
+      "size": 312,
+      "sha256": "ca585bc27d1708b1cdbef63f9e9f2c93531ca740f32f695b61d57ed3b3372a50"
+    },
+    {
+      "file": "data/scn/s_5105.bin",
+      "exists": true,
+      "size": 812,
+      "sha256": "c7b6a40a631028947c2027f74bc2f142a71f268ece58411c60e2d7a92b22f9bc"
+    },
+    {
+      "file": "data/scn/s_5106.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "df682aee483285e9825e9c3773fdc29027c05856201d83fed18a9fe0f7c368ae"
+    },
+    {
+      "file": "data/scn/s_5107.bin",
+      "exists": true,
+      "size": 5232,
+      "sha256": "015e2a2a51f4d696fa4a562accc6c011f957db4cf607c5450040ae0e675f8bee"
+    },
+    {
+      "file": "data/scn/s_5108.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "87fd83180177143436bf8eb601be7c076d877af9f97ee2ee881faff8aaca4dbb"
+    },
+    {
+      "file": "data/scn/s_5109.bin",
+      "exists": true,
+      "size": 21992,
+      "sha256": "5de6769bac9c4dd2e1a5e724cdc445f4d5255dc52d3e2ad7642a863d225ddb85"
+    },
+    {
+      "file": "data/scn/s_5110.bin",
+      "exists": true,
+      "size": 2300,
+      "sha256": "b67f9ee9cd51bd675cf14673828700c0476640bb02ec8fea44345a50fbc35ec0"
+    },
+    {
+      "file": "data/scn/s_5111.bin",
+      "exists": true,
+      "size": 828,
+      "sha256": "a4d20b8e4b179b1602a324df5eddf39891f66666735a4033d913a1af372cc408"
+    },
+    {
+      "file": "data/scn/s_5198.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "4ac4139e723622a2c0f181563b555c84c25b558b005c57746f813e506d20f433"
+    },
+    {
+      "file": "data/scn/s_5199.bin",
+      "exists": true,
+      "size": 6544,
+      "sha256": "c111ea3c88c19d3c879ca5d860b77584327b7d76650bb8bf5e09899a803c932d"
+    },
+    {
+      "file": "data/scn/s_5200.bin",
+      "exists": true,
+      "size": 5864,
+      "sha256": "b98a94afb4daf095fb705499e01ae359d0be014cdd75016005bea7e626540dde"
+    },
+    {
+      "file": "data/scn/s_5300.bin",
+      "exists": true,
+      "size": 932,
+      "sha256": "56b4b14d0169d1438a6b516930bd64edb0485bb63e1c05e97e68f5d916e55f98"
+    },
+    {
+      "file": "data/scn/s_5301.bin",
+      "exists": true,
+      "size": 3388,
+      "sha256": "e5b89e952e70762bb9c95bd8b681dcd7aefa1e01b8290d173a46f2cc4d002c62"
+    },
+    {
+      "file": "data/scn/s_5302.bin",
+      "exists": true,
+      "size": 820,
+      "sha256": "a4925aff477957b73db455ca67f2860624d4277e4565667ff3e0aee11ef6cfc6"
+    },
+    {
+      "file": "data/scn/s_5303.bin",
+      "exists": true,
+      "size": 776,
+      "sha256": "9243338ebdd3aa866c2104ce1dfb44f47d258e59c26cb543b4a64108ced27933"
+    },
+    {
+      "file": "data/scn/s_5304.bin",
+      "exists": true,
+      "size": 8268,
+      "sha256": "05ff37f7369c5fbf0ff36cb84c93cf1676894912ceabddbd1b419f881461513a"
+    },
+    {
+      "file": "data/scn/s_5398.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "23b02f871d5c8edb289cf4c9bffa3dc1e346924540afa1abed5ed6c3520755cc"
+    },
+    {
+      "file": "data/scn/s_5399.bin",
+      "exists": true,
+      "size": 4888,
+      "sha256": "ad1fa380ae30ca21e7c45106bedf9a72583c982674e155566fbffddec2eb8e57"
+    },
+    {
+      "file": "data/scn/s_5400.bin",
+      "exists": true,
+      "size": 2292,
+      "sha256": "0d42c41942f3f103bcd61b5d7c373f683132e4d265c7934a849424b33eaf6230"
+    },
+    {
+      "file": "data/scn/s_5401.bin",
+      "exists": true,
+      "size": 7488,
+      "sha256": "cd820aef291ec501abb7178fd461401f077f7c9fc00a712545b1f3d8658582c9"
+    },
+    {
+      "file": "data/scn/s_5402.bin",
+      "exists": true,
+      "size": 5704,
+      "sha256": "f5ffca02ad1ab6051b440db727e4038f8227e62c341c354c751dad5670276514"
+    },
+    {
+      "file": "data/scn/s_5403.bin",
+      "exists": true,
+      "size": 6540,
+      "sha256": "8d39b512f69870f193d74d80e3251ad8b4bd1490d46881eb402ddc4f4f9ec69c"
+    },
+    {
+      "file": "data/scn/s_5404.bin",
+      "exists": true,
+      "size": 8548,
+      "sha256": "5094a5dfa2420e722215d4987fddca127a7bf34dbb90b524ac977bc89fc03f33"
+    },
+    {
+      "file": "data/scn/s_5500.bin",
+      "exists": true,
+      "size": 576,
+      "sha256": "626dfb25f897b3f49855a97cf0b2cdf6c5d36987eaeddf96a1075703df68a73b"
+    },
+    {
+      "file": "data/scn/s_5501.bin",
+      "exists": true,
+      "size": 940,
+      "sha256": "30aaece0f9d5ba98e66b38fd30e3b449cb5fd4bb5c0f84a8f8bc9cb627836c3f"
+    },
+    {
+      "file": "data/scn/s_5502.bin",
+      "exists": true,
+      "size": 740,
+      "sha256": "a00a1a9da1f955bd67f7c278849f2d43342f285f2e847df3ba77eb1844b02d15"
+    },
+    {
+      "file": "data/scn/s_5598.bin",
+      "exists": true,
+      "size": 2788,
+      "sha256": "56615ed786793bdf71fa3d26edcf2ec85a22058bb0e961d26e52c5a9a3794f0c"
+    },
+    {
+      "file": "data/scn/s_5599.bin",
+      "exists": true,
+      "size": 9128,
+      "sha256": "047b105a1c7a87ac24875108a4e4293d940988e3f36aa0f497e3bf7880e6bc49"
+    },
+    {
+      "file": "data/scn/s_5698.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "e2508f5ed63a8b655910e4927a82ef04fe683c5223ff577edadf6d1700acbf70"
+    },
+    {
+      "file": "data/scn/s_5699.bin",
+      "exists": true,
+      "size": 26268,
+      "sha256": "56903ef25f1017836bd797836f8b34d851dfb196ff49163e279793be0896cb8b"
+    },
+    {
+      "file": "data/scn/s_6000.bin",
+      "exists": true,
+      "size": 5016,
+      "sha256": "bec5119482dd1d2630c14d5b7fcae1557369bf448fe188fad3665e0af9864dd6"
+    },
+    {
+      "file": "data/scn/s_6001.bin",
+      "exists": true,
+      "size": 5356,
+      "sha256": "4b95232890a108cb09f58967c2aecb02f8932a636a4f63aaa689d305c7bbeb0a"
+    },
+    {
+      "file": "data/scn/s_6002.bin",
+      "exists": true,
+      "size": 1528,
+      "sha256": "84b284898ffd9d161d874c221008e026b8b9430479431a47700bd0f87de24c30"
+    },
+    {
+      "file": "data/scn/s_6098.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "ca6208b83cb0a11ef0cb0b6e59ba2d51ef0c674a52ba3a81df713d3776a598d7"
+    },
+    {
+      "file": "data/scn/s_6099.bin",
+      "exists": true,
+      "size": 9096,
+      "sha256": "fbd729dd95949eac36914e17e1054a891165699d382c3499f3a444d72ed1e518"
+    },
+    {
+      "file": "data/scn/s_6100.bin",
+      "exists": true,
+      "size": 1532,
+      "sha256": "c7d8508be2a00e9f75a071be5c5e4fd80a135258057d087cc16aece9355c33ec"
+    },
+    {
+      "file": "data/scn/s_6101.bin",
+      "exists": true,
+      "size": 4448,
+      "sha256": "a41a39a852f302cc94d58e0fa7e9f73c4cd8918215de1cabaf4f1cbc36b3ae3c"
+    },
+    {
+      "file": "data/scn/s_6102.bin",
+      "exists": true,
+      "size": 2776,
+      "sha256": "e5fd1a21f2a778eddc98fe67836b88ca3b6f49ca2686333a42b9d3eadeb4520c"
+    },
+    {
+      "file": "data/scn/s_6103.bin",
+      "exists": true,
+      "size": 1316,
+      "sha256": "acbdca80c8b9776b913c526001566b41f8db1763d57a86df90b94e6a55febae6"
+    },
+    {
+      "file": "data/scn/s_6104.bin",
+      "exists": true,
+      "size": 3260,
+      "sha256": "f75739280cdf278e45045fdb4b47a3d126492972d9c262b76bb1c61a2c794a8f"
+    },
+    {
+      "file": "data/scn/s_6105.bin",
+      "exists": true,
+      "size": 4184,
+      "sha256": "efa90b6260c396ad8b420c1edb5640d1a4c6be7ff6ed00634b3d6c6b53dd9c3c"
+    },
+    {
+      "file": "data/scn/s_6106.bin",
+      "exists": true,
+      "size": 5004,
+      "sha256": "d0c59960cd75c9d9055eea9a8539bb8d9a0bb5865c76efab8578f516ec8bddb4"
+    },
+    {
+      "file": "data/scn/s_6108.bin",
+      "exists": true,
+      "size": 2392,
+      "sha256": "4cca2400fa9d99142344fe946e845e85fc41f1563a7fcd4e01ee789b64e64747"
+    },
+    {
+      "file": "data/scn/s_6109.bin",
+      "exists": true,
+      "size": 2992,
+      "sha256": "d41a1a3aee50b7963d9acfebcaca126886862789325a30eb9c92b77a87a327c2"
+    },
+    {
+      "file": "data/scn/s_6110.bin",
+      "exists": true,
+      "size": 756,
+      "sha256": "17c755ff822d97f6381ffeac88f32f2d3d626b63f6a3d565905852d18233d88b"
+    },
+    {
+      "file": "data/scn/s_6198.bin",
+      "exists": true,
+      "size": 296,
+      "sha256": "ddeb4e4a266e2a5dad85ce41a1450a6464b8506158f01c7b492d8929a284da6f"
+    },
+    {
+      "file": "data/scn/s_6199.bin",
+      "exists": true,
+      "size": 8600,
+      "sha256": "aad2d05c7f7b8686729e03512bfdfcf6cdaa56007fce1512aba22b7802a28e39"
+    },
+    {
+      "file": "data/scn/s_6200.bin",
+      "exists": true,
+      "size": 972,
+      "sha256": "c0e1a058493b5f4d0819e01cbe5b8a2749f4b30791592d4712b4177ee8c7da03"
+    },
+    {
+      "file": "data/scn/s_6298.bin",
+      "exists": true,
+      "size": 18408,
+      "sha256": "aab0fd998d88779bf3caa5c50094dc22d8b9988b66e816da206507459c1f335d"
+    },
+    {
+      "file": "data/scn/s_6299.bin",
+      "exists": true,
+      "size": 8292,
+      "sha256": "7021ea4e77746e2d69b36413cf002c6eb373b80ffdfe2b2c9e451b8c00fe28a6"
+    },
+    {
+      "file": "data/scn/s_7000.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "91a7f384d8c7b33a1031227f59699d704eda2f0c60aefef3c9cfc2e5db59448a"
+    },
+    {
+      "file": "data/scn/s_9000.bin",
+      "exists": true,
+      "size": 10860,
+      "sha256": "53da4829849d8eef27d2e0d771a6ee8fe0c8e3585836ca962e820186ae1727f8"
+    },
+    {
+      "file": "data/scn/s_9001.bin",
+      "exists": true,
+      "size": 2856,
+      "sha256": "232e2fca3362233127a1095e91c633dce38496ed220c1165c57d102a1b93a546"
+    },
+    {
+      "file": "data/scn/s_9002.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "5a6c7fae3265c3875f34738dc5ff9c28c4747200e8d7509fe4f7ec1e2cb5cf72"
+    },
+    {
+      "file": "data/scn/s_9003.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "8c1d90dd40afc6147b8d4b7e9a2906bf22a3137b19367651ef8ea420f421c6d9"
+    },
+    {
+      "file": "data/scn/s_9004.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "b48ab83916676a07a9e1fba44db7aa3c5989fa8706e5ade88603c2d38b1fd555"
+    },
+    {
+      "file": "data/scn/s_9005.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "67c0966feec7b7ee47eccc02dd192b0ae0220dc8bb945bab7aef44dcb047338c"
+    },
+    {
+      "file": "data/scn/s_9006.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "393f89c89b9381892b2716ee9beff9697e9b7b6ef5f7c1bfa80ecb099ecb5627"
+    },
+    {
+      "file": "data/scn/s_9007.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "5fafc2577011e4c295c8029100363937b6b8fb65e4016e091ba411d2452bae35"
+    },
+    {
+      "file": "data/scn/s_9008.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "86a282dd11a437aa79f86e00921c63b72458b9938bd06e52b0306165344ab96d"
+    },
+    {
+      "file": "data/scn/s_9009.bin",
+      "exists": true,
+      "size": 280,
+      "sha256": "4998c00df944678ea0c86599dbbaa21d645914de5fb01b9ee5b13cb24df5ee66"
+    }
+  ]
+}
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# grep -E '"ok"|"file"|false' \
+  ys_dialogue_project_v2/source_verify.json | head -30
+  "ok": true,
+      "file": "data/scn/s_0000.bin",
+      "file": "data/scn/s_0001.bin",
+      "file": "data/scn/s_0100.bin",
+      "file": "data/scn/s_0101.bin",
+      "file": "data/scn/s_0102.bin",
+      "file": "data/scn/s_0103.bin",
+      "file": "data/scn/s_0110.bin",
+      "file": "data/scn/s_0120.bin",
+      "file": "data/scn/s_0121.bin",
+      "file": "data/scn/s_0122.bin",
+      "file": "data/scn/s_0130.bin",
+      "file": "data/scn/s_0140.bin",
+      "file": "data/scn/s_0150.bin",
+      "file": "data/scn/s_0160.bin",
+      "file": "data/scn/s_0170.bin",
+      "file": "data/scn/s_0180.bin",
+      "file": "data/scn/s_0200.bin",
+      "file": "data/scn/s_0201.bin",
+      "file": "data/scn/s_1000.bin",
+      "file": "data/scn/s_1001.bin",
+      "file": "data/scn/s_1002.bin",
+      "file": "data/scn/s_1003.bin",
+      "file": "data/scn/s_1004.bin",
+      "file": "data/scn/s_1005.bin",
+      "file": "data/scn/s_1010.bin",
+      "file": "data/scn/s_1100.bin",
+      "file": "data/scn/s_1101.bin",
+      "file": "data/scn/s_1102.bin",
+      "file": "data/scn/s_1103.bin",
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+
+
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# cp \
+  ys_dialogue_project_v2/scn_dialogue_translation.txt \
+  ys_dialogue_project_v2/test_translation.txt
+root@localhost:/storage/emulated/0/Download/Games/nsp# rm -rf ys_dialogue_project_v2/injection_test
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# /data/data/com.termux/files/usr/bin/python3 \
+  ys_felghana_localizer/inject_translation.py \
+  ys_romfs \                                                                              ys_dialogue_project_v2/scn_dialogue_index.json \
+  ys_dialogue_project_v2/test_translation.txt \
+  --out ys_dialogue_project_v2/injection_test
+Translation block count 5027 != indexed dialogue count 5079
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# cat ys_dialogue_project_v2/scn_dialogue_report.txt
+YS FELGHANA INDEX BUILD
+==========================================================================================
+SCN files: 219
+Total entries: 12092
+Dialogue entries: 5079
+Non-dialogue text entries: 7013
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# python3 - <<'PY'                 import json
+
+p = "ys_dialogue_project_v2/scn_dialogue_index.json"                                    d = json.load(open(p, encoding="utf-8"))
+
+print("SCN files       :", d["scan"]["scn_files"])
+print("Total entries   :", d["scan"]["entries"])
+print("Dialogue        :", d["scan"]["dialogue_entries"])
+print("Non-dialogue    :", d["scan"]["non_dialogue_entries"])
+
+print("\nFirst 10:")
+for e in d["entries"][:10]:
+    print(
+        e["id"],
+        "|",
+        e["file"],
+        "|",
+        hex(e["text_offset"]),
+        "|",
+        repr(e["original"][:100])
+    )
+PY
+SCN files       : 219
+Total entries   : 12092
+Dialogue        : 5079
+Non-dialogue    : 7013
+
+First 10:
+s_0000_00000008 | data/scn/s_0000.bin | 0x8 | 'transfer'
+s_0000_00000098 | data/scn/s_0000.bin | 0x98 | 's_broshia'
+s_0000_000000C8 | data/scn/s_0000.bin | 0xc8 | 's_notuseitem'
+s_0000_000000F8 | data/scn/s_0000.bin | 0xf8 | 'diary_000'
+s_0000_00000128 | data/scn/s_0000.bin | 0x128 | 'diary_001'
+s_0000_00000158 | data/scn/s_0000.bin | 0x158 | 'diary_002'
+s_0000_00000188 | data/scn/s_0000.bin | 0x188 | 'diary_003'
+s_0000_000001B8 | data/scn/s_0000.bin | 0x1b8 | 'diary_004'
+s_0000_000001E8 | data/scn/s_0000.bin | 0x1e8 | 'diary_005'
+s_0000_00000218 | data/scn/s_0000.bin | 0x218 | 'diary_006'
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# cat ys_dialogue_project_v2/scn_dialogue_report.txt
+YS FELGHANA INDEX BUILD
+==========================================================================================
+SCN files: 219
+Total entries: 12092
+Dialogue entries: 5079
+Non-dialogue text entries: 7013
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# wc -l ys_dialogue_project_v2/scn_dialogue_translation.txt
+10158 ys_dialogue_project_v2/scn_dialogue_translation.txt
+root@localhost:/storage/emulated/0/Download/Games/nsp#                                  
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# sed -n '1,120p' ys_dialogue_project_v2/scn_dialogue_translation.txt
+e.
+**********                                                                              d!
+**********
+d!
+**********
+s.
+**********
+d!
+**********
+g.
+**********
+e.
+**********
+y!
+**********
+
+**********
+
+**********
+e.
+**********
+
+**********
+n?
+**********
+n...
+**********
+e.
+**********
+e.
+**********
+y.
+**********
+r.
+**********
+n.
+**********
+n.
+**********
+d.
+**********
+e.
+**********
+s.
+**********
+n.
+**********
+d.
+**********
+t.
+**********
+e.
+**********
+n.
+**********
+s...
+**********
+
+**********
+n.
+**********
+a.
+**********
+s.
+**********
+
+**********
+e.
+**********
+r.
+**********
+s.
+**********
+s.
+**********
+d.
+**********
+
+**********
+e.
+**********
+i.
+**********
+e.
+**********
+
+**********
+t.
+**********
+e.
+**********
+d.
+**********
+n.
+**********
+h.
+**********
+
+**********
+h.
+**********
+n.
+**********
+s.
+**********
+d.
+**********
+s.
+**********
+s.
+**********
+g!'
+**********
+e.
+**********
+w.
+**********
+y.
+**********
+root@localhost:/storage/emulated/0/Download/Games/nsp#
+
+
+
+
+root@localhost:/storage/emulated/0/Download/Games/nsp# python3 ...  # \330\243\331\205\330\261 \330\271\330\261\330\266 First 10
+python3: can't open file '/mnt/sdcard/Download/Games/nsp/...': [Errno 2] No such file or directory
+root@localhost:/storage/emulated/0/Download/Games/nsp# python3 ...  # \330\243\331\205\330\261 \330\271\330\261\330\266 First 10
+python3: can't open file '/mnt/sdcard/Download/Games/nsp/...': [Errno 2] No such file or directory
+root@localhost:/storage/emulated/0/Download/Games/nsp#
